@@ -1,0 +1,6 @@
+materials-hard/
+mat/
+old/
+node_modules/
+#.gitexcludes
+#.gitignore
