@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '-g' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of C:\Users\goik\AppData\Roaming\npm\package.json
+5 warn package.json my-private-module@ No description
+6 warn package.json my-private-module@ No repository field.
+7 warn package.json my-private-module@ No README data
+8 warn package.json my-private-module@ No license field.
+9 verbose readDependencies loading dependencies from C:\Users\goik\AppData\Roaming\npm\package.json
+10 silly cache add args [ '.', null ]
+11 verbose cache add spec .
+12 silly cache add parsed spec { raw: '.',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: '.',
+12 silly cache add   spec: 'C:\\wamp\\www\\norogum',
+12 silly cache add   type: 'directory' }
+13 error addLocal Could not install C:\wamp\www\norogum
+14 verbose stack Error: No version provided in package.json
+14 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-local.js:70:17
+14 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:345:5
+14 verbose stack     at checkBinReferences_ (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:309:45)
+14 verbose stack     at final (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:343:3)
+14 verbose stack     at then (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:113:5)
+14 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:300:12
+14 verbose stack     at evalmachine.<anonymous>:334:14
+14 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:102:5
+14 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:95:15)
+15 verbose cwd C:\wamp\www\norogum
+16 error Windows_NT 6.1.7601
+17 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "-g"
+18 error node v0.12.7
+19 error npm  v2.11.3
+20 error No version provided in package.json
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]
