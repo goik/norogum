@@ -1,6 +1,23 @@
 $(document).ready(function(){
 
 
+
+
+
+
+
+	function footerHeight(){
+		footerHeightDetect=$(".footer-fix").css("height");
+		$(".footer-bottom-spacer").css({height:footerHeightDetect});
+	}
+
+	footerHeight();
+
+	$(window).resize(function() {
+		footerHeight();
+	});
+
+
 	// target blank on link
 	$(".tb").each(function(){
 		$(this).attr("target","_blank");
@@ -62,6 +79,7 @@ $(document).ready(function(){
 		$(this).addClass("current");
 		return false;
 	});
+
 
 
 
