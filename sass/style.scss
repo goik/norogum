@@ -32,13 +32,24 @@ $langLinkColor:#000;
 $langFontSize:10px;
 $langLinkColorHover:#ed397f;
 $langSpacerColor:#dee1dd;
+$mainTitleColor:#656565;
+$mainTitleFontSize:22px;
+$lineColor:#dee1dd;
+$lineColorFillType1:#fab149;
+$tabTextColor:#6d6d6d;
+$tabTextFontSize:14px;
+$tabBg:#e5e5e6;
+$tabBgCurrent:#fafcfd;
+$tabBorderCurrent:#ebebeb;
+$tabContentHeight:328px;
+$stepWidth:160px;
 $topHeaderLink:( "normal":#a8a8a8, "hover":$hover);
 $bottomHeaderLink:( "normal":#1c1c1c, "hover":$hover);
 //@import "jquery.mCustomScrollbar.min";
-@import "owl.carousel";
-@import "owl.theme";
-@import "owl.transitions";
-@import "select-theme-dark";
+// @import "owl.carousel";
+// @import "owl.theme";
+// @import "owl.transitions";
+// @import "select-theme-dark";
 @import "base";
 @import "scroll-style";
 @import "font-webly";
@@ -570,6 +581,19 @@ a {
     }
 }
 
+%center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -icab-transform: translate(-50%, -50%);
+    -khtml-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .fsx1 {
     font-size: $footerIconsFontSize;
     color: $footerIconsColor;
@@ -990,6 +1014,206 @@ a {
     @extend %transitionExt;
 }
 
+.main-content {
+    &,
+    &-pad,
+    &-title-cell,
+    &-title,
+    &-txt {
+        @extend %cb;
+    }
+    &-title-cell {
+        padding: 6px 0 8px 0;
+    }
+    &-pad {
+        padding: $mainInnerPadding;
+    }
+    &-title {
+        color: $mainTitleColor;
+        font-size: $mainTitleFontSize;
+        @extend %semibold-regular;
+        text-align: left;
+    }
+}
+
+.decoration-line {
+    &,
+    &-fill {
+        @include hHack(3px);
+        @extend %cb;
+    }
+    & {
+        background: $lineColor;
+        width: 100%;
+    }
+    &-fill {
+        background: $lineColorFillType1;
+        width: 50%;
+    }
+}
+
+.tab-cell {
+    & {
+        z-index: 10;
+    }
+    &,
+    &-pad,
+    &-list {
+        @extend %cb;
+        text-align: left;
+    }
+    &-list,
+    &-list-item {
+        list-style: none;
+        font-size: 0;
+    }
+    &-pad {
+        padding-top: 29px;
+    }
+    &-list-item {
+        & {
+            padding-right: 5px
+        }
+        &,
+        &-link {
+            display: inline-block
+        }
+        &-link {
+            @extend %transitionExt;
+            text-decoration: none;
+            font-size: $tabTextFontSize;
+            color: $tabTextColor;
+            @extend %semibold-regular;
+            text-transform: uppercase;
+            background: $tabBg;
+            border-top: solid $tabBg 1px;
+            border-left: solid $tabBg 1px;
+            border-right: solid $tabBg 1px;
+            @include borderRadius(6px 6px 0 0);
+            padding: 10px 31px 11px 31px;
+            text-align: center;
+        }
+        &.current a {
+            padding: 10px 31px 11px 31px;
+            background: $tabBgCurrent;
+            border-top: solid $tabBorderCurrent 1px;
+            border-left: solid $tabBorderCurrent 1px;
+            border-right: solid $tabBorderCurrent 1px;
+        }
+    }
+}
+
+.tab-content-cell {
+    background: #fafcfd;
+    border: solid $tabBorderCurrent 1px;
+    z-index: 2;
+    top: -1px;
+    //    overflow:hidden;
+    @include borderRadius(0 6px 6px 6px);
+    &,
+    &-list,
+    &-list-item {
+        @include hHack($tabContentHeight);
+        width: 100%;
+        @extend %relat;
+        @extend %cb;
+    }
+    &-list,
+    &-list-item {
+        list-style: none;
+        font-size: 0;
+    }
+}
+
+.form-element-two-column {
+    @extend %cb;
+    width: 100%;
+    &,
+    &-left,
+    &-right {
+        @include hHack($tabContentHeight);
+        @extend %relat;
+    }
+    &-left {
+        width: 100%;
+        float: left;
+        @include borderRadius(6px 0 0 6px);
+        &-pad {
+            padding-right: $stepWidth;
+        }
+    }
+    &-right {
+        width: $stepWidth;
+        float: left;
+        margin-right: -100%;
+        background: #f1f8ee;
+        margin-left: -$stepWidth;
+        z-index: 10;
+        @include borderRadius(0 6px 6px 0);
+    }
+}
+
+.step-cell {
+    @extend %cb;
+    &,
+    &-round {
+        display: block;
+        width: 122px;
+        height: 122px;
+    }
+    &-round {
+        @include borderRadius(50%);
+    }
+}
+
+.step-cell {
+    @extend %center2;
+}
+
+.step-green {
+    background: #8ec649;
+    -webkit-box-shadow: inset 6px 3px 0.3px 1px rgba(113, 164, 51, 0.74);
+    -moz-box-shadow: inset 6px 3px 0.3px 1px rgba(113, 164, 51, 0.74);
+    box-shadow: inset 6px 3px 0.3px 1px rgba(113, 164, 51, 0.74);
+    .step-numb {
+        text-shadow: 2px 2px #7cb339;
+        margin-top: -5px;
+        margin-left: -3px;
+    }
+}
+
+.step-orange {
+    background: #fab149;
+    -webkit-box-shadow: inset 6px 3px 0.3px 1px rgba(244, 149, 6, 1);
+    -moz-box-shadow: inset 6px 3px 0.3px 1px rgba(244, 149, 6, 1);
+    box-shadow: inset 6px 3px 0.3px 1px rgba(244, 149, 6, 1);
+    .step-numb {
+        text-shadow: 2px 2px #f49506;
+        margin-top: -5px;
+        margin-left: 0px;
+    }
+}
+
+.step-blue {
+    background: #00aeee;
+    -webkit-box-shadow: inset 6px 3px 0.3px 1px rgba(0, 133, 185, 1);
+    -moz-box-shadow: inset 6px 3px 0.3px 1px rgba(0, 133, 185, 1);
+    box-shadow: inset 6px 3px 0.3px 1px rgba(0, 133, 185, 1);
+    .step-numb {
+        text-shadow: 2px 2px #0086b9;
+        margin-top: -5px;
+        margin-left: 0px;
+    }
+}
+
+.step-numb {
+    display: block;
+    font-size: 103.74px;
+    color: #ffffff;
+    @extend %semibold-regular;
+    @extend %center2;
+}
+
 @media only screen and (max-width:1154px) {
     .lang-cell-out-pad {
         padding: 20px 0 0 0
@@ -1071,6 +1295,12 @@ a {
 }
 
 @media only screen and (max-width:660px) {
+    .main-content-pad {
+        padding: $mainPaddingResize;
+    }
+    .main-content-pad {
+        padding: $mainPaddingResize;
+    }
     .main-fix-carcass-out-pad {
         padding: $mainPaddingResize;
     }
@@ -1113,6 +1343,9 @@ a {
 @media only screen and (max-width:309px) {
     .main-fix-carcass {
         overflow-x: hidden;
+    }
+    .main-content-pad {
+        padding: $mainInnerPaddingLastResize;
     }
     .footer-fix-pad {
         padding: $mainInnerPaddingLastResize;

@@ -22,7 +22,10 @@ $(document).ready(function(){
 		tag.attr("title",getTitle);
 	});
 
+
 	//login drop down
+	var dropDownTimeOut;
+	
 	$("body").on("mouseenter",".enter-btn",function(){
 		dropDown=$(this).find(".login-drop-down");
 		dropDown.css({display:"block"}).stop().animate({opacity:1},300);
@@ -48,6 +51,18 @@ $(document).ready(function(){
 				$(this).css({display:"none"});
 			});
 	});
+
+
+	//tab system
+
+	$("body").on("click",".tab-cell-list-item",function(){
+		$(".tab-cell-list-item").each(function(){
+			$(this).removeClass("current");
+		});
+		$(this).addClass("current");
+		return false;
+	});
+
 
 
 	// link anchor aminamte
