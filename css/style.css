@@ -351,7 +351,7 @@ WeblySleek UI Semilight Italic
 
 /* line 211, ../sass/style.scss */
 .footer-bottom-spacer:after, .footer-triple-cell:after, .footer-triple-cell-center-pad:after, .footer-nav:after,
-.footer-nav .footer-menu-list:after, .copy-right-cell:after, .copy-right-cell-pad:after, .copy-right-cell-txt:after, .header-fix:after, .header-fix-center-pad:after, .header-fix-left-pad:after, .header-fix-right-pad:after, .main-nav:after, .main-nav-menu-list:after, .lang-cell-out-pad:after, .lang-cell:after, .lang-cell-list:after, .login-cell:after, .login-cell-out-pad:after, .login-cell-list:after, .gray-line:after, .inp-row:after, .inp-row-pad:after, .login-form-two-col:after, .login-form-two-col-left-pad:after, .login-form-two-col-right-pad:after, .main-content:after, .main-content-pad:after, .main-content-title-cell:after, .main-content-title:after, .main-content-txt:after, .decoration-line:after, .decoration-line-fill:after, .tab-cell:after, .tab-cell-pad:after, .tab-cell-list:after, .tab-content-cell:after, .tab-content-cell-list:after, .tab-content-cell-list-item:after, .form-element-two-column:after, .step-cell:after, .reg-form-two-col:after, .reg-inp-row:after, .reg-inp-row-pad:after, .captcha-image-cell:after, .captcha-image-cell-pad:after, .footer-triple-cell-left-pad:after, .footer-triple-cell-right-pad:after {
+.footer-nav .footer-menu-list:after, .copy-right-cell:after, .copy-right-cell-pad:after, .copy-right-cell-txt:after, .header-fix:after, .header-fix-center-pad:after, .header-fix-left-pad:after, .header-fix-right-pad:after, .main-nav:after, .main-nav-menu-list:after, .lang-cell-out-pad:after, .lang-cell:after, .lang-cell-list:after, .login-cell:after, .login-cell-out-pad:after, .login-cell-list:after, .gray-line:after, .inp-row:after, .inp-row-pad:after, .login-form-two-col:after, .login-form-two-col-left-pad:after, .login-form-two-col-right-pad:after, .main-content:after, .main-content-pad:after, .main-content-title-cell:after, .main-content-title:after, .main-content-txt:after, .decoration-line:after, .decoration-line-fill:after, .tab-cell:after, .tab-cell-pad:after, .tab-cell-list:after, .tab-content-cell:after, .tab-content-cell-list:after, .tab-content-cell-list-item:after, .form-element-two-column:after, .step-cell:after, .reg-form-two-col:after, .reg-inp-row:after, .reg-inp-row-pad:after, .captcha-image-cell:after, .captcha-image-cell-pad:after, .persona-pages:after, .persona-pages-center-pad:after, .persona-pages-left-pad:after, .persona-pages-right-pad:after, .avater-place:after, .avater-place-pad:after, .footer-triple-cell-left-pad:after, .footer-triple-cell-right-pad:after {
   clear: both;
   content: "";
   display: block;
@@ -366,14 +366,14 @@ WeblySleek UI Semilight Italic
 
 /* line 235, ../sass/style.scss */
 .footer-bottom-spacer, .footer-triple-cell, .footer-triple-cell-center-pad, .footer-nav,
-.footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad {
+.footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .persona-pages, .persona-pages-center-pad, .persona-pages-left-pad, .persona-pages-right-pad, .avater-place, .avater-place-pad {
   clear: both;
   display: block;
 }
 
 /* line 244, ../sass/style.scss */
 .footer-bottom-spacer, .footer-triple-cell, .footer-triple-cell-center-pad, .footer-nav,
-.footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .main-fix-carcass, .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right, .footer-menu-list-item, .footer-menu-list-item-link, .social-icon-list-item-link, .header-fix-left, .header-fix-right, .header-fix-center, .main-nav-item-link, .main-nav-menu-list-item-link, .login-cell-list-item, .login-cell-list-item-pad, .login-cell .registration-btn, .login-cell .enter-btn, .login-cell .enter-btn .enter-btn-txt, .login-cell .h-z-index, .inp-row .default-inp-bg, .login-btn, .form-element-two-column-left, .form-element-two-column-right, .reg-form-two-col-left, .reg-form-two-col-right, .def-inp-bg, .orange-btn, .green-btn {
+.footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .persona-pages, .persona-pages-center-pad, .persona-pages-left-pad, .persona-pages-right-pad, .avater-place, .avater-place-pad, .main-fix-carcass, .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right, .footer-menu-list-item, .footer-menu-list-item-link, .social-icon-list-item-link, .header-fix-left, .header-fix-right, .header-fix-center, .main-nav-item-link, .main-nav-menu-list-item-link, .login-cell-list-item, .login-cell-list-item-pad, .login-cell .registration-btn, .login-cell .enter-btn, .login-cell .enter-btn .enter-btn-txt, .login-cell .h-z-index, .inp-row .default-inp-bg, .login-btn, .form-element-two-column-left, .form-element-two-column-right, .reg-form-two-col-left, .reg-form-two-col-right, .def-inp-bg, .orange-btn, .green-btn, .persona-pages-left, .persona-pages-right, .persona-pages-center {
   position: relative;
   top: 0;
   left: 0;
@@ -501,7 +501,7 @@ a {
 }
 /* line 357, ../sass/style.scss */
 .main-fix-carcass-trafaret {
-  /*        background: url(../../img/trafarets/1.png) no-repeat center top;*/
+  /*        background: url(../../img/trafarets/5.png) no-repeat center top;*/
 }
 /* line 359, ../sass/style.scss */
 .main-fix-carcass-trafaret, .main-fix-carcass-trafaret-opacity {
@@ -1665,19 +1665,109 @@ a {
   height: 48px;
 }
 
+/* line 1486, ../sass/style.scss */
+.persona-pages {
+  background: url(../../img/);
+}
+/* line 1493, ../sass/style.scss */
+.persona-pages, .persona-pages-left, .persona-pages-right, .persona-pages-center {
+  min-height: 343px;
+  height: auto !important;
+  height: 343px;
+}
+/* line 1500, ../sass/style.scss */
+.persona-pages-center {
+  width: 100%;
+  float: left;
+  z-index: 10;
+  margin-right: -100%;
+  background: green;
+  margin-left: -250px;
+}
+/* line 1507, ../sass/style.scss */
+.persona-pages-center-pad {
+  padding-top: 35px;
+}
+/* line 1512, ../sass/style.scss */
+.persona-pages-left {
+  width: 250px;
+  float: left;
+  z-index: 11;
+  background: black;
+}
+/* line 1517, ../sass/style.scss */
+.persona-pages-left-pad {
+  padding-top: 35px;
+}
+/* line 1522, ../sass/style.scss */
+.persona-pages-right {
+  width: 191px;
+  float: right;
+  z-index: 12;
+  background: red;
+}
+/* line 1527, ../sass/style.scss */
+.persona-pages-right-pad {
+  padding-top: 35px;
+}
+
+/* line 1534, ../sass/style.scss */
+.avater-place {
+  display: block;
+  width: 190px;
+  height: 177px;
+  margin: 0 auto;
+  border: solid #dedcd7 1px;
+}
+/* line 1544, ../sass/style.scss */
+.avater-place-pad {
+  display: block;
+  padding: 9px;
+}
+/* line 1548, ../sass/style.scss */
+.avater-place .avater-img-crop {
+  display: block;
+  overflow: hidden;
+  width: 170px;
+  height: 157px;
+  background: url(../../img/avatar-silhouette.svg) no-repeat center bottom #e6eaee;
+}
+/* line 1555, ../sass/style.scss */
+.avater-place .avatar-persona-page-image {
+  display: block;
+  width: 100%;
+  height: auto !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 1563, ../sass/style.scss */
+  .persona-pages-center {
+    float: none;
+    clear: both;
+    margin: 0;
+    left: 0;
+    top: 0;
+  }
+
+  /* line 1570, ../sass/style.scss */
+  .persona-pages-right {
+    /*float: left;*/
+    display: none;
+  }
+}
 @media only screen and (max-width: 1154px) {
-  /* line 1487, ../sass/style.scss */
+  /* line 1577, ../sass/style.scss */
   .lang-cell-out-pad {
     padding: 20px 0 0 0;
   }
 
-  /* line 1490, ../sass/style.scss */
+  /* line 1580, ../sass/style.scss */
   .lang-cell-out-pad,
   .lang-cell {
     text-align: center;
   }
 
-  /* line 1494, ../sass/style.scss */
+  /* line 1584, ../sass/style.scss */
   .header-fix-center,
   .header-fix-right,
   .header-fix-left {
@@ -1690,51 +1780,51 @@ a {
     height: 10px;
   }
 
-  /* line 1503, ../sass/style.scss */
+  /* line 1593, ../sass/style.scss */
   .header-fix-left-pad {
     padding: 20px 0 0 0;
   }
 
-  /* line 1506, ../sass/style.scss */
+  /* line 1596, ../sass/style.scss */
   .header-logo {
     margin: 0 auto;
   }
 
-  /* line 1509, ../sass/style.scss */
+  /* line 1599, ../sass/style.scss */
   .header-fix-center-pad,
   .header-fix-right-pad {
     padding-top: 0px;
   }
 
-  /* line 1516, ../sass/style.scss */
+  /* line 1606, ../sass/style.scss */
   .header-fix-center-pad {
     padding: 0 15px;
   }
 
-  /* line 1519, ../sass/style.scss */
+  /* line 1609, ../sass/style.scss */
   .gray-line {
     display: none;
   }
 
-  /* line 1522, ../sass/style.scss */
+  /* line 1612, ../sass/style.scss */
   .login-cell .enter-btn {
     padding-right: 0;
   }
 
-  /* line 1525, ../sass/style.scss */
+  /* line 1615, ../sass/style.scss */
   .login-cell-out-pad {
     text-align: center;
   }
 
-  /* line 1529, ../sass/style.scss */
+  /* line 1619, ../sass/style.scss */
   .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right {
     text-align: center;
   }
-  /* line 1535, ../sass/style.scss */
+  /* line 1625, ../sass/style.scss */
   .footer-triple-cell-center-pad {
     padding: 32px 10px 30px 10px;
   }
-  /* line 1539, ../sass/style.scss */
+  /* line 1629, ../sass/style.scss */
   .footer-triple-cell-left {
     margin: 0;
     float: none;
@@ -1742,7 +1832,7 @@ a {
     left: 0;
     width: auto;
   }
-  /* line 1546, ../sass/style.scss */
+  /* line 1636, ../sass/style.scss */
   .footer-triple-cell-right {
     margin: 0;
     float: none;
@@ -1751,13 +1841,13 @@ a {
     width: auto;
   }
 
-  /* line 1554, ../sass/style.scss */
+  /* line 1644, ../sass/style.scss */
   .footer-triple-cell-left-pad,
   .footer-triple-cell-right-pad {
     text-align: center;
   }
 
-  /* line 1558, ../sass/style.scss */
+  /* line 1648, ../sass/style.scss */
   .footer-logo {
     position: relative;
     top: 0;
@@ -1765,24 +1855,24 @@ a {
     margin: 0 auto;
   }
 
-  /* line 1564, ../sass/style.scss */
+  /* line 1654, ../sass/style.scss */
   .enter-btn-txt {
     padding-left: 68px !important;
     display: inline-block;
   }
 
-  /* line 1568, ../sass/style.scss */
+  /* line 1658, ../sass/style.scss */
   .login-cell-out-pad {
     padding-right: 0;
   }
 
-  /* line 1571, ../sass/style.scss */
+  /* line 1661, ../sass/style.scss */
   .login-cell {
     text-align: center;
   }
 }
 @media only screen and (max-width: 1124px) {
-  /* line 1577, ../sass/style.scss */
+  /* line 1667, ../sass/style.scss */
   .btn-place {
     position: relative;
     top: 0;
@@ -1793,7 +1883,7 @@ a {
   }
 }
 @media only screen and (max-width: 1100px) {
-  /* line 1588, ../sass/style.scss */
+  /* line 1678, ../sass/style.scss */
   .two-col-left,
   .two-col-right {
     clear: both;
@@ -1801,7 +1891,7 @@ a {
     width: 100%;
   }
 
-  /* line 1594, ../sass/style.scss */
+  /* line 1684, ../sass/style.scss */
   .reg-form-two-col-right {
     float: none;
     margin: 0;
@@ -1809,17 +1899,17 @@ a {
     clear: both;
   }
 
-  /* line 1600, ../sass/style.scss */
+  /* line 1690, ../sass/style.scss */
   .reg-form-two-col-left-pad {
     padding-right: 0;
   }
 
-  /* line 1603, ../sass/style.scss */
+  /* line 1693, ../sass/style.scss */
   .reg-form-two-col-right-pad {
     padding-left: 30px;
   }
 
-  /* line 1606, ../sass/style.scss */
+  /* line 1696, ../sass/style.scss */
   .two-col,
   .two-col-left,
   .two-col-right {
@@ -1827,7 +1917,7 @@ a {
     height: auto !important;
   }
 
-  /* line 1612, ../sass/style.scss */
+  /* line 1702, ../sass/style.scss */
   .form-element-two-column,
   .form-element-two-column-left,
   .form-element-two-column-right {
@@ -1836,12 +1926,12 @@ a {
     height: 100%;
   }
 
-  /* line 1617, ../sass/style.scss */
+  /* line 1707, ../sass/style.scss */
   .form-element-two-column-right {
     background: transparent;
   }
 
-  /* line 1620, ../sass/style.scss */
+  /* line 1710, ../sass/style.scss */
   .step-cell {
     position: relative;
     margin: 20px auto;
@@ -1857,24 +1947,24 @@ a {
   }
 }
 @media only screen and (max-width: 790px) {
-  /* line 1636, ../sass/style.scss */
+  /* line 1726, ../sass/style.scss */
   .form-element-two-column-right {
     width: 216px;
   }
 
-  /* line 1639, ../sass/style.scss */
+  /* line 1729, ../sass/style.scss */
   .form-element-two-column-left-pad {
     padding-right: 10px;
   }
 
-  /* line 1642, ../sass/style.scss */
+  /* line 1732, ../sass/style.scss */
   .step-numb {
     font-size: 23.74px;
     left: 57%;
     top: 57%;
   }
 
-  /* line 1648, ../sass/style.scss */
+  /* line 1738, ../sass/style.scss */
   .step-cell, .step-cell-round {
     display: block;
     width: 40px;
@@ -1882,105 +1972,105 @@ a {
   }
 }
 @media only screen and (max-width: 660px) {
-  /* line 1658, ../sass/style.scss */
+  /* line 1748, ../sass/style.scss */
   .main-content-pad {
     padding: 0 20px;
   }
 
-  /* line 1661, ../sass/style.scss */
+  /* line 1751, ../sass/style.scss */
   .main-content-pad {
     padding: 0 20px;
   }
 
-  /* line 1664, ../sass/style.scss */
+  /* line 1754, ../sass/style.scss */
   .main-fix-carcass-out-pad {
     padding: 0 20px;
   }
 
-  /* line 1667, ../sass/style.scss */
+  /* line 1757, ../sass/style.scss */
   .footer-fix-pad {
     padding: 0 20px;
   }
 }
 @media only screen and (max-width: 490px) {
-  /* line 1673, ../sass/style.scss */
+  /* line 1763, ../sass/style.scss */
   .device-icon {
     display: block;
   }
 
-  /* line 1676, ../sass/style.scss */
+  /* line 1766, ../sass/style.scss */
   .desctop-icon {
     display: none;
   }
 }
 @media only screen and (max-width: 463px) {
-  /* line 1686, ../sass/style.scss */
+  /* line 1776, ../sass/style.scss */
   .footer-menu-list-item {
     display: block;
     padding-bottom: 10px;
   }
 
-  /* line 1690, ../sass/style.scss */
+  /* line 1780, ../sass/style.scss */
   .footer-menu-list-item:after {
     display: none;
   }
 
-  /* line 1693, ../sass/style.scss */
+  /* line 1783, ../sass/style.scss */
   .main-nav-menu-list,
   .main-nav-menu-list-item {
     display: block;
   }
 
-  /* line 1697, ../sass/style.scss */
+  /* line 1787, ../sass/style.scss */
   .main-nav-menu-list-item {
     padding: 5px 0;
   }
 
-  /* line 1700, ../sass/style.scss */
+  /* line 1790, ../sass/style.scss */
   .login-cell-list,
   .login-cell-list-item {
     display: block;
   }
 
-  /* line 1705, ../sass/style.scss */
+  /* line 1795, ../sass/style.scss */
   .login-cell-list-item.js-drop-down-selector {
     padding-top: 20px;
   }
 
-  /* line 1708, ../sass/style.scss */
+  /* line 1798, ../sass/style.scss */
   .enter-btn {
     left: -15px !important;
   }
 }
 @media only screen and (max-width: 309px) {
-  /* line 1714, ../sass/style.scss */
+  /* line 1804, ../sass/style.scss */
   .main-fix-carcass {
     overflow-x: hidden;
   }
 
-  /* line 1717, ../sass/style.scss */
+  /* line 1807, ../sass/style.scss */
   .main-content-pad {
     padding: 0 3px;
   }
 
-  /* line 1720, ../sass/style.scss */
+  /* line 1810, ../sass/style.scss */
   .footer-fix-pad {
     padding: 0 3px;
   }
 
-  /* line 1723, ../sass/style.scss */
+  /* line 1813, ../sass/style.scss */
   .main-fix-carcass-out-pad {
     padding: 0 10px;
   }
 
-  /* line 1726, ../sass/style.scss */
+  /* line 1816, ../sass/style.scss */
   .social-icon-list-item-pad {
     padding-left: 7.3px;
     padding-right: 7.3px;
   }
 }
 @media only screen and (max-width: 385px) {
-  /* line 1733, ../sass/style.scss */
+  /* line 1823, ../sass/style.scss */
   .login-drop-down-bottom {
     right: -61px;
     -o-border-radius: 6px;

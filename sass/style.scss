@@ -355,7 +355,7 @@ a {
         @include borderRadius(0 6px 6px 0);
     }
     &-trafaret {
-        /*        background: url(../../img/trafarets/1.png) no-repeat center top;*/
+        /*        background: url(../../img/trafarets/5.png) no-repeat center top;*/
         &,
         &-opacity {
             width: 100%;
@@ -1455,7 +1455,7 @@ a {
 .fix-btn-size {
     width: 150px;
     top: -1px;
-    text-align:center;
+    text-align: center;
 }
 
 .green-btn {
@@ -1481,6 +1481,96 @@ a {
 .step-cell-round,
 .step-cell {
     @extend %transitionExt;
+}
+
+.persona-pages {
+
+background:url(../../img/);
+
+    & {
+        @extend %cb;
+    }
+    &,
+    &-left,
+    &-right,
+    &-center {
+        @include hHack(343px);
+        @extend %relat;
+    }
+    &-center {
+        width: 100%;
+        float: left;
+        z-index: 10;
+        margin-right: -100%;
+        background: green;
+        margin-left: -250px;
+        &-pad {
+            @extend %cb;
+            padding-top: 35px;
+        }
+    }
+    &-left {
+        width: 250px;
+        float: left;
+        z-index: 11;
+        background: black;
+        &-pad {
+            @extend %cb;
+            padding-top: 35px;
+        }
+    }
+    &-right {
+        width: 191px;
+        float: right;
+        z-index: 12;
+        background: red;
+        &-pad {
+            @extend %cb;
+            padding-top: 35px;
+        }
+    }
+}
+
+.avater-place {
+    display: block;
+    width: 190px;
+    height: 177px;
+    margin: 0 auto;
+    border: solid #dedcd7 1px;
+    &,
+    &-pad {
+        @extend %cb
+    }
+    &-pad {
+        display: block;
+        padding: 9px;
+    }
+    .avater-img-crop {
+        display: block;
+        overflow: hidden;
+        width: 170px;
+        height: 157px;
+        background: url(../../img/avatar-silhouette.svg) no-repeat center bottom #e6eaee;
+    }
+    .avatar-persona-page-image {
+        display: block;
+        width: 100%;
+        height: auto!important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .persona-pages-center {
+        float: none;
+        clear: both;
+        margin: 0;
+        left: 0;
+        top: 0;
+    }
+    .persona-pages-right {
+        /*float: left;*/
+        display: none;
+    }
 }
 
 @media only screen and (max-width:1154px) {
@@ -1578,9 +1668,9 @@ a {
         position: relative;
         top: 0;
         left: 0;
-        display:block;
-        padding-top:10px;
-        text-align:left;
+        display: block;
+        padding-top: 10px;
+        text-align: left;
     }
 }
 
