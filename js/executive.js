@@ -62,7 +62,7 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$("body").click(function(){
+	$("body").click(function(){ 
 			clearTimeout(dropDownTimeOut);		
 			$(".login-drop-down").stop().animate({opacity:0},300,function(){
 				$(this).css({display:"none"});
@@ -71,15 +71,32 @@ $(document).ready(function(){
 
 
 	//tab system
-
 	$("body").on("click",".tab-cell-list-item",function(){
 		$(".tab-cell-list-item").each(function(){
 			$(this).removeClass("current");
 		});
 		$(this).addClass("current");
 		return false;
+	}); 
+
+
+	// input on focus
+	$("body").on("focus",".def-inp",function(){
+		$(this).closest(".def-inp-bg").addClass("inp-focus");
 	});
 
+	$("body").on("blur",".def-inp",function(){
+		$(this).closest(".def-inp-bg").removeClass("inp-focus");
+	});
+
+	// input on focus
+	$("body").on("focus",".def-inp-login",function(){
+		$(this).closest(".default-inp-bg").addClass("inp-focus");
+	});
+
+	$("body").on("blur",".def-inp-login",function(){
+		$(this).closest(".default-inp-bg").removeClass("inp-focus");
+	});
 
 
 

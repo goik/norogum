@@ -118,7 +118,7 @@
 											<div class="login-cell-out-pad">
 												<div class="login-cell">
 													<ul class="login-cell-list">
-														<li class="login-cell-list-item h-z-index">
+														<li class="login-cell-list-item h-z-index w135">
 															<div class="login-cell-list-item-pad">
 																<a href="#" class="registration-btn">
 																	<span class="registration-btn-txt">
@@ -137,7 +137,7 @@
 																<div class="enter-btn">
 
 																	<span class="avatar-place">
-																		<span class="avatar-img-cell">
+																		<span class="avatar-img-cell"> 
 																			<span class="empty-avatar"></span>
 																		</span>
 																	</span>
@@ -161,7 +161,7 @@
 																							<div class="default-inp-bg">
 																								<div class="default-inp-bg-border">
 																									<input 	type="text" 
-																														class="def-inp" 
+																														class="def-inp def-inp-login" 
 																														placeholder="Էլ. փոստ" />
 																								</div>
 																							</div>
@@ -173,7 +173,7 @@
 																							<div class="default-inp-bg">
 																								<div class="default-inp-bg-border">
 																									<input 	type="password" 
-																														class="def-inp" 
+																														class="def-inp def-inp-login" 
 																														placeholder="Ծածկագիր" />
 																								</div>
 																							</div>
@@ -354,9 +354,9 @@
 																					<div class="two-col-left-pad">
 
 																						<!-- reg-inp-row -->
-																						<div class="reg-inp-row">
+																						<div class="reg-inp-row error-field">
 																							<div class="reg-inp-row-pad">
-																								<label class="inp-label">
+																								<label class="inp-label" for="reg-form-user-name">
 																									<span class="inp-label-pad">
 																										Անուն 
 																										<span class="required-fild-symbol">*</span>
@@ -366,6 +366,7 @@
 																									<div class="def-inp-bg-border">
 																										<input 	type="text" 
 																															class="def-inp" 
+																															id="reg-form-user-name" 
 																															placeholder="" />
 																									</div>
 																								</div>
@@ -376,7 +377,7 @@
 																						<!-- reg-inp-row -->
 																						<div class="reg-inp-row">
 																							<div class="reg-inp-row-pad">
-																								<label class="inp-label">
+																								<label class="inp-label" for="reg-form-user-last-name">
 																									<span class="inp-label-pad">
 																										Ազգանուն 
 																										<span class="required-fild-symbol">*</span>
@@ -386,6 +387,7 @@
 																									<div class="def-inp-bg-border">
 																										<input 	type="text" 
 																															class="def-inp" 
+																															id="reg-form-user-last-name" 
 																															placeholder="" />
 																									</div>
 																								</div>
@@ -396,7 +398,7 @@
 																						<!-- reg-inp-row -->
 																						<div class="reg-inp-row">
 																							<div class="reg-inp-row-pad">
-																								<label class="inp-label">
+																								<label class="inp-label" for="reg-form-user-phone-number">
 																									<span class="inp-label-pad">
 																										Հեռախոսի համար 
 																										<span class="required-fild-symbol">*</span>
@@ -406,6 +408,7 @@
 																									<div class="def-inp-bg-border">
 																										<input 	type="text" 
 																															class="def-inp" 
+																															id="reg-form-user-phone-number" 
 																															placeholder="" />
 																									</div>
 																								</div>
@@ -425,7 +428,7 @@
 																						<!-- reg-inp-row -->
 																						<div class="reg-inp-row">
 																							<div class="reg-inp-row-pad">
-																								<label class="inp-label">
+																								<label class="inp-label" for="reg-form-user-email">
 																									<span class="inp-label-pad">
 																										Էլ.փոստ 
 																										<span class="required-fild-symbol">*</span>
@@ -435,6 +438,7 @@
 																									<div class="def-inp-bg-border">
 																										<input 	type="text" 
 																															class="def-inp" 
+																															id="reg-form-user-email" 
 																															placeholder="" />
 																									</div>
 																								</div>
@@ -445,7 +449,7 @@
 																						<!-- reg-inp-row -->
 																						<div class="reg-inp-row">
 																							<div class="reg-inp-row-pad">
-																								<label class="inp-label">
+																								<label class="inp-label" for="reg-form-user-password">
 																									<span class="inp-label-pad">
 																										Գաղտնաբառ 
 																										<span class="required-fild-symbol">*</span>
@@ -453,8 +457,9 @@
 																								</label>
 																								<div class="def-inp-bg">
 																									<div class="def-inp-bg-border">
-																										<input 	type="text" 
+																										<input 	type="password" 
 																															class="def-inp" 
+																															id="reg-form-user-password" 
 																															placeholder="" />
 																									</div>
 																								</div>
@@ -465,22 +470,20 @@
 																						<!-- reg-inp-row -->
 																						<div class="reg-inp-row">
 																							<div class="reg-inp-row-pad">
-																								<label class="inp-label">
-																									<span class="inp-label-pad">
+																								<label class="inp-label" for="reg-form-user-re-password">
+																									<span class="inp-label-pad"> 
 																										Կրկնել գաղտնաբառը 
 																										<span class="required-fild-symbol">*</span>
 																									</span>
 																								</label>
 																								<div class="def-inp-bg">
 																									<div class="def-inp-bg-border">
-																										<input 	type="text" 
-																															class="def-inp" 
-																															placeholder="" />
+																										<input type="password" class="def-inp" id="reg-form-user-re-password" placeholder="" />
 																									</div>
 																								</div>
 																							</div>
 																						</div>
-																						<!-- /reg-inp-row -->
+																						<!-- /reg-inp-row --> 
 
 
 																					</div>
@@ -499,7 +502,7 @@
 																			<div class="reg-inp-row">
 																				<div class="reg-inp-row-pad">
 
-																					<label class="inp-label">
+																					<label class="inp-label" for="reg-form-user-captcha-code">
 																						<span class="inp-label-pad">
 																							Պաշպանիչ կոդ 
 																							<span class="required-fild-symbol">*</span>
@@ -524,6 +527,7 @@
 																						<div class="def-inp-bg-border">
 																							<input 	type="text" 
 																												class="def-inp" 
+																												id="reg-form-user-captcha-code" 
 																												placeholder="" />
 																						</div>
 																					</div>

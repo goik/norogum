@@ -112,6 +112,22 @@ $bottomHeaderLink:( "normal":#1c1c1c, "hover":$hover);
 
 //====== MIXINS =======//
 //~~~~~EXTEND ~~~~~//
+%orangeBtnAction {
+    &:active {
+        border-bottom: solid #ee9206 0px;
+        top: 4px;
+        -webkit-box-shadow: inset 0px 2px 47px 7px rgba(214, 100, 0, 1);
+        -moz-box-shadow: inset 0px 2px 47px 7px rgba(214, 100, 0, 1);
+        box-shadow: inset 0px 2px 47px 7px rgba(214, 100, 0, 1);
+    }
+    background: #fab149;
+    text-shadow: 1px 1px #ee9206;
+    border-bottom: solid #ee9206 2px;
+    &:hover {
+        background: #ffc169;
+    }
+}
+
 %center {
     position: absolute;
     top: 50%;
@@ -631,7 +647,6 @@ a {
         width: 350px;
         float: left;
         z-index: 10;
-        /*        background: aqua;*/
         &-pad {
             @extend %cb;
             padding-top: 27px;
@@ -642,7 +657,6 @@ a {
         width: 350px;
         float: right;
         z-index: 11;
-        // background: yellow;
         &-pad {
             @extend %cb;
             padding-top: 65px;
@@ -770,6 +784,7 @@ a {
     &-out-pad {
         padding-top: 20px;
         padding-bottom: 18px;
+        padding-right: 55px;
         text-align: right;
     }
     &-list,
@@ -785,6 +800,10 @@ a {
             @extend %relat;
             z-index: 10;
         }
+    }
+    .w135 {
+        width: 135px;
+        margin: 0 auto
     }
     .registration-btn {
         display: inline-block;
@@ -812,7 +831,12 @@ a {
         @extend %semilight;
         @extend %relat;
         @extend %transitionExt;
-        padding: 13px 75px 13px 67px;
+        width: 135px;
+        &-txt {
+            display: inline-block;
+            padding: 15px 20px 20px 20px;
+            // background:#ff0000
+        }
         .avatar-place {
             z-index: 10;
             display: block;
@@ -867,7 +891,6 @@ a {
     left: -117px;
     width: 257px;
     height: 270px;
-    // background: url(../../img/dd.png);
     z-index: 1;
     &-top {
         width: 136px;
@@ -913,6 +936,7 @@ a {
         width: 100%;
         height: 38px;
         @extend %relat;
+        @extend %transitionExt;
         &-border {
             position: absolute;
             left: 0;
@@ -991,20 +1015,12 @@ a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+    padding: 11px 9px;
     @extend %semibold-regular;
     @extend %transitionExt2;
     @extend %relat;
-    background: #fab149;
-    border-bottom: solid #ee9206 2px;
-    padding: 11px 9px;
+    @extend %orangeBtnAction;
     @include borderRadius(6px);
-    &:hover {
-        background: #ffc169
-    }
-    &:active {
-        border-bottom: solid #ee9206 0px;
-        top: 4px;
-    }
 }
 
 .header-fix-left-pad,
@@ -1102,12 +1118,12 @@ a {
             text-align: center;
         }
         &.current a {
-            padding: 10px 31px 17px 31px;
+            // padding: 10px 31px 17px 31px;
             background: $tabBgCurrent;
             border-top: solid $tabBorderCurrent 1px;
             border-left: solid $tabBorderCurrent 1px;
             border-right: solid $tabBorderCurrent 1px;
-            margin-top: -5px;
+            margin-top: 0px;
         }
     }
 }
@@ -1267,12 +1283,8 @@ a {
         float: left;
         width: 50%;
     }
-    &-left {
-        /*        background: red*/
-    }
-    &-right {
-        /*        background: black*/
-    }
+    &-left {}
+    &-right {}
 }
 
 .reg-inp-row {
@@ -1286,13 +1298,26 @@ a {
     }
 }
 
+.error-field .inp-label {
+    color: #ff7272 !important;
+}
+
+.error-field .def-inp-bg {
+    border: solid #ff9797 1px !important
+}
+
 .inp-label {
     display: block;
     text-decoration: none;
     color: #6c6c6c;
     font-size: 14px;
     @extend %semibold-regular;
+    @extend %transitionExt;
+    cursor: pointer;
     text-align: left;
+    &:hover {
+        color: #000;
+    }
     &-pad {
         display: block;
         padding: 20px 0 15px 0;
@@ -1302,9 +1327,16 @@ a {
     }
 }
 
+.inp-focus {
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.25);
+}
+
 .def-inp-bg {
     @include hHack(40px);
     @extend %relat;
+    @extend %transitionExt;
     border: solid #dedcd7 1px;
     &-border {
         position: absolute;
@@ -1323,6 +1355,7 @@ a {
         height: 35px;
         padding: 1px 10px 5px 10px;
         font-size: 14px;
+        background: transparent;
         @extend %semilight;
     }
 }
@@ -1343,16 +1376,12 @@ a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-    background: #fab149;
     padding: 11px 15px 13px 15px;
-    text-shadow: 1px 1px #ee9206;
-    border-bottom: solid #ee9206 2px;
     @include borderRadius(4px);
     @extend %semibold-regular;
-    &:hover {
-        background: #ffc169;
-    }
-    ;
+    @extend %transitionExt;
+    @extend %relat;
+    @extend %orangeBtnAction;
 }
 
 .x-spacer {
@@ -1437,6 +1466,94 @@ a {
         left: 0;
         margin: 0 auto;
     }
+    .enter-btn-txt {
+        padding-left: 68px!important;
+        display: inline-block
+    }
+    .login-cell-out-pad {
+        padding-right: 0
+    }
+    .login-cell {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .two-col-left,
+    .two-col-right {
+        clear: both;
+        float: none;
+        width: 100%
+    }
+    .reg-form-two-col-right {
+        float: none;
+        margin: 0;
+        width: 100%;
+        clear: both
+    }
+    .reg-form-two-col-left-pad {
+        padding-right: 0
+    }
+    .reg-form-two-col-right-pad {
+        padding-left: 30px
+    }
+    .two-col,
+    .two-col-left,
+    .two-col-right {
+        min-height: auto!important;
+        height: auto!important
+    }
+    .form-element-two-column,
+    .form-element-two-column-left,
+    .form-element-two-column-right {
+        @include hHack(100%);
+    }
+    .form-element-two-column-right {
+        background: transparent
+    }
+    .step-cell {
+        position: relative;
+        margin: 20px auto;
+        top: 0;
+        left: 0;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -icab-transform: translate(0, 0);
+        -khtml-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.form-element-two-column-right,
+.form-element-two-column-left-pad,
+.step-numb,
+.step-cell-round,
+.step-cell {
+    @extend %transitionExt;
+}
+
+@media only screen and (max-width:790px) {
+    .form-element-two-column-right {
+        width: 216px
+    }
+    .form-element-two-column-left-pad {
+        padding-right: 10px
+    }
+    .step-numb {
+        font-size: 23.74px;
+        left: 57%;
+        top: 57%
+    }
+    .step-cell {
+        &,
+        &-round {
+            display: block;
+            width: 40px;
+            height: 40px;
+        }
+    }
 }
 
 @media only screen and (max-width:660px) {
@@ -1477,6 +1594,7 @@ a {
     .login-cell-list-item {
         display: block;
     }
+    .login-cell-list-item {}
     .login-cell-list-item.js-drop-down-selector {
         padding-top: 20px
     }
