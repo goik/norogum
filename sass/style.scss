@@ -112,6 +112,22 @@ $bottomHeaderLink:( "normal":#1c1c1c, "hover":$hover);
 
 //====== MIXINS =======//
 //~~~~~EXTEND ~~~~~//
+%greenBtnAction {
+    &:active {
+        border-bottom: solid #6b9b31 0px;
+        top: 4px;
+        -webkit-box-shadow: inset 0px 2px 47px 7px rgba(107, 155, 49, 1);
+        -moz-box-shadow: inset 0px 2px 47px 7px rgba(107, 155, 49, 1);
+        box-shadow: inset 0px 2px 47px 7px rgba(107, 155, 49, 1);
+    }
+    background: #8ec649;
+    text-shadow: 1px 1px #6b9b31;
+    border-bottom: solid #6b9b31 2px;
+    &:hover {
+        background: #a6e15e;
+    }
+}
+
 %orangeBtnAction {
     &:active {
         border-bottom: solid #ee9206 0px;
@@ -1076,6 +1092,40 @@ a {
     }
 }
 
+.tab-cell-list-item-link {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.person-icon {
+    display: block;
+}
+
+.company-icon {
+    display: block;
+}
+
+.device-icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    display: none;
+    & img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: -3px;
+    }
+}
+
+.desctop-icon {
+    display: block
+}
+
 .tab-cell {
     & {
         z-index: 10;
@@ -1302,8 +1352,26 @@ a {
     color: #ff7272 !important;
 }
 
+.error-field .default-inp-bg,
 .error-field .def-inp-bg {
     border: solid #ff9797 1px !important
+}
+
+.disabled-input .def-inp-bg,
+.disabled-input .def-inp-bg-border {
+    background: #eee
+}
+
+.reg-inp-row {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.btn-place {
+    position: absolute;
+    bottom: 0;
+    right: -50%
 }
 
 .inp-label {
@@ -1384,8 +1452,35 @@ a {
     @extend %orangeBtnAction;
 }
 
+.fix-btn-size {
+    width: 150px;
+    top: -1px;
+    text-align:center;
+}
+
+.green-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 11px 15px 13px 15px;
+    @include borderRadius(4px);
+    @extend %semibold-regular;
+    @extend %transitionExt;
+    @extend %relat;
+    @extend %greenBtnAction;
+}
+
 .x-spacer {
     @include hHack(48px);
+}
+
+.form-element-two-column-right,
+.form-element-two-column-left-pad,
+.step-numb,
+.step-cell-round,
+.step-cell {
+    @extend %transitionExt;
 }
 
 @media only screen and (max-width:1154px) {
@@ -1478,6 +1573,17 @@ a {
     }
 }
 
+@media only screen and (max-width:1124px) {
+    .btn-place {
+        position: relative;
+        top: 0;
+        left: 0;
+        display:block;
+        padding-top:10px;
+        text-align:left;
+    }
+}
+
 @media only screen and (max-width:1100px) {
     .two-col-left,
     .two-col-right {
@@ -1526,14 +1632,6 @@ a {
     }
 }
 
-.form-element-two-column-right,
-.form-element-two-column-left-pad,
-.step-numb,
-.step-cell-round,
-.step-cell {
-    @extend %transitionExt;
-}
-
 @media only screen and (max-width:790px) {
     .form-element-two-column-right {
         width: 216px
@@ -1568,6 +1666,15 @@ a {
     }
     .footer-fix-pad {
         padding: $mainInnerPaddingResize;
+    }
+}
+
+@media only screen and (max-width:490px) {
+    .device-icon {
+        display: block
+    }
+    .desctop-icon {
+        display: none;
     }
 }
 
