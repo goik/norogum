@@ -44,6 +44,7 @@ $tabBorderCurrent:#ebebeb;
 $tabContentHeight:325px;
 $stepWidth:160px;
 $captchaWidth:150px;
+$accountListLeftWidth:189px;
 $topHeaderLink:( "normal":#a8a8a8, "hover":$hover);
 $bottomHeaderLink:( "normal":#1c1c1c, "hover":$hover);
 //@import "jquery.mCustomScrollbar.min";
@@ -638,6 +639,10 @@ a {
 }
 
 .header-fix {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 100;
     &,
     &-left,
     &-right,
@@ -1484,9 +1489,6 @@ a {
 }
 
 .persona-pages {
-
-background:url(../../img/);
-
     & {
         @extend %cb;
     }
@@ -1502,33 +1504,154 @@ background:url(../../img/);
         float: left;
         z-index: 10;
         margin-right: -100%;
-        background: green;
         margin-left: -250px;
         &-pad {
             @extend %cb;
-            padding-top: 35px;
+            padding-top: 45px;
+            padding-left: 250px;
+            padding-right: 190px;
         }
     }
     &-left {
+        // background: red;
         width: 250px;
         float: left;
         z-index: 11;
-        background: black;
         &-pad {
             @extend %cb;
             padding-top: 35px;
         }
     }
     &-right {
+        // background: black;
         width: 191px;
         float: right;
         z-index: 12;
-        background: red;
         &-pad {
             @extend %cb;
             padding-top: 35px;
         }
     }
+}
+
+.account-info-data {
+    &,
+    &-list,
+    &-list-item {
+        @extend %cb;
+    }
+    &-list,
+    &-list-item {
+        list-style: none;
+        font-size: 0;
+    }
+    &-list-item {
+        @extend %transitionExt;
+        &,
+        &-left,
+        &-right {
+            // @include hHack(37.6px)
+        }
+        &-left-pad {
+            padding-bottom: 17px;
+        }
+        &-right-pad {
+            padding-bottom: 17px;
+        }
+    }
+    &-list-item-left {
+        width: $accountListLeftWidth;
+        float: left;
+        @extend %relat;
+        z-index: 15;
+    }
+    &-list-item-right {
+        width: 100%;
+        float: left;
+        @extend %relat;
+        z-index: 10;
+        margin-right: -100%;
+        margin-left: -$accountListLeftWidth;
+        &-pad {
+            padding-left: $accountListLeftWidth;
+        }
+    }
+    .account-info-title,
+    .account-info-title-txt,
+    .account-info-descr,
+    .account-info-descr-txt {
+        @extend %cb;
+        text-align: left
+    }
+    .account-info-title {
+        color: #00aded;
+        font-size: 14px;
+        @extend %semilight;
+        text-decoration: none;
+        line-height: 17px;
+    }
+    .account-info-descr {
+        & strong {
+            @extend %semibold-regular;
+            font-weight: 400
+        }
+        color: #6d6d6d;
+        font-size: 14px;
+        @extend %semilight;
+        text-decoration: none;
+        line-height:17px;
+    }
+}
+
+.warning-info {
+    width: 191px;
+    @extend %cb;
+    @include hHack(82px);
+    @extend %relat;
+    @include borderRadius(6px);
+    &-pad {
+        padding: 16px 13px 21px 72px;
+    }
+    .warning-info-txt {
+        color: #656565;
+        font-size: 18px;
+        line-height: 21.6px;
+        @extend %semibold-regular;
+        display: block;
+        text-align: left;
+    }
+}
+
+.no-valid {
+    border: solid #f69dc0 1px
+}
+
+.no-valid-symbol {
+    display: block;
+    width: 38px;
+    height: 38px;
+    @include borderRadius(50%);
+    background: #ed397f;
+    position: absolute;
+    top: 21px;
+    left: 12px;
+    &-char {
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        clear: both;
+        display: block;
+        @extend %relat;
+        &-pad {
+            display: block;
+            padding-top: 10px
+        }
+    }
+}
+
+.account-info-descr-txt .edit-link {
+    margin-left: 40px
 }
 
 .avater-place {
@@ -1559,17 +1682,47 @@ background:url(../../img/);
     }
 }
 
-@media only screen and (max-width:1024px) {
-    .persona-pages-center {
-        float: none;
-        clear: both;
-        margin: 0;
-        left: 0;
-        top: 0;
+.account-info-data-list-item-left,
+.account-info-data-list-item-right,
+.account-info-data-list-item-right-pad,
+.account-info-data-list-item-left-pad,
+.persona-pages-right,
+.persona-pages-left,
+.persona-pages-right-pad,
+.persona-pages-center,
+.persona-pages-right,
+.persona-pages,
+.persona-pages-left,
+.persona-pages-right,
+.persona-pages-center,
+.persona-pages-center-pad,
+.account-info-descr-txt .edit-link,
+.persona-pages-left-pad .edit-cell,
+.account-info-data-list-item-left,
+.account-info-descr-txt .edit-link,
+.persona-pages-left,
+.persona-pages-center-pad,
+.persona-pages-right-pad {
+    @extend %transitionExt;
+}
+
+@media only screen and (max-width:1200px) {
+    .account-info-descr-txt .edit-link {
+        margin-top: 20px;
+        margin-left: 33px
     }
-    .persona-pages-right {
-        /*float: left;*/
-        display: none;
+    .persona-pages-left {
+        width: 200px
+    }
+    .persona-pages-center-pad {
+        padding-left: 280px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .fb {
+        display: block;
+        padding-bottom: 20px
     }
 }
 
@@ -1674,6 +1827,41 @@ background:url(../../img/);
     }
 }
 
+@media only screen and (max-width:1024px) {
+    .persona-pages-center {
+        float: none;
+        clear: both;
+        margin: 0;
+        left: 0;
+        top: 0;
+    }
+    .persona-pages-right {
+        float: left;
+    }
+    .persona-pages,
+    .persona-pages-left,
+    .persona-pages-right,
+    .persona-pages-center {
+        @include hHack(auto);
+    }
+    .persona-pages-center-pad {
+        padding: 20px 0
+    }
+    .account-info-descr-txt .edit-link {
+        margin-top: 0;
+        margin-left: 40px
+    }
+    .persona-pages-left-pad .edit-cell {
+        padding-left: 31px
+    }
+    .account-info-data-list-item-left {
+        width: 239px
+    }
+    .persona-pages-right-pad {
+        padding-left: 43px
+    }
+}
+
 @media only screen and (max-width:1100px) {
     .two-col-left,
     .two-col-right {
@@ -1744,6 +1932,24 @@ background:url(../../img/);
     }
 }
 
+@media only screen and (max-width:818px) {
+    .account-info-data-list-item-left,
+    .account-info-data-list-item-right {
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0
+    }
+    .account-info-data-list-item-right-pad {
+        padding-left: 0;
+        padding: 5px 0 10px 0
+    }
+    .account-info-data-list-item-left-pad {
+        padding-left: 0;
+        padding: 5px 0 0 0
+    }
+}
+
 @media only screen and (max-width:660px) {
     .main-content-pad {
         padding: $mainPaddingResize;
@@ -1756,6 +1962,19 @@ background:url(../../img/);
     }
     .footer-fix-pad {
         padding: $mainInnerPaddingResize;
+    }
+}
+
+@media only screen and (max-width:517px) {
+    .persona-pages-right,
+    .persona-pages-left {
+        float: none;
+        margin: 0;
+        left: 0;
+        clear: both
+    }
+    .persona-pages-right-pad {
+        padding-left: 0
     }
 }
 
@@ -1824,4 +2043,34 @@ background:url(../../img/);
         right: -61px;
         @include borderRadius(6px);
     }
+}
+
+.edit-cell {
+    @extend %cb;
+    padding-top: 18px;
+    padding-left: 61px;
+    text-align: left;
+}
+
+.edit-link {
+    @extend %semibold-regular;
+    @extend %relat;
+    @extend %transitionExt;
+    text-decoration: none;
+    display: inline-block;
+    color: #6d6d6d;
+    font-size: 13px;
+    &:hover {
+        color: #8ec649;
+    }
+}
+
+.edit-link-icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: -7px;
+    left: -30px;
+    background: url(../../img/edit.png) no-repeat center top
 }
