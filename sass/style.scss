@@ -1706,6 +1706,185 @@ a {
     @extend %transitionExt;
 }
 
+.edit-cell {
+    @extend %cb;
+    padding-top: 18px;
+    padding-left: 61px;
+    text-align: left;
+}
+
+.edit-link {
+    @extend %semibold-regular;
+    @extend %relat;
+    @extend %transitionExt;
+    text-decoration: none;
+    display: inline-block;
+    color: #6d6d6d;
+    font-size: 13px;
+    &:hover {
+        color: #8ec649;
+    }
+}
+
+.edit-link-icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: -7px;
+    left: -30px;
+    background: url(../../img/edit.png) no-repeat center top
+}
+
+.reg-form-two-col-left {
+    /*    background: url(../../img/step-3.jpg);*/
+}
+
+.step-3-two-col {
+    &,
+    &-left,
+    &-right {
+        @include hHack(296px);
+    }
+    & {
+        @extend %cb;
+    }
+    &-left {
+        width: 229px;
+        float: left;
+    }
+    &-right {
+        width: 100%;
+        margin-right: -100%;
+    }
+}
+
+.msg-txt {
+    color: #00aeee;
+    font-size: 23px;
+    text-decoration: none;
+    @extend %semibold-regular;
+    display: block;
+    text-align: left;
+    letter-spacing: -0.2px;
+    padding-top: 107px;
+}
+
+.custom-profile-link {
+    color: #6a9a30;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: solid #6b9a31 2px;
+    @include borderRadius(6px);
+    padding: 15px 54px 15px 17px;
+    text-decoration: none;
+    @extend %relat;
+    @extend %transitionExt;
+    @extend %semibold-regular;
+    display: inline-block;
+    left: -52px;
+    &-txt {
+        @extend %relat;
+        top: -3px;
+        @extend %transitionExt;
+    }
+    &:hover {
+        background: #6b9a31;
+        color: #fff;
+    }
+    & .arrow-next span {
+        @extend %transitionExt;
+    }
+    &:hover .arrow-next span {
+        color: #fff;
+    }
+}
+
+.z-top-spacer {
+    min-height: 42px;
+    height: auto!important;
+    height: 42px;
+}
+
+.arrow-next {
+    display: block;
+    width: 13px;
+    height: 23px;
+    font-size: 20px;
+    color: #588028;
+    position: absolute;
+    top: 3px;
+    right: -27px;
+}
+
+.advt-add {
+    @include hHack(315px);
+    /*    background: url(../../img/trafaret-2.jpg) no-repeat center top;*/
+    &-title {
+        color: #656565;
+        font-size: 19px;
+        @extend %semilight;
+        letter-spacing: -0.2px;
+        position: relative;
+        top: -1px;
+        left: 0;
+        & {
+            border-bottom: solid #dee1dd 1px;
+        }
+        &-txt {
+            padding-bottom: 20px;
+        }
+        &,
+        &-txt {
+            @extend %cb;
+            text-align: left;
+            display: block;
+        }
+    }
+}
+
+.activation-block {
+    &,
+    &-pad {
+        @extend %cb;
+        text-align: left;
+    }
+    &-pad {
+        padding-left: 30px;
+        padding-top: 22px;
+        color: #656565;
+        font-size: 14px;
+        @extend %semilight;
+        letter-spacing: 0.2px;
+    }
+}
+
+.dark-txt {
+    color: #000
+}
+
+.fixs {
+    max-width: 320px;
+    padding-top: 20px;
+}
+
+.fixs .btn-place {
+    right: -37%
+}
+
+.fixs .fix-btn-size {
+    width: 119px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.txt-ex {
+    color: #656565;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
 @media only screen and (max-width:1200px) {
     .account-info-descr-txt .edit-link {
         margin-top: 20px;
@@ -1719,10 +1898,25 @@ a {
     }
 }
 
-@media only screen and (max-width:360px) {
-    .fb {
+@media only screen and (max-width:1143px) {
+    .step-3-two-col-left,
+    .step-3-two-col-right {
+        float: none;
+        clear: both;
+        margin: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .msg-txt {
+        padding-top: 0;
         display: block;
-        padding-bottom: 20px
+        text-align: center;
+        width: auto;
+        padding: 0 20px;
+    }
+    .custom-profile-link {
+        left: 0;
     }
 }
 
@@ -2019,6 +2213,20 @@ a {
     }
 }
 
+@media only screen and (max-width:385px) {
+    .login-drop-down-bottom {
+        right: -61px;
+        @include borderRadius(6px);
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .fb {
+        display: block;
+        padding-bottom: 20px
+    }
+}
+
 @media only screen and (max-width:309px) {
     .main-fix-carcass {
         overflow-x: hidden;
@@ -2036,41 +2244,4 @@ a {
         padding-left: 7.3px;
         padding-right: 7.3px;
     }
-}
-
-@media only screen and (max-width:385px) {
-    .login-drop-down-bottom {
-        right: -61px;
-        @include borderRadius(6px);
-    }
-}
-
-.edit-cell {
-    @extend %cb;
-    padding-top: 18px;
-    padding-left: 61px;
-    text-align: left;
-}
-
-.edit-link {
-    @extend %semibold-regular;
-    @extend %relat;
-    @extend %transitionExt;
-    text-decoration: none;
-    display: inline-block;
-    color: #6d6d6d;
-    font-size: 13px;
-    &:hover {
-        color: #8ec649;
-    }
-}
-
-.edit-link-icon {
-    display: block;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    top: -7px;
-    left: -30px;
-    background: url(../../img/edit.png) no-repeat center top
 }

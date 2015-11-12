@@ -329,7 +329,7 @@ WeblySleek UI Semilight Italic
 .persona-pages,
 .persona-pages-center-pad,
 .account-info-descr-txt .edit-link,
-.persona-pages-left-pad .edit-cell, .edit-link {
+.persona-pages-left-pad .edit-cell, .edit-link, .custom-profile-link, .custom-profile-link-txt, .custom-profile-link .arrow-next span {
   -webkit-transition: all 0.3s, ease-in-out;
   -icab-transition: all 0.3s, ease-in-out;
   -khtml-transition: all 0.3s, ease-in-out;
@@ -351,12 +351,12 @@ WeblySleek UI Semilight Italic
 }
 
 /* line 189, ../sass/style.scss */
-.footer-menu-list-item-link, .login-cell .registration-btn, .login-btn, .main-content-title, .tab-cell-list-item-link, .step-numb, .inp-label, .orange-btn, .green-btn, .account-info-data .account-info-descr strong, .warning-info .warning-info-txt, .edit-link {
+.footer-menu-list-item-link, .login-cell .registration-btn, .login-btn, .main-content-title, .tab-cell-list-item-link, .step-numb, .inp-label, .orange-btn, .green-btn, .account-info-data .account-info-descr strong, .warning-info .warning-info-txt, .edit-link, .msg-txt, .custom-profile-link {
   font-family: "WeblySleek UI Semibold Regular", sans-serif;
 }
 
 /* line 197, ../sass/style.scss */
-.copy-right-cell-txt, .main-nav-item-link, .main-nav-menu-list-item-link, .lang-cell-list-item-link, .login-cell .enter-btn, .inp-row .def-inp, .forgot-pass-link, .def-inp-bg .def-inp, .account-info-data .account-info-title, .account-info-data .account-info-descr {
+.copy-right-cell-txt, .main-nav-item-link, .main-nav-menu-list-item-link, .lang-cell-list-item-link, .login-cell .enter-btn, .inp-row .def-inp, .forgot-pass-link, .def-inp-bg .def-inp, .account-info-data .account-info-title, .account-info-data .account-info-descr, .advt-add-title, .activation-block-pad {
   font-family: "WeblySleek UI Semilight", sans-serif;
 }
 
@@ -365,7 +365,7 @@ WeblySleek UI Semilight Italic
 .footer-nav .footer-menu-list:after, .copy-right-cell:after, .copy-right-cell-pad:after, .copy-right-cell-txt:after, .header-fix:after, .header-fix-center-pad:after, .header-fix-left-pad:after, .header-fix-right-pad:after, .main-nav:after, .main-nav-menu-list:after, .lang-cell-out-pad:after, .lang-cell:after, .lang-cell-list:after, .login-cell:after, .login-cell-out-pad:after, .login-cell-list:after, .gray-line:after, .inp-row:after, .inp-row-pad:after, .login-form-two-col:after, .login-form-two-col-left-pad:after, .login-form-two-col-right-pad:after, .main-content:after, .main-content-pad:after, .main-content-title-cell:after, .main-content-title:after, .main-content-txt:after, .decoration-line:after, .decoration-line-fill:after, .tab-cell:after, .tab-cell-pad:after, .tab-cell-list:after, .tab-content-cell:after, .tab-content-cell-list:after, .tab-content-cell-list-item:after, .form-element-two-column:after, .step-cell:after, .reg-form-two-col:after, .reg-inp-row:after, .reg-inp-row-pad:after, .captcha-image-cell:after, .captcha-image-cell-pad:after, .persona-pages:after, .persona-pages-center-pad:after, .persona-pages-left-pad:after, .persona-pages-right-pad:after, .account-info-data:after, .account-info-data-list:after, .account-info-data-list-item:after, .account-info-data .account-info-title:after,
 .account-info-data .account-info-title-txt:after,
 .account-info-data .account-info-descr:after,
-.account-info-data .account-info-descr-txt:after, .warning-info:after, .avater-place:after, .avater-place-pad:after, .edit-cell:after, .footer-triple-cell-left-pad:after, .footer-triple-cell-right-pad:after {
+.account-info-data .account-info-descr-txt:after, .warning-info:after, .avater-place:after, .avater-place-pad:after, .edit-cell:after, .step-3-two-col:after, .advt-add-title:after, .advt-add-title-txt:after, .activation-block:after, .activation-block-pad:after, .footer-triple-cell-left-pad:after, .footer-triple-cell-right-pad:after {
   clear: both;
   content: "";
   display: block;
@@ -383,7 +383,7 @@ WeblySleek UI Semilight Italic
 .footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .persona-pages, .persona-pages-center-pad, .persona-pages-left-pad, .persona-pages-right-pad, .account-info-data, .account-info-data-list, .account-info-data-list-item, .account-info-data .account-info-title,
 .account-info-data .account-info-title-txt,
 .account-info-data .account-info-descr,
-.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell {
+.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .step-3-two-col, .advt-add-title, .advt-add-title-txt, .activation-block, .activation-block-pad {
   clear: both;
   display: block;
 }
@@ -393,7 +393,7 @@ WeblySleek UI Semilight Italic
 .footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .persona-pages, .persona-pages-center-pad, .persona-pages-left-pad, .persona-pages-right-pad, .account-info-data, .account-info-data-list, .account-info-data-list-item, .account-info-data .account-info-title,
 .account-info-data .account-info-title-txt,
 .account-info-data .account-info-descr,
-.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .main-fix-carcass, .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right, .footer-menu-list-item, .footer-menu-list-item-link, .social-icon-list-item-link, .header-fix-left, .header-fix-right, .header-fix-center, .main-nav-item-link, .main-nav-menu-list-item-link, .login-cell-list-item, .login-cell-list-item-pad, .login-cell .registration-btn, .login-cell .enter-btn, .login-cell .enter-btn .enter-btn-txt, .login-cell .h-z-index, .inp-row .default-inp-bg, .login-btn, .form-element-two-column-left, .form-element-two-column-right, .reg-form-two-col-left, .reg-form-two-col-right, .def-inp-bg, .orange-btn, .green-btn, .persona-pages-left, .persona-pages-right, .persona-pages-center, .account-info-data-list-item-left, .account-info-data-list-item-right, .no-valid-symbol-char, .edit-link {
+.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .step-3-two-col, .advt-add-title, .advt-add-title-txt, .activation-block, .activation-block-pad, .main-fix-carcass, .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right, .footer-menu-list-item, .footer-menu-list-item-link, .social-icon-list-item-link, .header-fix-left, .header-fix-right, .header-fix-center, .main-nav-item-link, .main-nav-menu-list-item-link, .login-cell-list-item, .login-cell-list-item-pad, .login-cell .registration-btn, .login-cell .enter-btn, .login-cell .enter-btn .enter-btn-txt, .login-cell .h-z-index, .inp-row .default-inp-bg, .login-btn, .form-element-two-column-left, .form-element-two-column-right, .reg-form-two-col-left, .reg-form-two-col-right, .def-inp-bg, .orange-btn, .green-btn, .persona-pages-left, .persona-pages-right, .persona-pages-center, .account-info-data-list-item-left, .account-info-data-list-item-right, .no-valid-symbol-char, .edit-link, .custom-profile-link, .custom-profile-link-txt {
   position: relative;
   top: 0;
   left: 0;
@@ -1887,43 +1887,250 @@ a {
   height: auto !important;
 }
 
+/* line 1709, ../sass/style.scss */
+.edit-cell {
+  padding-top: 18px;
+  padding-left: 61px;
+  text-align: left;
+}
+
+/* line 1716, ../sass/style.scss */
+.edit-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #6d6d6d;
+  font-size: 13px;
+}
+/* line 1724, ../sass/style.scss */
+.edit-link:hover {
+  color: #8ec649;
+}
+
+/* line 1729, ../sass/style.scss */
+.edit-link-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -7px;
+  left: -30px;
+  background: url(../../img/edit.png) no-repeat center top;
+}
+
+/* line 1739, ../sass/style.scss */
+.reg-form-two-col-left {
+  /*    background: url(../../img/step-3.jpg);*/
+}
+
+/* line 1744, ../sass/style.scss */
+.step-3-two-col, .step-3-two-col-left, .step-3-two-col-right {
+  min-height: 296px;
+  height: auto !important;
+  height: 296px;
+}
+/* line 1752, ../sass/style.scss */
+.step-3-two-col-left {
+  width: 229px;
+  float: left;
+}
+/* line 1756, ../sass/style.scss */
+.step-3-two-col-right {
+  width: 100%;
+  margin-right: -100%;
+}
+
+/* line 1762, ../sass/style.scss */
+.msg-txt {
+  color: #00aeee;
+  font-size: 23px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  letter-spacing: -0.2px;
+  padding-top: 107px;
+}
+
+/* line 1773, ../sass/style.scss */
+.custom-profile-link {
+  color: #6a9a30;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: solid #6b9a31 2px;
+  -o-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -icab-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-radius: 6px;
+  padding: 15px 54px 15px 17px;
+  text-decoration: none;
+  display: inline-block;
+  left: -52px;
+}
+/* line 1786, ../sass/style.scss */
+.custom-profile-link-txt {
+  top: -3px;
+}
+/* line 1791, ../sass/style.scss */
+.custom-profile-link:hover {
+  background: #6b9a31;
+  color: #fff;
+}
+/* line 1798, ../sass/style.scss */
+.custom-profile-link:hover .arrow-next span {
+  color: #fff;
+}
+
+/* line 1803, ../sass/style.scss */
+.z-top-spacer {
+  min-height: 42px;
+  height: auto !important;
+  height: 42px;
+}
+
+/* line 1809, ../sass/style.scss */
+.arrow-next {
+  display: block;
+  width: 13px;
+  height: 23px;
+  font-size: 20px;
+  color: #588028;
+  position: absolute;
+  top: 3px;
+  right: -27px;
+}
+
+/* line 1820, ../sass/style.scss */
+.advt-add {
+  min-height: 315px;
+  height: auto !important;
+  height: 315px;
+  /*    background: url(../../img/trafaret-2.jpg) no-repeat center top;*/
+}
+/* line 1823, ../sass/style.scss */
+.advt-add-title {
+  color: #656565;
+  font-size: 19px;
+  letter-spacing: -0.2px;
+  position: relative;
+  top: -1px;
+  left: 0;
+}
+/* line 1831, ../sass/style.scss */
+.advt-add-title {
+  border-bottom: solid #dee1dd 1px;
+}
+/* line 1834, ../sass/style.scss */
+.advt-add-title-txt {
+  padding-bottom: 20px;
+}
+/* line 1837, ../sass/style.scss */
+.advt-add-title, .advt-add-title-txt {
+  text-align: left;
+  display: block;
+}
+
+/* line 1847, ../sass/style.scss */
+.activation-block, .activation-block-pad {
+  text-align: left;
+}
+/* line 1852, ../sass/style.scss */
+.activation-block-pad {
+  padding-left: 30px;
+  padding-top: 22px;
+  color: #656565;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+/* line 1862, ../sass/style.scss */
+.dark-txt {
+  color: #000;
+}
+
+/* line 1866, ../sass/style.scss */
+.fixs {
+  max-width: 320px;
+  padding-top: 20px;
+}
+
+/* line 1871, ../sass/style.scss */
+.fixs .btn-place {
+  right: -37%;
+}
+
+/* line 1875, ../sass/style.scss */
+.fixs .fix-btn-size {
+  width: 119px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+/* line 1882, ../sass/style.scss */
+.txt-ex {
+  color: #656565;
+  font-size: 12px;
+  padding-top: 8px;
+}
+
 @media only screen and (max-width: 1200px) {
-  /* line 1710, ../sass/style.scss */
+  /* line 1889, ../sass/style.scss */
   .account-info-descr-txt .edit-link {
     margin-top: 20px;
     margin-left: 33px;
   }
 
-  /* line 1714, ../sass/style.scss */
+  /* line 1893, ../sass/style.scss */
   .persona-pages-left {
     width: 200px;
   }
 
-  /* line 1717, ../sass/style.scss */
+  /* line 1896, ../sass/style.scss */
   .persona-pages-center-pad {
     padding-left: 280px;
   }
 }
-@media only screen and (max-width: 360px) {
-  /* line 1723, ../sass/style.scss */
-  .fb {
+@media only screen and (max-width: 1143px) {
+  /* line 1902, ../sass/style.scss */
+  .step-3-two-col-left,
+  .step-3-two-col-right {
+    float: none;
+    clear: both;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 1911, ../sass/style.scss */
+  .msg-txt {
+    padding-top: 0;
     display: block;
-    padding-bottom: 20px;
+    text-align: center;
+    width: auto;
+    padding: 0 20px;
+  }
+
+  /* line 1918, ../sass/style.scss */
+  .custom-profile-link {
+    left: 0;
   }
 }
 @media only screen and (max-width: 1154px) {
-  /* line 1730, ../sass/style.scss */
+  /* line 1924, ../sass/style.scss */
   .lang-cell-out-pad {
     padding: 20px 0 0 0;
   }
 
-  /* line 1733, ../sass/style.scss */
+  /* line 1927, ../sass/style.scss */
   .lang-cell-out-pad,
   .lang-cell {
     text-align: center;
   }
 
-  /* line 1737, ../sass/style.scss */
+  /* line 1931, ../sass/style.scss */
   .header-fix-center,
   .header-fix-right,
   .header-fix-left {
@@ -1936,51 +2143,51 @@ a {
     height: 10px;
   }
 
-  /* line 1746, ../sass/style.scss */
+  /* line 1940, ../sass/style.scss */
   .header-fix-left-pad {
     padding: 20px 0 0 0;
   }
 
-  /* line 1749, ../sass/style.scss */
+  /* line 1943, ../sass/style.scss */
   .header-logo {
     margin: 0 auto;
   }
 
-  /* line 1752, ../sass/style.scss */
+  /* line 1946, ../sass/style.scss */
   .header-fix-center-pad,
   .header-fix-right-pad {
     padding-top: 0px;
   }
 
-  /* line 1759, ../sass/style.scss */
+  /* line 1953, ../sass/style.scss */
   .header-fix-center-pad {
     padding: 0 15px;
   }
 
-  /* line 1762, ../sass/style.scss */
+  /* line 1956, ../sass/style.scss */
   .gray-line {
     display: none;
   }
 
-  /* line 1765, ../sass/style.scss */
+  /* line 1959, ../sass/style.scss */
   .login-cell .enter-btn {
     padding-right: 0;
   }
 
-  /* line 1768, ../sass/style.scss */
+  /* line 1962, ../sass/style.scss */
   .login-cell-out-pad {
     text-align: center;
   }
 
-  /* line 1772, ../sass/style.scss */
+  /* line 1966, ../sass/style.scss */
   .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right {
     text-align: center;
   }
-  /* line 1778, ../sass/style.scss */
+  /* line 1972, ../sass/style.scss */
   .footer-triple-cell-center-pad {
     padding: 32px 10px 30px 10px;
   }
-  /* line 1782, ../sass/style.scss */
+  /* line 1976, ../sass/style.scss */
   .footer-triple-cell-left {
     margin: 0;
     float: none;
@@ -1988,7 +2195,7 @@ a {
     left: 0;
     width: auto;
   }
-  /* line 1789, ../sass/style.scss */
+  /* line 1983, ../sass/style.scss */
   .footer-triple-cell-right {
     margin: 0;
     float: none;
@@ -1997,13 +2204,13 @@ a {
     width: auto;
   }
 
-  /* line 1797, ../sass/style.scss */
+  /* line 1991, ../sass/style.scss */
   .footer-triple-cell-left-pad,
   .footer-triple-cell-right-pad {
     text-align: center;
   }
 
-  /* line 1801, ../sass/style.scss */
+  /* line 1995, ../sass/style.scss */
   .footer-logo {
     position: relative;
     top: 0;
@@ -2011,24 +2218,24 @@ a {
     margin: 0 auto;
   }
 
-  /* line 1807, ../sass/style.scss */
+  /* line 2001, ../sass/style.scss */
   .enter-btn-txt {
     padding-left: 68px !important;
     display: inline-block;
   }
 
-  /* line 1811, ../sass/style.scss */
+  /* line 2005, ../sass/style.scss */
   .login-cell-out-pad {
     padding-right: 0;
   }
 
-  /* line 1814, ../sass/style.scss */
+  /* line 2008, ../sass/style.scss */
   .login-cell {
     text-align: center;
   }
 }
 @media only screen and (max-width: 1124px) {
-  /* line 1820, ../sass/style.scss */
+  /* line 2014, ../sass/style.scss */
   .btn-place {
     position: relative;
     top: 0;
@@ -2039,7 +2246,7 @@ a {
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 1831, ../sass/style.scss */
+  /* line 2025, ../sass/style.scss */
   .persona-pages-center {
     float: none;
     clear: both;
@@ -2048,12 +2255,12 @@ a {
     top: 0;
   }
 
-  /* line 1838, ../sass/style.scss */
+  /* line 2032, ../sass/style.scss */
   .persona-pages-right {
     float: left;
   }
 
-  /* line 1841, ../sass/style.scss */
+  /* line 2035, ../sass/style.scss */
   .persona-pages,
   .persona-pages-left,
   .persona-pages-right,
@@ -2063,34 +2270,34 @@ a {
     height: auto;
   }
 
-  /* line 1847, ../sass/style.scss */
+  /* line 2041, ../sass/style.scss */
   .persona-pages-center-pad {
     padding: 20px 0;
   }
 
-  /* line 1850, ../sass/style.scss */
+  /* line 2044, ../sass/style.scss */
   .account-info-descr-txt .edit-link {
     margin-top: 0;
     margin-left: 40px;
   }
 
-  /* line 1854, ../sass/style.scss */
+  /* line 2048, ../sass/style.scss */
   .persona-pages-left-pad .edit-cell {
     padding-left: 31px;
   }
 
-  /* line 1857, ../sass/style.scss */
+  /* line 2051, ../sass/style.scss */
   .account-info-data-list-item-left {
     width: 239px;
   }
 
-  /* line 1860, ../sass/style.scss */
+  /* line 2054, ../sass/style.scss */
   .persona-pages-right-pad {
     padding-left: 43px;
   }
 }
 @media only screen and (max-width: 1100px) {
-  /* line 1866, ../sass/style.scss */
+  /* line 2060, ../sass/style.scss */
   .two-col-left,
   .two-col-right {
     clear: both;
@@ -2098,7 +2305,7 @@ a {
     width: 100%;
   }
 
-  /* line 1872, ../sass/style.scss */
+  /* line 2066, ../sass/style.scss */
   .reg-form-two-col-right {
     float: none;
     margin: 0;
@@ -2106,17 +2313,17 @@ a {
     clear: both;
   }
 
-  /* line 1878, ../sass/style.scss */
+  /* line 2072, ../sass/style.scss */
   .reg-form-two-col-left-pad {
     padding-right: 0;
   }
 
-  /* line 1881, ../sass/style.scss */
+  /* line 2075, ../sass/style.scss */
   .reg-form-two-col-right-pad {
     padding-left: 30px;
   }
 
-  /* line 1884, ../sass/style.scss */
+  /* line 2078, ../sass/style.scss */
   .two-col,
   .two-col-left,
   .two-col-right {
@@ -2124,7 +2331,7 @@ a {
     height: auto !important;
   }
 
-  /* line 1890, ../sass/style.scss */
+  /* line 2084, ../sass/style.scss */
   .form-element-two-column,
   .form-element-two-column-left,
   .form-element-two-column-right {
@@ -2133,12 +2340,12 @@ a {
     height: 100%;
   }
 
-  /* line 1895, ../sass/style.scss */
+  /* line 2089, ../sass/style.scss */
   .form-element-two-column-right {
     background: transparent;
   }
 
-  /* line 1898, ../sass/style.scss */
+  /* line 2092, ../sass/style.scss */
   .step-cell {
     position: relative;
     margin: 20px auto;
@@ -2154,24 +2361,24 @@ a {
   }
 }
 @media only screen and (max-width: 790px) {
-  /* line 1914, ../sass/style.scss */
+  /* line 2108, ../sass/style.scss */
   .form-element-two-column-right {
     width: 216px;
   }
 
-  /* line 1917, ../sass/style.scss */
+  /* line 2111, ../sass/style.scss */
   .form-element-two-column-left-pad {
     padding-right: 10px;
   }
 
-  /* line 1920, ../sass/style.scss */
+  /* line 2114, ../sass/style.scss */
   .step-numb {
     font-size: 23.74px;
     left: 57%;
     top: 57%;
   }
 
-  /* line 1926, ../sass/style.scss */
+  /* line 2120, ../sass/style.scss */
   .step-cell, .step-cell-round {
     display: block;
     width: 40px;
@@ -2179,7 +2386,7 @@ a {
   }
 }
 @media only screen and (max-width: 818px) {
-  /* line 1936, ../sass/style.scss */
+  /* line 2130, ../sass/style.scss */
   .account-info-data-list-item-left,
   .account-info-data-list-item-right {
     clear: both;
@@ -2188,41 +2395,41 @@ a {
     margin: 0;
   }
 
-  /* line 1943, ../sass/style.scss */
+  /* line 2137, ../sass/style.scss */
   .account-info-data-list-item-right-pad {
     padding-left: 0;
     padding: 5px 0 10px 0;
   }
 
-  /* line 1947, ../sass/style.scss */
+  /* line 2141, ../sass/style.scss */
   .account-info-data-list-item-left-pad {
     padding-left: 0;
     padding: 5px 0 0 0;
   }
 }
 @media only screen and (max-width: 660px) {
-  /* line 1954, ../sass/style.scss */
+  /* line 2148, ../sass/style.scss */
   .main-content-pad {
     padding: 0 20px;
   }
 
-  /* line 1957, ../sass/style.scss */
+  /* line 2151, ../sass/style.scss */
   .main-content-pad {
     padding: 0 20px;
   }
 
-  /* line 1960, ../sass/style.scss */
+  /* line 2154, ../sass/style.scss */
   .main-fix-carcass-out-pad {
     padding: 0 20px;
   }
 
-  /* line 1963, ../sass/style.scss */
+  /* line 2157, ../sass/style.scss */
   .footer-fix-pad {
     padding: 0 20px;
   }
 }
 @media only screen and (max-width: 517px) {
-  /* line 1969, ../sass/style.scss */
+  /* line 2163, ../sass/style.scss */
   .persona-pages-right,
   .persona-pages-left {
     float: none;
@@ -2231,90 +2438,63 @@ a {
     clear: both;
   }
 
-  /* line 1976, ../sass/style.scss */
+  /* line 2170, ../sass/style.scss */
   .persona-pages-right-pad {
     padding-left: 0;
   }
 }
 @media only screen and (max-width: 490px) {
-  /* line 1982, ../sass/style.scss */
+  /* line 2176, ../sass/style.scss */
   .device-icon {
     display: block;
   }
 
-  /* line 1985, ../sass/style.scss */
+  /* line 2179, ../sass/style.scss */
   .desctop-icon {
     display: none;
   }
 }
 @media only screen and (max-width: 463px) {
-  /* line 1995, ../sass/style.scss */
+  /* line 2189, ../sass/style.scss */
   .footer-menu-list-item {
     display: block;
     padding-bottom: 10px;
   }
 
-  /* line 1999, ../sass/style.scss */
+  /* line 2193, ../sass/style.scss */
   .footer-menu-list-item:after {
     display: none;
   }
 
-  /* line 2002, ../sass/style.scss */
+  /* line 2196, ../sass/style.scss */
   .main-nav-menu-list,
   .main-nav-menu-list-item {
     display: block;
   }
 
-  /* line 2006, ../sass/style.scss */
+  /* line 2200, ../sass/style.scss */
   .main-nav-menu-list-item {
     padding: 5px 0;
   }
 
-  /* line 2009, ../sass/style.scss */
+  /* line 2203, ../sass/style.scss */
   .login-cell-list,
   .login-cell-list-item {
     display: block;
   }
 
-  /* line 2014, ../sass/style.scss */
+  /* line 2208, ../sass/style.scss */
   .login-cell-list-item.js-drop-down-selector {
     padding-top: 20px;
   }
 
-  /* line 2017, ../sass/style.scss */
+  /* line 2211, ../sass/style.scss */
   .enter-btn {
     left: -15px !important;
   }
 }
-@media only screen and (max-width: 309px) {
-  /* line 2023, ../sass/style.scss */
-  .main-fix-carcass {
-    overflow-x: hidden;
-  }
-
-  /* line 2026, ../sass/style.scss */
-  .main-content-pad {
-    padding: 0 3px;
-  }
-
-  /* line 2029, ../sass/style.scss */
-  .footer-fix-pad {
-    padding: 0 3px;
-  }
-
-  /* line 2032, ../sass/style.scss */
-  .main-fix-carcass-out-pad {
-    padding: 0 10px;
-  }
-
-  /* line 2035, ../sass/style.scss */
-  .social-icon-list-item-pad {
-    padding-left: 7.3px;
-    padding-right: 7.3px;
-  }
-}
 @media only screen and (max-width: 385px) {
-  /* line 2042, ../sass/style.scss */
+  /* line 2217, ../sass/style.scss */
   .login-drop-down-bottom {
     right: -61px;
     -o-border-radius: 6px;
@@ -2326,32 +2506,37 @@ a {
     border-radius: 6px;
   }
 }
-/* line 2048, ../sass/style.scss */
-.edit-cell {
-  padding-top: 18px;
-  padding-left: 61px;
-  text-align: left;
+@media only screen and (max-width: 360px) {
+  /* line 2224, ../sass/style.scss */
+  .fb {
+    display: block;
+    padding-bottom: 20px;
+  }
 }
+@media only screen and (max-width: 309px) {
+  /* line 2231, ../sass/style.scss */
+  .main-fix-carcass {
+    overflow-x: hidden;
+  }
 
-/* line 2055, ../sass/style.scss */
-.edit-link {
-  text-decoration: none;
-  display: inline-block;
-  color: #6d6d6d;
-  font-size: 13px;
-}
-/* line 2063, ../sass/style.scss */
-.edit-link:hover {
-  color: #8ec649;
-}
+  /* line 2234, ../sass/style.scss */
+  .main-content-pad {
+    padding: 0 3px;
+  }
 
-/* line 2068, ../sass/style.scss */
-.edit-link-icon {
-  display: block;
-  width: 22px;
-  height: 22px;
-  position: absolute;
-  top: -7px;
-  left: -30px;
-  background: url(../../img/edit.png) no-repeat center top;
+  /* line 2237, ../sass/style.scss */
+  .footer-fix-pad {
+    padding: 0 3px;
+  }
+
+  /* line 2240, ../sass/style.scss */
+  .main-fix-carcass-out-pad {
+    padding: 0 10px;
+  }
+
+  /* line 2243, ../sass/style.scss */
+  .social-icon-list-item-pad {
+    padding-left: 7.3px;
+    padding-right: 7.3px;
+  }
 }
