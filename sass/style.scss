@@ -1672,7 +1672,7 @@ a {
         display: block;
         overflow: hidden;
         width: 170px;
-        height: 157px;
+        height: 156px;
         background: url(../../img/avatar-silhouette.svg) no-repeat center bottom #e6eaee;
     }
     .avatar-persona-page-image {
@@ -1680,6 +1680,46 @@ a {
         width: 100%;
         height: auto!important;
     }
+}
+
+.star-list {
+    &,
+    &-item {
+        list-style: none;
+        font-size: 0;
+        display: inline-block;
+    }
+    &-item {
+        padding-right: 5px
+    }
+    &-item-link {
+        @extend %transitionExt;
+        text-decoration: none;
+        &-txt {
+            @extend %transitionExt;
+            font-size: 15px;
+            color: #ccc;
+        }
+        &:hover {
+            color: #fab149;
+        }
+    }
+    &-item span {
+        @extend %transitionExt;
+    }
+}
+
+.star-list-item-link:hover .star-list-item-link-txt,
+.star-list-item.select-star .star-list-item-link-txt {
+    color: #fab149;
+}
+
+.tal {
+    text-align: left;
+}
+
+.lhx {
+    line-height: 19px;
 }
 
 .account-info-data-list-item-left,
@@ -1818,7 +1858,7 @@ a {
 }
 
 .advt-add {
-    @include hHack(315px);
+    @include hHack(155px);
     /*    background: url(../../img/trafaret-2.jpg) no-repeat center top;*/
     &-title {
         color: #656565;
@@ -1841,6 +1881,11 @@ a {
             display: block;
         }
     }
+}
+
+.advt-bottom-spacer{
+	@include hHack(160px);
+	@extend %cb;
 }
 
 .activation-block {
@@ -1883,6 +1928,18 @@ a {
     color: #656565;
     font-size: 12px;
     padding-top: 8px;
+}
+
+.dark-gray {
+    color: #656565
+}
+
+.w100 {
+    width: 100%;
+}
+
+.n-padding {
+    padding-top: 31px
 }
 
 @media only screen and (max-width:1200px) {
