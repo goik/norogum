@@ -2567,11 +2567,11 @@ a {
 
 .advt-triple-col {
     @extend %cb;
-    // background: url(../../img/t.png) no-repeat center top;
+    //background: url(../../img/t.png) no-repeat center top;
     &-left,
     &-right,
     &-center {
-        // opacity: 0.5
+        //opacity: 0.5
     }
     &,
     &-left,
@@ -2644,6 +2644,24 @@ a {
         @extend %semibold-regular;
         letter-spacing: -0.1px
     }
+    .add-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: #fab149;
+        @include borderRadius(50%);
+        position: absolute;
+        top: -5px;
+        left: -58px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        & span {
+            display: block;
+            padding-top: 9px;
+        }
+    }
 }
 
 .add-pad-x {
@@ -2651,12 +2669,8 @@ a {
     @include hHack(16px);
 }
 
-.def-area {
-    background: red
-}
-
 .def-area-box {
-    @include hHack(137px);
+    @include hHack(140px);
 }
 
 .add-pad-x2 {
@@ -2683,6 +2697,63 @@ a {
     }
 }
 
+.advt-triple-col {
+    margin-bottom: 30px
+}
 
+textarea {
+    resize: none;
+    overflow: hidden;
+}
 
-.advt-triple-col{margin-bottom:30px}
+.def-area {
+    height: 133px;
+    width: 100%;
+}
+
+.images-celll-list {
+    & {
+        padding-top: 18px;
+    }
+    &,
+    &-item {
+        list-style: none;
+        font-size: 0;
+        @extend %cb;
+        text-align: left;
+        padding-bottom:10px;
+    }
+    &-item {
+        &-link {
+            text-decoration: none;
+            color: #656565;
+            font-size: 13px;
+            @extend %semilight;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.remove-link {
+    display: block;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+    background: #ed397f;
+    color: #fff;
+    @include borderRadius(3px);
+    position: absolute;
+    top: 5px;
+    right: -23px;
+    %-pad {
+        display: block;
+        padding-top: 2px;
+    }
+}
+
+.spacer-top-x-10 {
+    @extend %cb;
+    @include hHack(41px);
+}

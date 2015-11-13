@@ -368,7 +368,7 @@ WeblySleek UI Semilight Italic
 }
 
 /* line 197, ../sass/style.scss */
-.copy-right-cell-txt, .main-nav-item-link, .main-nav-menu-list-item-link, .lang-cell-list-item-link, .login-cell .enter-btn, .inp-row .def-inp, .forgot-pass-link, .def-inp-bg .def-inp, .account-info-data .account-info-title, .account-info-data .account-info-descr, .warning-info-date-txt, .advt-add-title, .activation-block-pad, .file-list-item-link {
+.copy-right-cell-txt, .main-nav-item-link, .main-nav-menu-list-item-link, .lang-cell-list-item-link, .login-cell .enter-btn, .inp-row .def-inp, .forgot-pass-link, .def-inp-bg .def-inp, .account-info-data .account-info-title, .account-info-data .account-info-descr, .warning-info-date-txt, .advt-add-title, .activation-block-pad, .file-list-item-link, .images-celll-list-item-link {
   font-family: "WeblySleek UI Semilight", sans-serif;
 }
 
@@ -377,7 +377,7 @@ WeblySleek UI Semilight Italic
 .footer-nav .footer-menu-list:after, .copy-right-cell:after, .copy-right-cell-pad:after, .copy-right-cell-txt:after, .header-fix:after, .header-fix-center-pad:after, .header-fix-left-pad:after, .header-fix-right-pad:after, .main-nav:after, .main-nav-menu-list:after, .lang-cell-out-pad:after, .lang-cell:after, .lang-cell-list:after, .login-cell:after, .login-cell-out-pad:after, .login-cell-list:after, .gray-line:after, .inp-row:after, .inp-row-pad:after, .login-form-two-col:after, .login-form-two-col-left-pad:after, .login-form-two-col-right-pad:after, .main-content:after, .main-content-pad:after, .main-content-title-cell:after, .main-content-title:after, .main-content-txt:after, .decoration-line:after, .decoration-line-fill:after, .tab-cell:after, .tab-cell-pad:after, .tab-cell-list:after, .tab-content-cell:after, .tab-content-cell-list:after, .tab-content-cell-list-item:after, .form-element-two-column:after, .step-cell:after, .reg-form-two-col:after, .reg-inp-row:after, .reg-inp-row-pad:after, .captcha-image-cell:after, .captcha-image-cell-pad:after, .persona-pages:after, .persona-pages-center-pad:after, .persona-pages-left-pad:after, .persona-pages-right-pad:after, .account-info-data:after, .account-info-data-list:after, .account-info-data-list-item:after, .account-info-data .account-info-title:after,
 .account-info-data .account-info-title-txt:after,
 .account-info-data .account-info-descr:after,
-.account-info-data .account-info-descr-txt:after, .warning-info:after, .avater-place:after, .avater-place-pad:after, .edit-cell:after, .step-3-two-col:after, .advt-add:after, .advt-add-title:after, .advt-add-title-txt:after, .advt-bottom-spacer:after, .advt-bottom-spacer-small:after, .activation-block:after, .activation-block-pad:after, .services-images-block:after, .services-images-block-pad:after, .services-images-list-item-pad:after, .file-list-block:after, .file-list-block-left-pad:after, .file-list-block-right-pad:after, .file-list:after, .file-list-item:after, .fb-add-comment-btn:after, .advt-triple-col:after, .advt-triple-col-left-pad:after, .advt-triple-col-right-pad:after, .advt-triple-col-center-pad:after, .advt-titles:after, .advt-titles-txt:after, .add-pad-x:after, .add-pad-x2:after, .b-cell:after, .images-cell:after, .images-cell-pad:after, .footer-triple-cell-left-pad:after, .footer-triple-cell-right-pad:after {
+.account-info-data .account-info-descr-txt:after, .warning-info:after, .avater-place:after, .avater-place-pad:after, .edit-cell:after, .step-3-two-col:after, .advt-add:after, .advt-add-title:after, .advt-add-title-txt:after, .advt-bottom-spacer:after, .advt-bottom-spacer-small:after, .activation-block:after, .activation-block-pad:after, .services-images-block:after, .services-images-block-pad:after, .services-images-list-item-pad:after, .file-list-block:after, .file-list-block-left-pad:after, .file-list-block-right-pad:after, .file-list:after, .file-list-item:after, .fb-add-comment-btn:after, .advt-triple-col:after, .advt-triple-col-left-pad:after, .advt-triple-col-right-pad:after, .advt-triple-col-center-pad:after, .advt-titles:after, .advt-titles-txt:after, .add-pad-x:after, .add-pad-x2:after, .b-cell:after, .images-cell:after, .images-cell-pad:after, .images-celll-list:after, .images-celll-list-item:after, .spacer-top-x-10:after, .footer-triple-cell-left-pad:after, .footer-triple-cell-right-pad:after {
   clear: both;
   content: "";
   display: block;
@@ -395,7 +395,7 @@ WeblySleek UI Semilight Italic
 .footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .persona-pages, .persona-pages-center-pad, .persona-pages-left-pad, .persona-pages-right-pad, .account-info-data, .account-info-data-list, .account-info-data-list-item, .account-info-data .account-info-title,
 .account-info-data .account-info-title-txt,
 .account-info-data .account-info-descr,
-.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .step-3-two-col, .advt-add, .advt-add-title, .advt-add-title-txt, .advt-bottom-spacer, .advt-bottom-spacer-small, .activation-block, .activation-block-pad, .services-images-block, .services-images-block-pad, .services-images-list-item-pad, .file-list-block, .file-list-block-left-pad, .file-list-block-right-pad, .file-list, .file-list-item, .fb-add-comment-btn, .advt-triple-col, .advt-triple-col-left-pad, .advt-triple-col-right-pad, .advt-triple-col-center-pad, .advt-titles, .advt-titles-txt, .add-pad-x, .add-pad-x2, .b-cell, .images-cell, .images-cell-pad {
+.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .step-3-two-col, .advt-add, .advt-add-title, .advt-add-title-txt, .advt-bottom-spacer, .advt-bottom-spacer-small, .activation-block, .activation-block-pad, .services-images-block, .services-images-block-pad, .services-images-list-item-pad, .file-list-block, .file-list-block-left-pad, .file-list-block-right-pad, .file-list, .file-list-item, .fb-add-comment-btn, .advt-triple-col, .advt-triple-col-left-pad, .advt-triple-col-right-pad, .advt-triple-col-center-pad, .advt-titles, .advt-titles-txt, .add-pad-x, .add-pad-x2, .b-cell, .images-cell, .images-cell-pad, .images-celll-list, .images-celll-list-item, .spacer-top-x-10 {
   clear: both;
   display: block;
 }
@@ -405,7 +405,7 @@ WeblySleek UI Semilight Italic
 .footer-nav .footer-menu-list, .copy-right-cell, .copy-right-cell-pad, .copy-right-cell-txt, .header-fix, .header-fix-center-pad, .header-fix-left-pad, .header-fix-right-pad, .main-nav, .main-nav-menu-list, .lang-cell-out-pad, .lang-cell, .lang-cell-list, .login-cell, .login-cell-out-pad, .login-cell-list, .gray-line, .inp-row, .inp-row-pad, .login-form-two-col, .login-form-two-col-left-pad, .login-form-two-col-right-pad, .main-content, .main-content-pad, .main-content-title-cell, .main-content-title, .main-content-txt, .decoration-line, .decoration-line-fill, .tab-cell, .tab-cell-pad, .tab-cell-list, .tab-content-cell, .tab-content-cell-list, .tab-content-cell-list-item, .form-element-two-column, .step-cell, .reg-form-two-col, .reg-inp-row, .reg-inp-row-pad, .captcha-image-cell, .captcha-image-cell-pad, .persona-pages, .persona-pages-center-pad, .persona-pages-left-pad, .persona-pages-right-pad, .account-info-data, .account-info-data-list, .account-info-data-list-item, .account-info-data .account-info-title,
 .account-info-data .account-info-title-txt,
 .account-info-data .account-info-descr,
-.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .step-3-two-col, .advt-add, .advt-add-title, .advt-add-title-txt, .advt-bottom-spacer, .advt-bottom-spacer-small, .activation-block, .activation-block-pad, .services-images-block, .services-images-block-pad, .services-images-list-item-pad, .file-list-block, .file-list-block-left-pad, .file-list-block-right-pad, .file-list, .file-list-item, .fb-add-comment-btn, .advt-triple-col, .advt-triple-col-left-pad, .advt-triple-col-right-pad, .advt-triple-col-center-pad, .advt-titles, .advt-titles-txt, .add-pad-x, .add-pad-x2, .b-cell, .images-cell, .images-cell-pad, .main-fix-carcass, .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right, .footer-menu-list-item, .footer-menu-list-item-link, .social-icon-list-item-link, .header-fix-left, .header-fix-right, .header-fix-center, .main-nav-item-link, .main-nav-menu-list-item-link, .login-cell-list-item, .login-cell-list-item-pad, .login-cell .registration-btn, .login-cell .enter-btn, .login-cell .enter-btn .enter-btn-txt, .login-cell .h-z-index, .inp-row .default-inp-bg, .login-btn, .form-element-two-column-left, .form-element-two-column-right, .reg-form-two-col-left, .reg-form-two-col-right, .def-inp-bg, .orange-btn, .green-btn, .persona-pages-left, .persona-pages-right, .persona-pages-center, .account-info-data-list-item-left, .account-info-data-list-item-right, .valid-symbol-char, .no-valid-symbol-char, .edit-link, .custom-profile-link, .custom-profile-link-txt, .file-list-item-link-txt, .advt-triple-col-left, .advt-triple-col-right, .advt-triple-col-center {
+.account-info-data .account-info-descr-txt, .warning-info, .avater-place, .avater-place-pad, .edit-cell, .step-3-two-col, .advt-add, .advt-add-title, .advt-add-title-txt, .advt-bottom-spacer, .advt-bottom-spacer-small, .activation-block, .activation-block-pad, .services-images-block, .services-images-block-pad, .services-images-list-item-pad, .file-list-block, .file-list-block-left-pad, .file-list-block-right-pad, .file-list, .file-list-item, .fb-add-comment-btn, .advt-triple-col, .advt-triple-col-left-pad, .advt-triple-col-right-pad, .advt-triple-col-center-pad, .advt-titles, .advt-titles-txt, .add-pad-x, .add-pad-x2, .b-cell, .images-cell, .images-cell-pad, .images-celll-list, .images-celll-list-item, .spacer-top-x-10, .main-fix-carcass, .footer-triple-cell-center, .footer-triple-cell-left, .footer-triple-cell-right, .footer-menu-list-item, .footer-menu-list-item-link, .social-icon-list-item-link, .header-fix-left, .header-fix-right, .header-fix-center, .main-nav-item-link, .main-nav-menu-list-item-link, .login-cell-list-item, .login-cell-list-item-pad, .login-cell .registration-btn, .login-cell .enter-btn, .login-cell .enter-btn .enter-btn-txt, .login-cell .h-z-index, .inp-row .default-inp-bg, .login-btn, .form-element-two-column-left, .form-element-two-column-right, .reg-form-two-col-left, .reg-form-two-col-right, .def-inp-bg, .orange-btn, .green-btn, .persona-pages-left, .persona-pages-right, .persona-pages-center, .account-info-data-list-item-left, .account-info-data-list-item-right, .valid-symbol-char, .no-valid-symbol-char, .edit-link, .custom-profile-link, .custom-profile-link-txt, .file-list-item-link-txt, .advt-triple-col-left, .advt-triple-col-right, .advt-triple-col-center {
   position: relative;
   top: 0;
   left: 0;
@@ -2954,49 +2954,129 @@ a {
   color: #6d6d6d;
   letter-spacing: -0.1px;
 }
+/* line 2647, ../sass/style.scss */
+.advt-titles .add-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #fab149;
+  -o-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -icab-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -58px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  text-align: center;
+}
+/* line 2660, ../sass/style.scss */
+.advt-titles .add-icon span {
+  display: block;
+  padding-top: 9px;
+}
 
-/* line 2649, ../sass/style.scss */
+/* line 2667, ../sass/style.scss */
 .add-pad-x {
   min-height: 16px;
   height: auto !important;
   height: 16px;
 }
 
-/* line 2654, ../sass/style.scss */
-.def-area {
-  background: red;
-}
-
-/* line 2658, ../sass/style.scss */
+/* line 2672, ../sass/style.scss */
 .def-area-box {
-  min-height: 137px;
+  min-height: 140px;
   height: auto !important;
-  height: 137px;
+  height: 140px;
 }
 
-/* line 2662, ../sass/style.scss */
+/* line 2676, ../sass/style.scss */
 .add-pad-x2 {
   min-height: 18px;
   height: auto !important;
   height: 18px;
 }
 
-/* line 2667, ../sass/style.scss */
+/* line 2681, ../sass/style.scss */
 .b-cell {
   padding-top: 4px;
   text-align: right;
 }
-/* line 2671, ../sass/style.scss */
+/* line 2685, ../sass/style.scss */
 .b-cell .orange-btn.fix-btn-size {
   float: right;
 }
 
-/* line 2681, ../sass/style.scss */
+/* line 2695, ../sass/style.scss */
 .images-cell-pad {
   padding-left: 58px;
 }
 
-/* line 2688, ../sass/style.scss */
+/* line 2700, ../sass/style.scss */
 .advt-triple-col {
   margin-bottom: 30px;
+}
+
+/* line 2704, ../sass/style.scss */
+textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+/* line 2709, ../sass/style.scss */
+.def-area {
+  height: 133px;
+  width: 100%;
+}
+
+/* line 2715, ../sass/style.scss */
+.images-celll-list {
+  padding-top: 18px;
+}
+/* line 2718, ../sass/style.scss */
+.images-celll-list, .images-celll-list-item {
+  list-style: none;
+  font-size: 0;
+  text-align: left;
+  padding-bottom: 10px;
+}
+/* line 2727, ../sass/style.scss */
+.images-celll-list-item-link {
+  text-decoration: none;
+  color: #656565;
+  font-size: 13px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* line 2739, ../sass/style.scss */
+.remove-link {
+  display: block;
+  width: 14px;
+  height: 13px;
+  text-align: center;
+  background: #ed397f;
+  color: #fff;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -icab-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  position: absolute;
+  top: 5px;
+  right: -23px;
+}
+/* line 2756, ../sass/style.scss */
+.spacer-top-x-10 {
+  min-height: 41px;
+  height: auto !important;
+  height: 41px;
 }
