@@ -263,7 +263,7 @@ WeblySleek UI Semilight Italic
 }
 /* line 117, ../sass/style.scss */
 .green-btn:active {
-  border-bottom: solid #6b9b31 0px;
+  border-bottom: solid #fff 2px;
   top: 4px;
   -webkit-box-shadow: inset 0px 2px 47px 7px #6b9b31;
   -moz-box-shadow: inset 0px 2px 47px 7px #6b9b31;
@@ -282,7 +282,7 @@ WeblySleek UI Semilight Italic
 }
 /* line 133, ../sass/style.scss */
 .login-btn:active, .orange-btn:active {
-  border-bottom: solid #ee9206 0px;
+  border-bottom: solid #fff 2px;
   top: 4px;
   -webkit-box-shadow: inset 0px 2px 47px 7px #d66400;
   -moz-box-shadow: inset 0px 2px 47px 7px #d66400;
@@ -3074,7 +3074,14 @@ textarea {
   top: 5px;
   right: -23px;
 }
-/* line 2756, ../sass/style.scss */
+/* line 2750, ../sass/style.scss */
+.remove-link-pad {
+  position: relative;
+  top: -2px;
+  left: 0;
+}
+
+/* line 2757, ../sass/style.scss */
 .spacer-top-x-10 {
   min-height: 41px;
   height: auto !important;
