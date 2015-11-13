@@ -1626,6 +1626,43 @@ a {
     border: solid #f69dc0 1px
 }
 
+.valid {
+    border: solid #c7e3a5 1px
+}
+
+.valid-symbol {
+    display: block;
+    width: 38px;
+    height: 38px;
+    @include borderRadius(50%);
+    background: #8ec649;
+    position: absolute;
+    top: 21px;
+    left: 12px;
+    &-char {
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        clear: both;
+        display: block;
+        @extend %relat;
+        &-pad {
+            display: block;
+            padding-top: 10px
+        }
+    }
+}
+
+.warning-info-date-txt {
+    font-size: 14px;
+    @extend %semilight;
+    color: #656565;
+    padding-right: 45px;
+    padding-top: 10px;
+    display: inline-block
+}
+
 .no-valid-symbol {
     display: block;
     width: 38px;
@@ -1858,6 +1895,7 @@ a {
 }
 
 .advt-add {
+    @extend %cb;
     @include hHack(155px);
     /*    background: url(../../img/trafaret-2.jpg) no-repeat center top;*/
     &-title {
@@ -1883,9 +1921,14 @@ a {
     }
 }
 
-.advt-bottom-spacer{
-	@include hHack(160px);
-	@extend %cb;
+.advt-bottom-spacer {
+    @include hHack(160px);
+    @extend %cb;
+}
+
+.advt-bottom-spacer-small {
+    @include hHack(51px);
+    @extend %cb;
 }
 
 .activation-block {
@@ -2302,3 +2345,344 @@ a {
         padding-right: 7.3px;
     }
 }
+
+.c-height {
+    @include hHack(820px);
+    // background: url(../../img/trafaret5.png) no-repeat center top #ff0000;
+    // opacity: 0.5
+}
+
+.services-images-block {
+    &,
+    &-pad {
+        @extend %cb;
+    }
+    &-pad {
+        padding: 16px 17px
+    }
+}
+
+.services-images-list {
+    &,
+    &-item {
+        list-style: none;
+        font-size: 0;
+        width: 25%;
+        display: inline-block;
+    }
+    & {
+        width: 100%
+    }
+    &-item-link {
+        display: block;
+        border: solid #dedcd7 1px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    &-item-pad {
+        padding: 15px 16px 15px 16px;
+        @extend %cb;
+    }
+}
+
+.services-images-list-item-link-pad {
+    display: block;
+    padding: 4px;
+}
+
+.empty-images,
+.images-services {
+    display: block;
+    width: 100%;
+    height: auto!important;
+    clear: both;
+}
+
+.images-services {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.empty-images {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.services-images-block,
+.services-images-block-pad,
+.services-images-list,
+.services-images-list-item,
+.services-images-list-item-pad,
+.services-images-list-item-figure,
+.services-images-list-item-link,
+.services-images-list-item-link-pad {
+    @extend %transitionExt;
+}
+
+@media only screen and (max-width:1114px) {
+    .services-images-list-item {
+        width: 33.3333333333%;
+    }
+}
+
+@media only screen and (max-width:895px) {
+    .services-images-list-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .services-images-block-pad {
+        padding: 0;
+    }
+    .services-images-list-item {
+        width: 100%;
+    }
+}
+
+.services-images-list-item-link:hover {
+    border: solid #ccc 1px;
+    background: #ccc
+}
+
+.file-list-block {
+    @extend %cb;
+    // background: url(../../img/trafaretx.png) no-repeat center top;
+    &,
+    &-left,
+    &-right {
+        @include hHack(184px);
+    }
+    &-left {
+        float: left;
+        width: 50%;
+        &-pad {
+            @extend %cb;
+            text-align: left;
+            padding-left: 30px;
+            padding-top: 27px;
+        }
+    }
+    &-right {
+        float: left;
+        width: 50%;
+        &-pad {
+            @extend %cb;
+            text-align: right;
+            padding-top: 27px;
+            padding-right: 30px;
+        }
+    }
+}
+
+.file-list {
+    &,
+    &-item {
+        @extend %cb;
+    }
+    &-item {
+        padding: 4px 4px 37px 41px
+    }
+    &-item-link {
+        text-decoration: none;
+        font-size: 14px;
+        color: #656565;
+        @extend %semilight;
+        @extend %transitionExt;
+        &:hover {
+            color: #000
+        }
+        &-txt {
+            display: inline-block;
+            @extend %relat;
+        }
+    }
+}
+
+.icon-pdf {
+    display: block;
+    width: 28px;
+    height: 27px;
+    background: url(../../img/pdf.png) no-repeat cneter top #fff !important;
+    position: absolute;
+    top: -7px;
+    left: -41px;
+}
+
+.fb-add-comment-btn {
+    text-decoration: none;
+    float: right;
+    color: #fff;
+    display: block;
+    width: 256px;
+    height: 42px;
+    background: #355e9f;
+    text-align: left;
+    @include borderRadius(6px);
+    @extend %cb;
+    @extend %transitionExt;
+    &:hover {
+        background: #143870;
+    }
+    &-icon {
+        display: block;
+        left: 0;
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        top: 5px;
+        left: 219px;
+        font-size: 32px;
+    }
+    &-txt {
+        color: #fff;
+        font-size: 14px;
+        @extend %light-regular;
+        display: inline-block;
+        padding: 13px 13px 13px 17px
+    }
+}
+
+@media only screen and (max-width:834px) {
+    .file-list-block-left,
+    .file-list-block-right {
+        float: none;
+        clear: both;
+        width: 100%;
+        @include hHack(90px);
+    }
+    .file-list-block-right-pad {
+        padding-bottom: 40px
+    }
+    .fb-add-comment-btn {
+        margin: 0 auto;
+        float: none
+    }
+}
+
+.advt-triple-col {
+    @extend %cb;
+    // background: url(../../img/t.png) no-repeat center top;
+    &-left,
+    &-right,
+    &-center {
+        // opacity: 0.5
+    }
+    &,
+    &-left,
+    &-right,
+    &-center {
+        @include hHack(362px);
+        @extend %relat;
+    }
+    & {
+        width: 100%
+    }
+    &-left {
+        width: 41.93877551020408163265306122449%;
+        float: left;
+        // background: red;
+        z-index: 10;
+        &-pad {
+            @extend %cb;
+            padding-top: 28px;
+            padding-left: 29px;
+        }
+    }
+    &-right {
+        width: 33.673469387755102040816326530612%;
+        float: right;
+        // background: aqua;
+        z-index: 11;
+        &-pad {
+            @extend %cb;
+            padding-top: 28px;
+        }
+    }
+    &-center {
+        width: 100%;
+        float: left;
+        // background: black;
+        margin-right: -100%;
+        z-index: 9;
+        margin-left: -41.93877551020408163265306122449%;
+        &-pad {
+            @extend %cb;
+            padding-left: 41.93877551020408163265306122449%;
+            padding-top: 28px;
+            padding-right: 35.773%;
+        }
+    }
+}
+
+@media only screen and (max-width:983px) {
+    .advt-triple-col,
+    .advt-triple-col-left,
+    .advt-triple-col-right,
+    .advt-triple-col-center {
+        float: none;
+        clear: both;
+        width: 100%;
+        margin: 0
+    }
+}
+
+.advt-titles {
+    &,
+    &-txt {
+        @extend %cb;
+        text-align: left
+    }
+    & {
+        font-size: 14px;
+        color: #6d6d6d;
+        @extend %semibold-regular;
+        letter-spacing: -0.1px
+    }
+}
+
+.add-pad-x {
+    @extend %cb;
+    @include hHack(16px);
+}
+
+.def-area {
+    background: red
+}
+
+.def-area-box {
+    @include hHack(137px);
+}
+
+.add-pad-x2 {
+    @extend %cb;
+    @include hHack(18px);
+}
+
+.b-cell {
+    padding-top: 4px;
+    @extend %cb;
+    text-align: right;
+    & .orange-btn.fix-btn-size {
+        float: right
+    }
+}
+
+.images-cell {
+    &,
+    &-pad {
+        @extend %cb
+    }
+    &-pad {
+        padding-left: 58px
+    }
+}
+
+
+
+.advt-triple-col{margin-bottom:30px}
