@@ -1324,7 +1324,7 @@ WeblySleek UI Semilight Italic
 }
 
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
-/* line 2, ../sass/jquery.fancybox.scss */
+/* line 3, ../sass/jquery.fancybox.scss */
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -1358,9 +1358,9 @@ WeblySleek UI Semilight Italic
   background: #f9f9f9;
   color: #444;
   text-shadow: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 
 /* line 39, ../sass/jquery.fancybox.scss */
@@ -1376,48 +1376,53 @@ WeblySleek UI Semilight Italic
 }
 
 /* line 49, ../sass/jquery.fancybox.scss */
-.fancybox-outer, .fancybox-inner {
+.fancybox-outer,
+.fancybox-inner {
   position: relative;
 }
 
-/* line 53, ../sass/jquery.fancybox.scss */
+/* line 54, ../sass/jquery.fancybox.scss */
 .fancybox-inner {
   overflow: hidden;
 }
 
-/* line 57, ../sass/jquery.fancybox.scss */
+/* line 58, ../sass/jquery.fancybox.scss */
 .fancybox-type-iframe .fancybox-inner {
   -webkit-overflow-scrolling: touch;
 }
 
-/* line 61, ../sass/jquery.fancybox.scss */
+/* line 62, ../sass/jquery.fancybox.scss */
 .fancybox-error {
   color: #444;
-  font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 15px;
   white-space: nowrap;
 }
 
-/* line 69, ../sass/jquery.fancybox.scss */
-.fancybox-image, .fancybox-iframe {
+/* line 70, ../sass/jquery.fancybox.scss */
+.fancybox-image,
+.fancybox-iframe {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-/* line 75, ../sass/jquery.fancybox.scss */
+/* line 77, ../sass/jquery.fancybox.scss */
 .fancybox-image {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 80, ../sass/jquery.fancybox.scss */
-#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+/* line 82, ../sass/jquery.fancybox.scss */
+#fancybox-loading,
+.fancybox-close,
+.fancybox-prev span,
+.fancybox-next span {
   background-image: url(../../img/fancybox_sprite.png);
 }
 
-/* line 84, ../sass/jquery.fancybox.scss */
+/* line 89, ../sass/jquery.fancybox.scss */
 #fancybox-loading {
   position: fixed;
   top: 50%;
@@ -1430,14 +1435,21 @@ WeblySleek UI Semilight Italic
   z-index: 8060;
 }
 
-/* line 96, ../sass/jquery.fancybox.scss */
+/* line 101, ../sass/jquery.fancybox.scss */
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url(fancybox_loading.gif) center center no-repeat;
+  background: url(../../img/fancybox_loading.gif) center center no-repeat;
+  -webkit-background-size: 24px 24px;
+  -icab-background-size: 24px 24px;
+  -khtml-background-size: 24px 24px;
+  -moz-background-size: 24px 24px;
+  -o-background-size: 24px 24px;
+  -ms-background-size: 24px 24px;
+  background-size: 24px 24px;
 }
 
-/* line 102, ../sass/jquery.fancybox.scss */
+/* line 114, ../sass/jquery.fancybox.scss */
 .fancybox-close {
   position: absolute;
   top: -18px;
@@ -1448,7 +1460,7 @@ WeblySleek UI Semilight Italic
   z-index: 8040;
 }
 
-/* line 112, ../sass/jquery.fancybox.scss */
+/* line 124, ../sass/jquery.fancybox.scss */
 .fancybox-nav {
   position: absolute;
   top: 0;
@@ -1462,17 +1474,17 @@ WeblySleek UI Semilight Italic
   z-index: 8040;
 }
 
-/* line 124, ../sass/jquery.fancybox.scss */
+/* line 137, ../sass/jquery.fancybox.scss */
 .fancybox-prev {
   left: 0;
 }
 
-/* line 128, ../sass/jquery.fancybox.scss */
+/* line 141, ../sass/jquery.fancybox.scss */
 .fancybox-next {
   right: 0;
 }
 
-/* line 132, ../sass/jquery.fancybox.scss */
+/* line 145, ../sass/jquery.fancybox.scss */
 .fancybox-nav span {
   position: absolute;
   top: 50%;
@@ -1484,24 +1496,24 @@ WeblySleek UI Semilight Italic
   visibility: hidden;
 }
 
-/* line 143, ../sass/jquery.fancybox.scss */
+/* line 156, ../sass/jquery.fancybox.scss */
 .fancybox-prev span {
   left: 10px;
   background-position: 0 -36px;
 }
 
-/* line 148, ../sass/jquery.fancybox.scss */
+/* line 161, ../sass/jquery.fancybox.scss */
 .fancybox-next span {
   right: 10px;
   background-position: 0 -72px;
 }
 
-/* line 153, ../sass/jquery.fancybox.scss */
+/* line 166, ../sass/jquery.fancybox.scss */
 .fancybox-nav:hover span {
   visibility: visible;
 }
 
-/* line 157, ../sass/jquery.fancybox.scss */
+/* line 170, ../sass/jquery.fancybox.scss */
 .fancybox-tmp {
   position: absolute;
   top: -99999px;
@@ -1512,23 +1524,23 @@ WeblySleek UI Semilight Italic
 }
 
 /* Overlay helper */
-/* line 168, ../sass/jquery.fancybox.scss */
+/* line 182, ../sass/jquery.fancybox.scss */
 .fancybox-lock {
   overflow: visible !important;
   width: auto;
 }
 
-/* line 173, ../sass/jquery.fancybox.scss */
+/* line 187, ../sass/jquery.fancybox.scss */
 .fancybox-lock body {
   overflow: hidden !important;
 }
 
-/* line 177, ../sass/jquery.fancybox.scss */
+/* line 191, ../sass/jquery.fancybox.scss */
 .fancybox-lock-test {
   overflow-y: hidden !important;
 }
 
-/* line 181, ../sass/jquery.fancybox.scss */
+/* line 195, ../sass/jquery.fancybox.scss */
 .fancybox-overlay {
   position: absolute;
   top: 0;
@@ -1539,35 +1551,35 @@ WeblySleek UI Semilight Italic
   background: url(../../img/fancybox_overlay.png);
 }
 
-/* line 191, ../sass/jquery.fancybox.scss */
+/* line 205, ../sass/jquery.fancybox.scss */
 .fancybox-overlay-fixed {
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
-/* line 197, ../sass/jquery.fancybox.scss */
+/* line 211, ../sass/jquery.fancybox.scss */
 .fancybox-lock .fancybox-overlay {
   overflow: auto;
   overflow-y: scroll;
 }
 
 /* Title helper */
-/* line 204, ../sass/jquery.fancybox.scss */
+/* line 219, ../sass/jquery.fancybox.scss */
 .fancybox-title {
   visibility: hidden;
-  font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: normal 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   text-shadow: none;
   z-index: 8050;
 }
 
-/* line 212, ../sass/jquery.fancybox.scss */
+/* line 227, ../sass/jquery.fancybox.scss */
 .fancybox-opened .fancybox-title {
   visibility: visible;
 }
 
-/* line 216, ../sass/jquery.fancybox.scss */
+/* line 231, ../sass/jquery.fancybox.scss */
 .fancybox-title-float-wrap {
   position: absolute;
   bottom: 0;
@@ -1577,7 +1589,7 @@ WeblySleek UI Semilight Italic
   text-align: center;
 }
 
-/* line 225, ../sass/jquery.fancybox.scss */
+/* line 240, ../sass/jquery.fancybox.scss */
 .fancybox-title-float-wrap .child {
   display: inline-block;
   margin-right: -100%;
@@ -1595,19 +1607,19 @@ WeblySleek UI Semilight Italic
   white-space: nowrap;
 }
 
-/* line 241, ../sass/jquery.fancybox.scss */
+/* line 257, ../sass/jquery.fancybox.scss */
 .fancybox-title-outside-wrap {
   position: relative;
   margin-top: 10px;
   color: #fff;
 }
 
-/* line 247, ../sass/jquery.fancybox.scss */
+/* line 263, ../sass/jquery.fancybox.scss */
 .fancybox-title-inside-wrap {
   padding-top: 10px;
 }
 
-/* line 251, ../sass/jquery.fancybox.scss */
+/* line 267, ../sass/jquery.fancybox.scss */
 .fancybox-title-over-wrap {
   position: absolute;
   bottom: 0;
@@ -1620,18 +1632,26 @@ WeblySleek UI Semilight Italic
 
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 266, ../sass/jquery.fancybox.scss */
-  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  /* line 283, ../sass/jquery.fancybox.scss */
+  #fancybox-loading,
+  .fancybox-close,
+  .fancybox-prev span,
+  .fancybox-next span {
     background-image: url(../../img/fancybox_sprite@2x.png);
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
 
-  /* line 271, ../sass/jquery.fancybox.scss */
+  /* line 291, ../sass/jquery.fancybox.scss */
   #fancybox-loading div {
     background-image: url(../../img/fancybox_loading@2x.gif);
+    -webkit-background-size: 24px 24px;
+    -icab-background-size: 24px 24px;
+    -khtml-background-size: 24px 24px;
+    -moz-background-size: 24px 24px;
+    -o-background-size: 24px 24px;
+    -ms-background-size: 24px 24px;
     background-size: 24px 24px;
-    /*The size of the normal image, half the size of the hi-res image*/
   }
 }
 /* line 1, ../sass/jquery.fancybox-buttons.scss */
