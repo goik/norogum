@@ -1,11 +1,11 @@
 $pathIcons:"../../fonts/icons/";
 @font-face {
     font-family: "icomoon-1";
-    src: url($pathIcons+"icomoon-1.eot?o85itf");
-    src: url($pathIcons+"icomoon-1.eot?o85itf#iefix") format("embedded-opentype"), 
-    url($pathIcons+"icomoon-1.ttf?o85itf") format("truetype"), 
-    url($pathIcons+"icomoon-1.woff?o85itf") format("woff"), 
-    url($pathIcons+"icomoon-1.svg?o85itf#icomoon") format("svg");
+    src: url($pathIcons+"icomoon-1.eot?kw6dqp");
+    src: url($pathIcons+"icomoon-1.eot?kw6dqp#iefix") format("embedded-opentype"), 
+    url($pathIcons+"icomoon-1.ttf?kw6dqp") format("truetype"), 
+    url($pathIcons+"icomoon-1.woff?kw6dqp") format("woff"), 
+    url($pathIcons+"icomoon-1.svg?kw6dqp#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -36,7 +36,18 @@ $pathIcons:"../../fonts/icons/";
 \e90a
 \e90b
 \e90c
+\e90d
+\e90e
 */
+
+
+.first-icon-calendar159:before {
+    content: "\e90d";
+}
+
+.first-icon-check:before {
+    content: "\e90e";
+}
 
 .first-icon-add-icon-1:before {
     content: "\e900";

@@ -86,17 +86,18 @@ $(document).ready(function() {
 
 
     //tab system
-    $("body").on("click", ".tab-cell-list-item", function() {
+    $("body").on("click", ".tab-cell-list-item", function() { 
         $(".tab-cell-list-item").each(function() {
             $(this).removeClass("current");
         });
-        $(this).addClass("current");
-        return false;
-    });
+        $(this).addClass("current");  
+        return false;  
+    }); 
 
-
-    // input on focus
-    $("body").on("focus", ".def-inp", function() {
+// 
+/**/  
+    // input on focus 
+    $("body").on("focus", ".def-inp",  function() {
         $(this).closest(".def-inp-bg").addClass("inp-focus");
     });
 
@@ -114,6 +115,31 @@ $(document).ready(function() {
     });
 
 
+		// SelectBox Custom 
+		$("body").on("mouseenter",".drop-down-custom-select-box-cell",function(){
+			openSelectBox($(this)); 
+		}); 
+
+		$("body").on("mouseleave",".drop-down-custom-select-box-cell",function(){
+			closeSelectBox($(this)); 
+		}); 
+
+		function openSelectBox(element){
+			element.find(".dd-box").css({display:"block"}).animate({opacity:1},300);
+		}
+		
+		function closeSelectBox(element){
+			element.find(".dd-box").animate({opacity:0},300,function(){
+				$(this).css({display:"none"}); 
+			}); 
+		}
+
+	// Scroll in Custom Select Box
+	jQuery('.scrollbar-inner').scrollbar();
+
+
+	$('.fancybox').fancybox(); 
+	var z="s";
 
     // link anchor aminamte
     $('a[href*=#]:not([href=#])').click(function() {
@@ -130,3 +156,5 @@ $(document).ready(function() {
     });
 
 });
+
+

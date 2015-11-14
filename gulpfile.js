@@ -7,25 +7,24 @@ var notify 		= require('gulp-notify');
 var minifyHTML 	= require('gulp-minify-html');
 
 gulp.task("defaultJS", function() {
+
 	return gulp.src([
-				"js/jquery-1.11.3.min.js",
+				"js/jquery-1.11.3.min.js", 
 				"js/jquery.easing.1.3.min.js",
 				"js/jquery.mousewheel.min.js",
-				//"js/jquery.mCustomScrollbar.concat.min.js",
+				"js/jquery.fancybox.pack.js",
+				"js/jquery.fancybox-buttons.js",
+				"js/jquery.fancybox-thumbs.js",
+				"js/jquery.fancybox-media.js",
 				"js/owl.carousel.js",
-				"js/fontsmoothie.min.js",
-				"js/SmoothScroll.min.js",
+				"js/jquery.scrollbar.min.js",
 				"js/executive.js"
-				//"js/fancySelect.js",
-				//"js/angular/angular.min.js",
-				//"js/angular/angular-sanitize.min.js",
-				//"js/angular/angular-route.min.js",
-				//"js/directives.js"
 			])
 	.pipe(concatJS("all.js"))
 	.pipe(jsmin())
 	.pipe(rename("all.min.js"))
-	.pipe(gulp.dest("app/js/"));
+	.pipe(gulp.dest("app/js/"))
+	.pipe(notify("DONE JS!!!"))
 });
 
 gulp.task("defaultCSS", function(){
@@ -47,6 +46,7 @@ gulp.task('minify-html', function() {
 
 gulp.task("watch", function(){
 	gulp.watch("css/*.css",["defaultCSS"])
-	gulp.watch("js/*.js",["defaultJS"])
 	gulp.watch("*.html",["minify-html"])
+	gulp.watch("js/*.js",["defaultJS"])
 });
+
