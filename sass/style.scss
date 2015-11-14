@@ -1890,7 +1890,6 @@ a {
 .advt-add {
     @extend %cb;
     @include hHack(155px);
-    /*    background: url(../../img/trafaret-2.jpg) no-repeat center top;*/
     &-title {
         color: #656565;
         font-size: 19px;
