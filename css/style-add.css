@@ -2943,3 +2943,9 @@ strong {
     padding-left: 0;
   }
 }
+@media only screen and (max-width: 392px) {
+  /* line 951, ../sass/style-add.scss */
+  .msg-txt {
+    font-size: 16px;
+  }
+}
