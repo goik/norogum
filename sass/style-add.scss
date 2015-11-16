@@ -478,6 +478,10 @@ strong {
         /*width: 326.66666666666666666666666666667px;*/
         /*        width: 33.3333333333333333%;*/
         @extend %relat;
+        @extend %transitionExt;
+        &:hover {
+            background: #f9f9f9;
+        }
     }
     &,
     &-cell {
@@ -654,6 +658,10 @@ strong {
         text-decoration: none;
         color: #fff;
         border: solid #dedcd7 1px;
+        @extend %transitionExt;
+        &:hover {
+            background: #dedcd7;
+        }
         &,
         &-pad {
             @extend %relat;
@@ -958,6 +966,7 @@ strong {
 }
 
 .bottom-ad-fix {
+    display: block;
     @include hHack(140px);
     width: 100%;
     background-repeat: no-repeat;
@@ -1135,4 +1144,57 @@ strong {
 
 .services-slider .owl-controls.clickable {
     display: none!important
+}
+
+.services-slider-item {
+    border-right: solid #dee1dd 1px;
+}
+
+.services-slider-top-spacer {
+    @include hHack(40px);
+    @extend %cb;
+}
+
+.services-slider-bottom-spacer {
+    @include hHack(40px);
+    @extend %cb;
+}
+
+.info-list {
+    border-right: solid #dee1dd 1px;
+}
+
+.last-ad-section-right-pad ul {
+    border-right: solid #dee1dd 0px;
+}
+
+.last-ad-section-middle-pad,
+.last-ad-section-left-pad {
+    padding-right: 20px;
+}
+
+.see-all-btn {
+    @extend %relat;
+}
+
+.arrow-next {
+    display: block;
+    width: 8px;
+    height: 13px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 3px;
+    left: 39px;
+}
+
+.arrow-next .first-icon-arrow-next-icon-1 {
+    color: #fff;
+}
+
+.see-all-btn-txt-c {
+    position: relative;
+    top: 0;
+    left: -5px;
 }
