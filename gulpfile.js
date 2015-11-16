@@ -12,6 +12,7 @@ gulp.task("defaultJS", function() {
 				"js/jquery-1.11.3.min.js", 
 				"js/jquery.easing.1.3.min.js",
 				"js/jquery.mousewheel.min.js",
+				"js/owl.carousel.min.js",
 				"js/jquery.fancybox.pack.js",
 				"js/jquery.fancybox-buttons.js",
 				"js/jquery.fancybox-thumbs.js",
