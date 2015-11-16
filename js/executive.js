@@ -154,6 +154,18 @@ $(document).ready(function() {
             }
         }
     });
+    
+	// var owlDownload=$(".unique-slider-cell").owlCarousel({
+	// 		items:1,
+	// 		navigation:false, 
+	// 		slideSpeed:800, 
+	// 		lazyEffect : "fade",
+	// 		singleItem:true,
+	// 		transitionStyle:"fade",
+	// 		responsive:true,
+	// 		afterAction:function(elem){}
+	// });
+
 
 });
 
