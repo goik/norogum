@@ -1198,3 +1198,17 @@ strong {
     top: 0;
     left: -5px;
 }
+
+.rating-star-list {
+    &,
+    &-item {
+        list-style: none;
+        font-size: 0;
+    }
+    &-item {
+        padding: 3px 0;
+    }
+    .star-list-item-link-txt {
+        font-size: 13px;
+    }
+}

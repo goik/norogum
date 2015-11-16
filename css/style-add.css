@@ -3865,3 +3865,17 @@ strong {
   top: 0;
   left: -5px;
 }
+
+/* line 1203, ../sass/style-add.scss */
+.rating-star-list, .rating-star-list-item {
+  list-style: none;
+  font-size: 0;
+}
+/* line 1208, ../sass/style-add.scss */
+.rating-star-list-item {
+  padding: 3px 0;
+}
+/* line 1211, ../sass/style-add.scss */
+.rating-star-list .star-list-item-link-txt {
+  font-size: 13px;
+}
