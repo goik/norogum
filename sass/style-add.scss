@@ -474,9 +474,9 @@ strong {
         @include hHack(278px);
     }
     &-item {
-        float: left;
-        //width: 326.66666666666666666666666666667px;
-        width: 33.3333333333333333%;
+        /*        float: left;*/
+        /*width: 326.66666666666666666666666666667px;*/
+        /*        width: 33.3333333333333333%;*/
         @extend %relat;
     }
     &,
@@ -1123,9 +1123,16 @@ strong {
 }
 
 .owl-carousel .owl-wrapper-outer {
-overflow: visible!important;
-
+    overflow: visible!important;
 }
 
 
 /*owl-controls clickable{}*/
+
+.services-slider {
+    overflow: hidden;
+}
+
+.services-slider .owl-controls.clickable {
+    display: none!important
+}

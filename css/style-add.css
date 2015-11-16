@@ -3071,8 +3071,9 @@ strong {
 }
 /* line 476, ../sass/style-add.scss */
 .services-slider-item {
-  float: left;
-  width: 33.3333333333333333%;
+  /*        float: left;*/
+  /*width: 326.66666666666666666666666666667px;*/
+  /*        width: 33.3333333333333333%;*/
 }
 
 /* line 488, ../sass/style-add.scss */
@@ -3786,3 +3787,12 @@ strong {
 }
 
 /*owl-controls clickable{}*/
+/* line 1132, ../sass/style-add.scss */
+.services-slider {
+  overflow: hidden;
+}
+
+/* line 1136, ../sass/style-add.scss */
+.services-slider .owl-controls.clickable {
+  display: none !important;
+}
