@@ -199,11 +199,22 @@ $(document).ready(function() {
 
 
     $("body").on("click", ".sidebar-menu-list-item-link", function() {
+
+
+        $(".sidebar-menu-list-item-link").each(function() {
+            $(this).find(".sidebar-menu-arrow").removeClass("rotate");
+        });
+
+        $(this).find(".sidebar-menu-arrow").addClass("rotate");
+
+
+
         $(".sub-cell").each(function() {
             $(this).stop().animate({
                 height: 0
             }, 300);
         });
+        
         item = $(this).closest(".sidebar-menu-list-item");
         heightDetect = item.find(".sub-cell-height-detect").css("height");
         item.find(".sub-cell").stop().animate({

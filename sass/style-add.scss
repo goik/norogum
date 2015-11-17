@@ -1418,3 +1418,26 @@ strong {
     height: 0;
     overflow: hidden;
 }
+
+.sidebar-menu-sub-list-item.current a {
+    color: #000;
+}
+
+.rotate {
+    -moz-transform: rotate(90deg) center center;
+    -khtml-transform: rotate(90deg);
+    -icab-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    -icab-transform-origin: 50% 0%;
+    -khtml-transform-origin: 50% 0%;
+    -webkit-transform-origin: 50% 0%;
+}
+
+.sidebar-menu-arrow {
+    @extend %transitionExt;
+}

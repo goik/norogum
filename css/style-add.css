@@ -2494,7 +2494,7 @@ WeblySleek UI Semilight Italic
 
 /* line 183, ../sass/header.scss */
 .adv-btn-cell .adv-btn, .adv-btn-cell .adv-btn-arrow, .adv-men,
-.kitchen, .blue-btn, .clear-btn, .unique-slider-item-txt, .custom-style-checkbox .style-check-track, .custom-style-checkbox .style-check-face, .services-slider-item, .ad-article-link, .read-more-link, .see-all-btn, .info-list-item-article-descr-link, .pagination-list-item-link, .sidebar-menu-list-item-link, .sidebar-menu-sub-list-link, .sidebar-menu-sub-list-item-link {
+.kitchen, .blue-btn, .clear-btn, .unique-slider-item-txt, .custom-style-checkbox .style-check-track, .custom-style-checkbox .style-check-face, .services-slider-item, .ad-article-link, .read-more-link, .see-all-btn, .info-list-item-article-descr-link, .pagination-list-item-link, .sidebar-menu-list-item-link, .sidebar-menu-sub-list-link, .sidebar-menu-sub-list-item-link, .sidebar-menu-arrow {
   -webkit-transition: all 0.3s, ease-in-out;
   -icab-transition: all 0.3s, ease-in-out;
   -khtml-transition: all 0.3s, ease-in-out;
@@ -4093,8 +4093,29 @@ strong {
   height: 40px;
 }
 
-/* line 1418, ../sass/style-add.scss */
+/* line 1417, ../sass/style-add.scss */
 .sub-cell {
   height: 0;
   overflow: hidden;
+}
+
+/* line 1422, ../sass/style-add.scss */
+.sidebar-menu-sub-list-item.current a {
+  color: #000;
+}
+
+/* line 1426, ../sass/style-add.scss */
+.rotate {
+  -moz-transform: rotate(90deg) center center;
+  -khtml-transform: rotate(90deg);
+  -icab-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -icab-transform-origin: 50% 0%;
+  -khtml-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
 }
