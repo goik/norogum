@@ -1441,3 +1441,102 @@ strong {
 .sidebar-menu-arrow {
     @extend %transitionExt;
 }
+
+.rating-txt {
+    color: #656565;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: -13px;
+    padding-right: 5px;
+}
+
+.star-list-item {
+    padding-right: 3px;
+}
+
+.rating-under-image {
+    display: block;
+    padding-top: 5px;
+}
+
+.n-size-width {
+    max-width: 444px;
+}
+
+.n-pad-x50 {
+    padding-top: 20px;
+}
+
+.ad-article-txt.n-size-width {
+    padding-top: 0;
+}
+
+.art-title {
+    color: #656565;
+    font-size: 14px;
+    @extend %semibold-regular;
+    text-align: left;
+}
+
+.ad-article-txt-int {
+    display: block;
+    padding: 0 0 0 0;
+}
+
+.n-pad12 {
+    padding-top: 0;
+}
+
+.n-pad12 .post-date-cell {
+    top: 0!important;
+}
+
+.n-pad12 .user-name-field-fix {
+    @extend %semibold-regular;
+}
+
+.city {
+    display: block;
+    color: #6c6c6c;
+    font-size: 14px;
+    padding: 0 0 10px 0;
+}
+
+.article-img-place,
+.other-image-list {
+    @extend %cb;
+}
+
+.other-image-list {
+    text-align: left;
+    width: 100%;
+}
+
+.other-image-list,
+.other-image-item {
+    list-style: none;
+    font-size: 0;
+}
+
+.other-image-list-item {
+    width: 20%;
+    display: inline-block;
+}
+
+.article-img-place {
+    padding-top: 20px;
+}
+
+.other-image-list-item-pad {
+    padding-right: 10px;
+}
+
+.ad-article.w100p-article {
+    width: 100%;
+    border-bottom: solid #dee1dd 1px;
+    margin-bottom: 20px;
+}
+
+.add-padd-x {
+    padding-left: 240px
+}
