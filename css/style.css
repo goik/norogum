@@ -840,56 +840,61 @@ WeblySleek UI Semilight Italic
 }
 
 /* line 60, ../sass/_font-icons.scss */
-.first-icon-arrow-next-icon-1:before {
+.first-icon-arrow-next-icon-2:before {
   content: "\e902";
 }
 
 /* line 64, ../sass/_font-icons.scss */
+.first-icon-arrow-next-icon-1:before {
+  content: "\e902";
+}
+
+/* line 68, ../sass/_font-icons.scss */
 .first-icon-arrow-prev-icon-1:before {
   content: "\e903";
 }
 
-/* line 68, ../sass/_font-icons.scss */
+/* line 72, ../sass/_font-icons.scss */
 .first-icon-arrow-top-icon-1:before {
   content: "\e904";
 }
 
-/* line 72, ../sass/_font-icons.scss */
+/* line 76, ../sass/_font-icons.scss */
 .first-icon-facebook-icon-1:before {
   content: "\e905";
 }
 
-/* line 76, ../sass/_font-icons.scss */
+/* line 80, ../sass/_font-icons.scss */
 .first-icon-facebook-in-rectangle-1:before {
   content: "\e906";
 }
 
-/* line 80, ../sass/_font-icons.scss */
+/* line 84, ../sass/_font-icons.scss */
 .first-icon-google-plus-icon-1:before {
   content: "\e907";
 }
 
-/* line 84, ../sass/_font-icons.scss */
+/* line 88, ../sass/_font-icons.scss */
 .first-icon-search-icon-1:before {
   content: "\e908";
 }
 
-/* line 88, ../sass/_font-icons.scss */
+/* line 92, ../sass/_font-icons.scss */
 .first-icon-star-icon-1:before {
   content: "\e909";
 }
 
-/* line 92, ../sass/_font-icons.scss */
+/* line 96, ../sass/_font-icons.scss */
 .first-icon-twitter-icon-1:before {
   content: "\e90a";
 }
 
-/* line 96, ../sass/_font-icons.scss */
+/* line 100, ../sass/_font-icons.scss */
 .first-icon-warning-icon-1:before {
   content: "\e90b";
 }
 
-/* line 100, ../sass/_font-icons.scss */
+/* line 104, ../sass/_font-icons.scss */
 .first-icon-youtube-icon-1:before {
   content: "\e90c";
 }
@@ -2066,7 +2071,7 @@ WeblySleek UI Semilight Italic
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url(../../img/fancybox_loading.gif) center center no-repeat;
+  background: url(../img/fancybox_loading.gif) center center no-repeat;
   -webkit-background-size: 24px 24px;
   -icab-background-size: 24px 24px;
   -khtml-background-size: 24px 24px;
@@ -2095,7 +2100,7 @@ WeblySleek UI Semilight Italic
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url(../../img/blank.gif);
+  background: transparent url(../img/blank.gif);
   /* helps IE */
   -webkit-tap-highlight-color: transparent;
   z-index: 8040;
@@ -2175,7 +2180,7 @@ WeblySleek UI Semilight Italic
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url(../../img/fancybox_overlay.png);
+  background: url(../img/fancybox_overlay.png);
 }
 
 /* line 205, ../sass/jquery.fancybox.scss */
@@ -2264,14 +2269,14 @@ WeblySleek UI Semilight Italic
   .fancybox-close,
   .fancybox-prev span,
   .fancybox-next span {
-    background-image: url(../../img/fancybox_sprite@2x.png);
+    background-image: url(../img/fancybox_sprite@2x.png);
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
 
   /* line 291, ../sass/jquery.fancybox.scss */
   #fancybox-loading div {
-    background-image: url(../../img/fancybox_loading@2x.gif);
+    background-image: url(../img/fancybox_loading@2x.gif);
     -webkit-background-size: 24px 24px;
     -icab-background-size: 24px 24px;
     -khtml-background-size: 24px 24px;

@@ -757,7 +757,6 @@ strong {
     padding-top: 3px
 }
 
-
 .top-info-section-right-pad {
     padding-top: 34px
 }
@@ -773,8 +772,6 @@ strong {
     top: 0;
     left: 0
 }
-
-
 
 .bottom-ad,
 .bottom-ad-pad,
@@ -942,8 +939,6 @@ strong {
     padding-top: 40px;
 }
 
-
-
 .owl-carousel .owl-wrapper-outer {
     overflow: visible!important;
 }
@@ -1077,7 +1072,6 @@ strong {
     @include hHack(32px);
     @extend %cb;
 }
-
 
 @media only screen and (max-width:1212px) {
     .ad-article {
@@ -1271,3 +1265,83 @@ strong {
     }
 }
 
+.pagination {
+    &,
+    &-pad,
+    &-list {
+        @extend %cb;
+        text-align: right;
+    }
+    &-list {
+        display: inline-block;
+    }
+    &-pad {
+        padding-top: 68px
+    }
+    &-list {
+        &,
+        &-item {
+            list-style: none;
+            font-size: 0;
+            display: inline-block;
+        }
+        &-item {
+            padding-right: 13px;
+            &-link {
+                @extend %relat;
+                @extend %transitionExt;
+                display: inline-block;
+                text-decoration: none;
+                font-size: 12px !important;
+                color: $mainTitleColor;
+                border: solid #dedcd7 1px;
+                @include borderRadius(3px);
+                padding: 10px 12px;
+                &:hover {
+                    border: solid #fab149 1px;
+                    background: #fab149;
+                    color: #fff
+                }
+            }
+            &.current &-link {
+                border: solid #fab149 1px;
+                background: #fab149;
+                color: #fff
+            }
+        }
+    }
+    .pagination-arrow {
+        @extend %center;
+        font-size: 12px;
+        color: #ed397f!important
+    }
+}
+
+.inner-two-col-left-pad .ad-right-sidebar-place {
+    position: relative;
+    top: 0;
+    left: -15px
+}
+
+.spacer-adv {
+    @extend %cb;
+    @include hHack(30px)
+}
+
+.sidebar-title {
+    &,
+    &-pad {
+        @extend %cb;
+    }
+    @extend %semibold-regular;
+    font-size:14px
+}
+
+.inner-two-col-left-pad {
+    text-align: left
+}
+
+.sidebar-menu {
+    @extend %cb;
+    @include hHack(523px);
+}
