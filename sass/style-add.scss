@@ -737,7 +737,7 @@ strong {
 
 .rating-star-article {
     padding-top: 3px;
-    padding-left: 10px
+    padding-left: 0px
 }
 
 .rating-star-article ul,
@@ -746,7 +746,7 @@ strong {
 }
 
 .rating-star-article .first-icon-star-icon-1 {
-    font-size: 13px
+    font-size: 10px
 }
 
 .ad-article-date {
@@ -757,147 +757,6 @@ strong {
     padding-top: 3px
 }
 
-@media only screen and (max-width:1212px) {
-    .ad-article {
-        float: none;
-        clear: none;
-        width: 100%
-    }
-}
-
-@media only screen and (max-width:1154px) {
-    .unique-slider-cell-item-left:after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: -17px;
-        width: 18px;
-        height: 100%;
-        background: #bfd7cd;
-        z-index: 100
-    }
-    .unique-slider-cell-item-left:before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: -17px;
-        width: 17px;
-        height: 100%;
-        background: #bfd7cd;
-        z-index: 100
-    }
-    .unique-slider-cell-item-right:after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: -17px;
-        width: 17px;
-        height: 100%;
-        background: #d56839;
-    }
-    .unique-slider-cell-item-right:before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: -17px;
-        width: 17px;
-        height: 100%;
-        background: #d56839
-    }
-    .unique-slider-cell-item,
-    .unique-slider-cell-item-left,
-    .unique-slider-cell-item-right {
-        float: none;
-        clear: both;
-        width: 100%
-    }
-    .sphere-1,
-    .sphere-2,
-    .sphere-3 {
-        display: none
-    }
-    .adv-men {
-        left: 22%
-    }
-    .kitchen {
-        left: 50%
-    }
-    .unique-slider-cell-item-left-bg {
-        z-index: 20
-    }
-}
-
-@media only screen and (max-width:1018px) {
-    .filter-form-pad {
-        padding-left: 0;
-        padding-right: 0
-    }
-}
-
-@media only screen and (max-width:932px) {
-    .filter-form .reg-inp-row-pad {
-        padding-right: 40px;
-    }
-    .btn-place.n-position.n-right {
-        right: auto!important;
-        left: -ms-calc(98% - 5px) !important;
-        left: -ms-calc(98% - 5px) !important;
-        left: -moz-calc(98% - 5px) !important;
-        left: -icab-calc(98% - 5px) !important;
-        left: -khtml-calc(98% - 5px) !important;
-        left: -webkit-calc(98% - 5px) !important;
-        left: -o-calc(98% - 5px) !important;
-        left: calc(98% - 5px) !important;
-    }
-    .filter-form-platform-two-col-left {
-        float: none;
-        width: 100%;
-        clear: both;
-    }
-    .filter-form-platform-two-col-right {
-        float: none;
-        width: 100%;
-        clear: both;
-    }
-    .filter-form-platform-two-col-right-pad {
-        padding-top: 28px
-    }
-}
-
-@media only screen and (max-width:757px) {
-    .unique-slider-cell-item-right {
-        display: none
-    }
-}
-
-@media only screen and (max-width:695px) {
-    .service-sub-cat {
-        padding-left: 16px
-    }
-    .filter-form-platform-two-col-left-long,
-    .filter-form-platform-two-col-left-short {
-        width: 100%;
-        clear: both;
-        float: none;
-        margin: 0;
-        @include hHack(auto);
-    }
-    .filter-form-platform-two-col-left-long-pad {
-        padding-bottom: 28px;
-        padding-right: 20px
-    }
-}
-
-@media only screen and (max-width:493px) {
-    .unique-slider-item-txt {
-        font-size: 16px;
-        line-height: 22px
-    }
-}
 
 .top-info-section-right-pad {
     padding-top: 34px
@@ -915,45 +774,7 @@ strong {
     left: 0
 }
 
-@media only screen and (max-width:1165px) {
-    .top-info-section-right {
-        width: 221px;
-        margin-left: -221px
-    }
-    .top-info-section-left-pad {
-        padding-right: 230px
-    }
-}
 
-@media only screen and (max-width:862px) {
-    .top-info-section-left-pad,
-    .top-info-section-right-pad {
-        padding-left: 0;
-        padding-right: 0
-    }
-    .top-info-section-left,
-    .top-info-section-right {
-        float: none;
-        margin: 0;
-        width: 100%;
-    }
-    .ad-right-sidebar-place {
-        margin: 0 auto
-    }
-}
-
-@media only screen and (max-width:472px) {
-    .ad-article-left,
-    .ad-article-right {
-        float: none;
-        clear: both;
-        width: 100%;
-        margin: 0;
-    }
-    .ad-article-right-pad {
-        padding-left: 0
-    }
-}
 
 .bottom-ad,
 .bottom-ad-pad,
@@ -1121,15 +942,7 @@ strong {
     padding-top: 40px;
 }
 
-@media only screen and (max-width:985px) {
-    .last-ad-section-left,
-    .last-ad-section-middle,
-    .last-ad-section-right {
-        width: 100%;
-        float: none;
-        clear: both;
-    }
-}
+
 
 .owl-carousel .owl-wrapper-outer {
     overflow: visible!important;
@@ -1177,7 +990,7 @@ strong {
     @extend %relat;
 }
 
-.arrow-next {
+.arrow-next2 {
     display: block;
     width: 8px;
     height: 13px;
@@ -1189,8 +1002,8 @@ strong {
     left: 39px;
 }
 
-.arrow-next .first-icon-arrow-next-icon-1 {
-    color: #fff;
+.arrow-next2 .first-icon-arrow-next-icon-1 {
+    color: #fff !important;
 }
 
 .see-all-btn-txt-c {
@@ -1212,3 +1025,249 @@ strong {
         font-size: 13px;
     }
 }
+
+.main-content-sub-title-txt {
+    padding-left: 20px;
+    padding-top: 3px;
+    color: #7f7f7f;
+    font-size: 16px;
+    @extend %semilight;
+    display: inline-block;
+    @extend %relat;
+}
+
+.main-content-sub-title-txt-arrow {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 15px;
+    color: #7f7f7f
+}
+
+.inner-two-col {
+    & {
+        @extend %cb;
+    }
+    &,
+    &-left,
+    &-right {
+        @include hHack(1377px);
+    }
+    &-left {
+        width: 220px;
+        float: left;
+        @extend %relat;
+        z-index: 10;
+    }
+    &-right {
+        width: 100%;
+        float: left;
+        margin-right: -100%;
+        margin-left: -220px;
+        @extend %relat;
+        z-index: 9;
+        &-pad {
+            padding-left: 220px;
+        }
+    }
+}
+
+.inner-top-spacer {
+    display: block;
+    @include hHack(32px);
+    @extend %cb;
+}
+
+
+@media only screen and (max-width:1212px) {
+    .ad-article {
+        float: none;
+        clear: both;
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:1165px) {
+    .top-info-section-right {
+        width: 221px;
+        margin-left: -221px
+    }
+    .top-info-section-left-pad {
+        padding-right: 230px
+    }
+}
+
+@media only screen and (max-width:1154px) {
+    .unique-slider-cell-item-left:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -17px;
+        width: 18px;
+        height: 100%;
+        background: #bfd7cd;
+        z-index: 100
+    }
+    .unique-slider-cell-item-left:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -17px;
+        width: 17px;
+        height: 100%;
+        background: #bfd7cd;
+        z-index: 100
+    }
+    .unique-slider-cell-item-right:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -17px;
+        width: 17px;
+        height: 100%;
+        background: #d56839;
+    }
+    .unique-slider-cell-item-right:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -17px;
+        width: 17px;
+        height: 100%;
+        background: #d56839
+    }
+    .unique-slider-cell-item,
+    .unique-slider-cell-item-left,
+    .unique-slider-cell-item-right {
+        float: none;
+        clear: both;
+        width: 100%
+    }
+    .sphere-1,
+    .sphere-2,
+    .sphere-3 {
+        display: none
+    }
+    .adv-men {
+        left: 22%
+    }
+    .kitchen {
+        left: 50%
+    }
+    .unique-slider-cell-item-left-bg {
+        z-index: 20
+    }
+}
+
+@media only screen and (max-width:1018px) {
+    .filter-form-pad {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+@media only screen and (max-width:985px) {
+    .last-ad-section-left,
+    .last-ad-section-middle,
+    .last-ad-section-right {
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width:932px) {
+    .filter-form .reg-inp-row-pad {
+        padding-right: 40px;
+    }
+    .btn-place.n-position.n-right {
+        right: auto!important;
+        left: -ms-calc(98% - 5px) !important;
+        left: -ms-calc(98% - 5px) !important;
+        left: -moz-calc(98% - 5px) !important;
+        left: -icab-calc(98% - 5px) !important;
+        left: -khtml-calc(98% - 5px) !important;
+        left: -webkit-calc(98% - 5px) !important;
+        left: -o-calc(98% - 5px) !important;
+        left: calc(98% - 5px) !important;
+    }
+    .filter-form-platform-two-col-left {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+    .filter-form-platform-two-col-right {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+    .filter-form-platform-two-col-right-pad {
+        padding-top: 28px
+    }
+}
+
+@media only screen and (max-width:862px) {
+    .top-info-section-left-pad,
+    .top-info-section-right-pad {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .top-info-section-left,
+    .top-info-section-right {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    .ad-right-sidebar-place {
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width:757px) {
+    .unique-slider-cell-item-right {
+        display: none
+    }
+}
+
+@media only screen and (max-width:695px) {
+    .service-sub-cat {
+        padding-left: 16px
+    }
+    .filter-form-platform-two-col-left-long,
+    .filter-form-platform-two-col-left-short {
+        width: 100%;
+        clear: both;
+        float: none;
+        margin: 0;
+        @include hHack(auto);
+    }
+    .filter-form-platform-two-col-left-long-pad {
+        padding-bottom: 28px;
+        padding-right: 20px
+    }
+}
+
+@media only screen and (max-width:493px) {
+    .unique-slider-item-txt {
+        font-size: 16px;
+        line-height: 22px
+    }
+}
+
+@media only screen and (max-width:472px) {
+    .ad-article-left,
+    .ad-article-right {
+        float: none;
+        clear: both;
+        width: 100%;
+        margin: 0;
+    }
+    .ad-article-right-pad {
+        padding-left: 0
+    }
+}
+

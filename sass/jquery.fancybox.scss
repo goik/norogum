@@ -101,7 +101,7 @@
 #fancybox-loading div {
     width: 44px;
     height: 44px;
-    background: url(../../img/fancybox_loading.gif) center center no-repeat;
+    background: url(../img/fancybox_loading.gif) center center no-repeat;
     -webkit-background-size: 24px 24px;
     -icab-background-size: 24px 24px;
     -khtml-background-size: 24px 24px;
@@ -128,7 +128,7 @@
     height: 100%;
     cursor: pointer;
     text-decoration: none;
-    background: transparent url(../../img/blank.gif);
+    background: transparent url(../img/blank.gif);
     /* helps IE */
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     z-index: 8040;
@@ -199,7 +199,7 @@
     overflow: hidden;
     display: none;
     z-index: 8010;
-    background: url(../../img/fancybox_overlay.png);
+    background: url(../img/fancybox_overlay.png);
 }
 
 .fancybox-overlay-fixed {
@@ -284,12 +284,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .fancybox-close,
     .fancybox-prev span,
     .fancybox-next span {
-        background-image: url(../../img/fancybox_sprite@2x.png);
+        background-image: url(../img/fancybox_sprite@2x.png);
         background-size: 44px 152px;
         /*The size of the normal image, half the size of the hi-res image*/
     }
     #fancybox-loading div {
-        background-image: url(../../img/fancybox_loading@2x.gif);
+        background-image: url(../img/fancybox_loading@2x.gif);
         -webkit-background-size: 24px 24px;
         -icab-background-size: 24px 24px;
         -khtml-background-size: 24px 24px;
