@@ -1342,6 +1342,79 @@ strong {
 }
 
 .sidebar-menu {
+    padding-right: 14px;
     @extend %cb;
     @include hHack(523px);
+    &-list {
+        &,
+        &-item {
+            list-style: none;
+            font-size: 0;
+            @extend %cb;
+        }
+        &-item {
+            padding: 18px 0 0 0;
+            &-link {
+                display: block;
+                background: #fafcfd;
+                font-size: 13px;
+                line-height: 18px;
+                color: #656565;
+                border: solid #eaeaea 1px;
+                @extend %semibold-regular;
+                @extend %relat;
+                @extend %transitionExt;
+                @include borderRadius(4px);
+                text-decoration: none;
+                padding: 7px 20px 10px 15px;
+                &:hover {
+                    background: #eaeaea;
+                }
+            }
+        }
+    }
+}
+
+.sidebar-menu-arrow {
+    right: 20px;
+    left: auto;
+    top: 47%;
+    @extend %verticalCenter;
+    width: 5px;
+    height: 10px;
+    font-size: 14px;
+    color: #00aeee;
+}
+
+.sidebar-menu-sub-list {
+    padding: 20px 0 0px 0;
+    &,
+    &-item {
+        @extend %cb;
+        &-link {
+            color: #a7aaac;
+            font-size: 13px;
+            @extend %transitionExt;
+            @extend %semilight;
+            display: inline-block;
+            text-decoration: none;
+            &:hover {
+                color: #000;
+            }
+            ;
+        }
+    }
+    &-item {
+        padding: 4px 20px;
+    }
+}
+
+.spacer-x-20 {
+    @extend %cb;
+    @include hHack(40px);
+}
+
+.sub-cell {
+    height: 0;
+    overflow: hidden;
 }

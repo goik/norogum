@@ -2465,7 +2465,7 @@ WeblySleek UI Semilight Italic
 }
 
 /* line 157, ../sass/header.scss */
-.sphere-1, .sphere-2, .sphere-3, .services-arrow {
+.sphere-1, .sphere-2, .sphere-3, .services-arrow, .sidebar-menu-arrow {
   left: 0;
   top: 50%;
   position: absolute;
@@ -2494,7 +2494,7 @@ WeblySleek UI Semilight Italic
 
 /* line 183, ../sass/header.scss */
 .adv-btn-cell .adv-btn, .adv-btn-cell .adv-btn-arrow, .adv-men,
-.kitchen, .blue-btn, .clear-btn, .unique-slider-item-txt, .custom-style-checkbox .style-check-track, .custom-style-checkbox .style-check-face, .services-slider-item, .ad-article-link, .read-more-link, .see-all-btn, .info-list-item-article-descr-link, .pagination-list-item-link {
+.kitchen, .blue-btn, .clear-btn, .unique-slider-item-txt, .custom-style-checkbox .style-check-track, .custom-style-checkbox .style-check-face, .services-slider-item, .ad-article-link, .read-more-link, .see-all-btn, .info-list-item-article-descr-link, .pagination-list-item-link, .sidebar-menu-list-item-link, .sidebar-menu-sub-list-link, .sidebar-menu-sub-list-item-link {
   -webkit-transition: all 0.3s, ease-in-out;
   -icab-transition: all 0.3s, ease-in-out;
   -khtml-transition: all 0.3s, ease-in-out;
@@ -2505,12 +2505,12 @@ WeblySleek UI Semilight Italic
 }
 
 /* line 211, ../sass/header.scss */
-strong, .adv-btn-cell .adv-btn, .blue-btn, .clear-btn, .service-icon-place-txt-inner, .see-all-btn, .sidebar-title {
+strong, .adv-btn-cell .adv-btn, .blue-btn, .clear-btn, .service-icon-place-txt-inner, .see-all-btn, .sidebar-title, .sidebar-menu-list-item-link {
   font-family: "WeblySleek UI Semibold Regular", sans-serif;
 }
 
 /* line 219, ../sass/header.scss */
-.unique-slider-item-txt, .example-txt, .custom-style-checkbox-label .label-txt, .ad-article-txt, .user-name-field-fix, .ad-article-date, .main-content-sub-title-txt {
+.unique-slider-item-txt, .example-txt, .custom-style-checkbox-label .label-txt, .ad-article-txt, .user-name-field-fix, .ad-article-date, .main-content-sub-title-txt, .sidebar-menu-sub-list-link, .sidebar-menu-sub-list-item-link {
   font-family: "WeblySleek UI Semilight", sans-serif;
 }
 
@@ -2528,7 +2528,7 @@ strong, .adv-btn-cell .adv-btn, .blue-btn, .clear-btn, .service-icon-place-txt-i
 .bottom-ad-pad:after,
 .bottom-ad-fix:after, .last-ad-section:after, .info-list-item-article-descr:after,
 .info-list-item-article-author:after, .info-list:after,
-.info-list-item:after, .services-slider-top-spacer:after, .services-slider-bottom-spacer:after, .inner-two-col:after, .inner-top-spacer:after, .pagination:after, .pagination-pad:after, .pagination-list:after, .spacer-adv:after, .sidebar-title:after, .sidebar-title-pad:after, .sidebar-menu:after {
+.info-list-item:after, .services-slider-top-spacer:after, .services-slider-bottom-spacer:after, .inner-two-col:after, .inner-top-spacer:after, .pagination:after, .pagination-pad:after, .pagination-list:after, .spacer-adv:after, .sidebar-title:after, .sidebar-title-pad:after, .sidebar-menu:after, .sidebar-menu-list:after, .sidebar-menu-list-item:after, .sidebar-menu-sub-list:after, .sidebar-menu-sub-list-item:after, .spacer-x-20:after {
   clear: both;
   content: "";
   display: block;
@@ -2550,7 +2550,7 @@ strong, .adv-btn-cell .adv-btn, .blue-btn, .clear-btn, .service-icon-place-txt-i
 .bottom-ad-pad,
 .bottom-ad-fix, .last-ad-section, .info-list-item-article-descr,
 .info-list-item-article-author, .info-list,
-.info-list-item, .services-slider-top-spacer, .services-slider-bottom-spacer, .inner-two-col, .inner-top-spacer, .pagination, .pagination-pad, .pagination-list, .spacer-adv, .sidebar-title, .sidebar-title-pad, .sidebar-menu {
+.info-list-item, .services-slider-top-spacer, .services-slider-bottom-spacer, .inner-two-col, .inner-top-spacer, .pagination, .pagination-pad, .pagination-list, .spacer-adv, .sidebar-title, .sidebar-title-pad, .sidebar-menu, .sidebar-menu-list, .sidebar-menu-list-item, .sidebar-menu-sub-list, .sidebar-menu-sub-list-item, .spacer-x-20 {
   clear: both;
   display: block;
 }
@@ -2564,7 +2564,7 @@ strong, .adv-btn-cell .adv-btn, .blue-btn, .clear-btn, .service-icon-place-txt-i
 .bottom-ad-pad,
 .bottom-ad-fix, .last-ad-section, .info-list-item-article-descr,
 .info-list-item-article-author, .info-list,
-.info-list-item, .services-slider-top-spacer, .services-slider-bottom-spacer, .inner-two-col, .inner-top-spacer, .pagination, .pagination-pad, .pagination-list, .spacer-adv, .sidebar-title, .sidebar-title-pad, .sidebar-menu, .unique-slider, .unique-slider-cell-item, .unique-slider-cell-item-left, .unique-slider-cell-item-right, .adv-btn-cell .adv-btn, .adv-btn-cell .adv-btn-txt, .blue-btn, .clear-btn, .clear-btn-txt, .custom-style-checkbox .style-check-track, .services-slider-item, .top-info-section-left, .top-info-section-right, .ad-articles-two-col-left, .ad-articles-two-col-right, .ad-article, .ad-article-left, .ad-article-right, .ad-article-link, .ad-article-link-pad, .see-all-btn, .see-all-btn-txt, .main-content-sub-title-txt, .inner-two-col-left, .inner-two-col-right, .pagination-list-item-link {
+.info-list-item, .services-slider-top-spacer, .services-slider-bottom-spacer, .inner-two-col, .inner-top-spacer, .pagination, .pagination-pad, .pagination-list, .spacer-adv, .sidebar-title, .sidebar-title-pad, .sidebar-menu, .sidebar-menu-list, .sidebar-menu-list-item, .sidebar-menu-sub-list, .sidebar-menu-sub-list-item, .spacer-x-20, .unique-slider, .unique-slider-cell-item, .unique-slider-cell-item-left, .unique-slider-cell-item-right, .adv-btn-cell .adv-btn, .adv-btn-cell .adv-btn-txt, .blue-btn, .clear-btn, .clear-btn-txt, .custom-style-checkbox .style-check-track, .services-slider-item, .top-info-section-left, .top-info-section-right, .ad-articles-two-col-left, .ad-articles-two-col-right, .ad-article, .ad-article-left, .ad-article-right, .ad-article-link, .ad-article-link-pad, .see-all-btn, .see-all-btn-txt, .main-content-sub-title-txt, .inner-two-col-left, .inner-two-col-right, .pagination-list-item-link, .sidebar-menu-list-item-link {
   position: relative;
   top: 0;
   left: 0;
@@ -4018,7 +4018,83 @@ strong {
 
 /* line 1344, ../sass/style-add.scss */
 .sidebar-menu {
+  padding-right: 14px;
   min-height: 523px;
   height: auto !important;
   height: 523px;
+}
+/* line 1349, ../sass/style-add.scss */
+.sidebar-menu-list, .sidebar-menu-list-item {
+  list-style: none;
+  font-size: 0;
+}
+/* line 1355, ../sass/style-add.scss */
+.sidebar-menu-list-item {
+  padding: 18px 0 0 0;
+}
+/* line 1357, ../sass/style-add.scss */
+.sidebar-menu-list-item-link {
+  display: block;
+  background: #fafcfd;
+  font-size: 13px;
+  line-height: 18px;
+  color: #656565;
+  border: solid #eaeaea 1px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -icab-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 7px 20px 10px 15px;
+}
+/* line 1370, ../sass/style-add.scss */
+.sidebar-menu-list-item-link:hover {
+  background: #eaeaea;
+}
+
+/* line 1378, ../sass/style-add.scss */
+.sidebar-menu-arrow {
+  right: 20px;
+  left: auto;
+  top: 47%;
+  width: 5px;
+  height: 10px;
+  font-size: 14px;
+  color: #00aeee;
+}
+
+/* line 1389, ../sass/style-add.scss */
+.sidebar-menu-sub-list {
+  padding: 20px 0 0px 0;
+}
+/* line 1394, ../sass/style-add.scss */
+.sidebar-menu-sub-list-link, .sidebar-menu-sub-list-item-link {
+  color: #a7aaac;
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+}
+/* line 1401, ../sass/style-add.scss */
+.sidebar-menu-sub-list-link:hover, .sidebar-menu-sub-list-item-link:hover {
+  color: #000;
+}
+/* line 1407, ../sass/style-add.scss */
+.sidebar-menu-sub-list-item {
+  padding: 4px 20px;
+}
+
+/* line 1412, ../sass/style-add.scss */
+.spacer-x-20 {
+  min-height: 40px;
+  height: auto !important;
+  height: 40px;
+}
+
+/* line 1418, ../sass/style-add.scss */
+.sub-cell {
+  height: 0;
+  overflow: hidden;
 }

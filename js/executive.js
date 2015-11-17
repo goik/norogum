@@ -86,18 +86,18 @@ $(document).ready(function() {
 
 
     //tab system
-    $("body").on("click", ".tab-cell-list-item", function() { 
+    $("body").on("click", ".tab-cell-list-item", function() {
         $(".tab-cell-list-item").each(function() {
             $(this).removeClass("current");
         });
-        $(this).addClass("current");  
-        return false;  
-    }); 
+        $(this).addClass("current");
+        return false;
+    });
 
-// 
-/**/  
+    // 
+    /**/
     // input on focus 
-    $("body").on("focus", ".def-inp",  function() {
+    $("body").on("focus", ".def-inp", function() {
         $(this).closest(".def-inp-bg").addClass("inp-focus");
     });
 
@@ -115,31 +115,39 @@ $(document).ready(function() {
     });
 
 
-		// SelectBox Custom 
-		$("body").on("mouseenter",".drop-down-custom-select-box-cell",function(){
-			openSelectBox($(this)); 
-		}); 
+    // SelectBox Custom 
+    $("body").on("mouseenter", ".drop-down-custom-select-box-cell", function() {
+        openSelectBox($(this));
+    });
 
-		$("body").on("mouseleave",".drop-down-custom-select-box-cell",function(){
-			closeSelectBox($(this)); 
-		}); 
+    $("body").on("mouseleave", ".drop-down-custom-select-box-cell", function() {
+        closeSelectBox($(this));
+    });
 
-		function openSelectBox(element){
-			element.find(".dd-box").css({display:"block"}).animate({opacity:1},300);
-		}
-		
-		function closeSelectBox(element){
-			element.find(".dd-box").animate({opacity:0},300,function(){
-				$(this).css({display:"none"}); 
-			}); 
-		}
+    function openSelectBox(element) {
+        element.find(".dd-box").css({
+            display: "block"
+        }).animate({
+            opacity: 1
+        }, 300);
+    }
 
-	// Scroll in Custom Select Box
-	jQuery('.scrollbar-inner').scrollbar();
+    function closeSelectBox(element) {
+        element.find(".dd-box").animate({
+            opacity: 0
+        }, 300, function() {
+            $(this).css({
+                display: "none"
+            });
+        });
+    }
+
+    // Scroll in Custom Select Box
+    jQuery('.scrollbar-inner').scrollbar();
 
 
-	$('.fancybox').fancybox(); 
-	var z="s";
+    $('.fancybox').fancybox();
+    var z = "s";
 
     // link anchor aminamte
     $('a[href*=#]:not([href=#])').click(function() {
@@ -155,41 +163,56 @@ $(document).ready(function() {
         }
     });
 
-	// var owlDownload=$(".unique-slider-cell").owlCarousel({
-	// 		items:1,
-	// 		navigation:false, 
-	// 		slideSpeed:800, 
-	// 		lazyEffect : "fade",
-	// 		singleItem:true,
-	// 		transitionStyle:"fade",
-	// 		responsive:true,
-	// 		afterAction:function(elem){}
-	// });
+    // var owlDownload=$(".unique-slider-cell").owlCarousel({
+    //      items:1,
+    //      navigation:false, 
+    //      slideSpeed:800, 
+    //      lazyEffect : "fade",
+    //      singleItem:true,
+    //      transitionStyle:"fade",
+    //      responsive:true,
+    //      afterAction:function(elem){}
+    // });
 
 
 
 
 
     /*=======================*/
-    var carou1=$(".services-slider").owlCarousel({
-        items:3,
-        navigation:false,
-        slideSpeed:800,
-        transitionStyle:"fadeUp",
-        responsive:true,
-        afterAction:function(elem){}
+    var carou1 = $(".services-slider").owlCarousel({
+        items: 3,
+        navigation: false,
+        slideSpeed: 800,
+        transitionStyle: "fadeUp",
+        responsive: true,
+        afterAction: function(elem) {}
     });
-    $(".services-slider-arrow-prev").click(function(){
+    $(".services-slider-arrow-prev").click(function() {
         carou1.trigger('owl.prev');
         return false;
     });
-    $(".services-slider-arrow-next").click(function(){
+    $(".services-slider-arrow-next").click(function() {
         carou1.trigger('owl.next');
         return false;
     });
     /*=======================*/
 
 
+    $("body").on("click", ".sidebar-menu-list-item-link", function() {
+        $(".sub-cell").each(function() {
+            $(this).stop().animate({
+                height: 0
+            }, 300);
+        });
+        item = $(this).closest(".sidebar-menu-list-item");
+        heightDetect = item.find(".sub-cell-height-detect").css("height");
+        item.find(".sub-cell").stop().animate({
+            height: heightDetect
+        }, 300);
+        return false;
+    });
+
+
+
+
 });
-
-
