@@ -46,7 +46,7 @@ $(document).ready(function() {
     //login drop down
     var dropDownTimeOut;
 
-    $("body").on("mouseenter", ".enter-btn", function() {
+    $("body").on("click", ".enter-btn", function() {
         dropDown = $(this).find(".login-drop-down");
         dropDown.css({
             display: "block"
@@ -55,6 +55,7 @@ $(document).ready(function() {
         }, 300);
         clearTimeout(dropDownTimeOut);
     });
+    /*
     $("body").on("mouseleave", ".enter-btn", function() {
         dropDown = $(this).find(".login-drop-down");
         dropDownTimeOut = setTimeout(function() {
@@ -67,7 +68,7 @@ $(document).ready(function() {
             });
         }, 600);
     });
-
+    */
     $("body").on("click", ".js-drop-down-selector", function(e) {
         e.stopPropagation();
         return false;
@@ -116,7 +117,7 @@ $(document).ready(function() {
 
 
     // SelectBox Custom 
-    $("body").on("mouseenter", ".drop-down-custom-select-box-cell", function() {
+    $("body").on("click", ".drop-down-custom-select-box-cell", function() {
         openSelectBox($(this));
     });
 

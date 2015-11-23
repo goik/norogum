@@ -3126,7 +3126,7 @@ strong {
   margin: 4px auto 0 auto;
   width: 78px;
   height: 90px;
-  background: url(../img/service-icon-1.png) no-repeat center top;
+  background: url(../img/service-icon-1.svg) no-repeat center top;
 }
 
 /* line 531, ../sass/style-add.scss */
@@ -3135,7 +3135,7 @@ strong {
   margin: 4px auto 0 auto;
   width: 85px;
   height: 88px;
-  background: url(../img/service-icon-2.png) no-repeat center top;
+  background: url(../img/service-icon-2.svg) no-repeat center top;
 }
 
 /* line 539, ../sass/style-add.scss */
@@ -3144,7 +3144,7 @@ strong {
   margin: 4px auto 0 auto;
   width: 68px;
   height: 89px;
-  background: url(../img/service-icon-3.png) no-repeat center top;
+  background: url(../img/service-icon-3.svg) no-repeat center top;
 }
 
 /* line 547, ../sass/style-add.scss */
@@ -4225,7 +4225,35 @@ strong {
   margin-bottom: 20px;
 }
 
-/* line 1541, ../sass/style-add.scss */
+/* line 1540, ../sass/style-add.scss */
 .add-padd-x {
   padding-left: 240px;
+}
+
+/* line 1544, ../sass/style-add.scss */
+.service-icon-place-txt-inner {
+  line-height: 24px;
+}
+
+/* line 1548, ../sass/style-add.scss */
+.registration-btn-txt {
+  position: relative;
+  top: -2px;
+  left: 0;
+}
+
+/* line 1554, ../sass/style-add.scss */
+.enter-btn {
+  cursor: pointer;
+}
+
+/* line 1558, ../sass/style-add.scss */
+.drop-down-custom-select-box-cell {
+  cursor: pointer;
+}
+
+/* line 1563, ../sass/style-add.scss */
+.service-sub-cat-item-link-txt span {
+  display: inline-block;
+  padding-left: 10px;
 }
