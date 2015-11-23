@@ -21,8 +21,6 @@
 						<div class="main-content">
 							<div class="main-content-pad">
 
-
-
 										<!-- main-content-title-cell -->
 										<div class="main-content-title-cell">
 											<h1 class="main-content-title">
@@ -302,15 +300,15 @@
 											<div class="inner-two-col-right">
 												<div class="inner-two-col-right-pad">
 
-
+													<?php foreach($adList["descr"] as $index => $value){ ?>
 													<!-- ad-article -->
 													<article class="ad-article">
 														<div class="ad-article-left">
 															<div class="ad-article-left-pad">
 
-																<a href="#" class="ad-article-link">
+																<a href="<?=$adList["link"][$index] ?>" class="ad-article-link">
 																	<span class="ad-article-link-pad">
-																		<img 	src="img/ipsum/w-1.jpg" 
+																		<img 	src="img/ipsum/<?=$adList["img"][$index] ?>" 
 																						alt="" 
 																						title="" 
 																						width="115" 
@@ -323,18 +321,14 @@
 														</div>
 														<div class="ad-article-right">
 															<div class="ad-article-right-pad">
-
 																<div class="ad-article-txt">
-																	Ցանկացած ֆիրմայի լվացքի 
-																	մեքենաների վերանորոգում ձեր 
-																	իսկ հասցեում,երաշխիքով
+																	<?=$adList["descr"][$index] ?>
 																</div>
-
 																<!-- user-name-field -->
 																<div class="user-name-field">
 																	<div class="user-name-field-pad">
 																		<span class="user-name-field-fix">
-																			Պետրոսյան Ռուբիկ
+																			<?=$adList["author"][$index] ?>
 																		</span>
 																	</div>
 																</div>
@@ -343,9 +337,9 @@
 																<!-- ad-article-other-element -->
 																<div class="ad-article-other-element">
 
-																	<a href="#" class="read-more-link">
+																	<a href="<?=$adList["link"][$index] ?>" class="read-more-link">
 																		<span class="read-more-link-txt">
-																			ավելին
+																			<?=$tr["read-more"] ?>
 																		</span>
 																	</a>
 
@@ -395,7 +389,7 @@
 
 																	<!-- ad-article-date -->
 																	<span class="ad-article-date">
-																		23.10.2015
+																		<?=$adList["date"][$index] ?>
 																	</span>
 																	<!-- ad-article-date -->
 
@@ -406,7 +400,7 @@
 														</div>
 													</article>
 													<!-- /ad-article -->
-
+													<?php } ?>
 
 
 													<!-- pagination -->
@@ -423,34 +417,15 @@
 																		</span>
 																	</a>
 																</li>
-																<li class="pagination-list-item current">
+																<?php for ($i=0; $i<=3; $i++){ ?>
+																<li class="pagination-list-item"><!--add current-->
 																	<a href="#" class="pagination-list-item-link">
 																		<span class="pagination-list-item-link-txt">
-																			1
+																			<?=($i+1) ?>
 																		</span>
 																	</a>
 																</li>
-																<li class="pagination-list-item">
-																	<a href="#" class="pagination-list-item-link">
-																		<span class="pagination-list-item-link-txt">
-																			2
-																		</span>
-																	</a>
-																</li>
-																<li class="pagination-list-item">
-																	<a href="#" class="pagination-list-item-link">
-																		<span class="pagination-list-item-link-txt">
-																			3
-																		</span>
-																	</a>
-																</li>
-																<li class="pagination-list-item">
-																	<a href="#" class="pagination-list-item-link">
-																		<span class="pagination-list-item-link-txt">
-																			4
-																		</span>
-																	</a>
-																</li>
+																<?php } ?>
 																<li class="pagination-list-item">
 																	<a href="#" class="pagination-list-item-link">
 																		<span class="pagination-list-item-link-txt">
@@ -472,9 +447,7 @@
 										<!-- ~~~~~~~~~~~~~~~~~~~~-->
 										<!-- ~~~~~~/inner-two-col~~~~~~-->
 										<!-- ~~~~~~~~~~~~~~~~~~~~-->
-
-
-
+										<?php include_once("module/bottom-advertising.php"); ?>
 
 							</div>
 						</div>
@@ -493,3 +466,5 @@
 	include_once("inc/line-bottom.php");
 	include_once("inc/gzip-bottom.php");
 ?>
+
+
