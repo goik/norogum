@@ -1,11 +1,8 @@
-								<!-- ~~~~~~~~~~~~~~~~~~ -->
 								<!-- ~~~~~~filter-form~~~~~~ -->
-								<!-- ~~~~~~~~~~~~~~~~~~ -->
 								<section class="filter-form">
 									<div class="filter-form-pad">
 										<div class="filter-form-platform">
 											<div class="filter-form-platform-pad">
-
 
 												<!-- filter-form-platform-two-col -->
 												<div class="filter-form-platform-two-col">
@@ -21,18 +18,16 @@
 																			<div class="custom-select-box-left-pad">
 																				<span class="custom-select-box-result">
 																					<span class="custom-select-box-result-fix">
-																						ԾԱՌԱՅՈՒԹՅԱՆ ՏԵՍԱԿՆԵՐ
+																						<?=$tr["custom-select-box-title"]?>
 																					</span>
 																				</span>
 																			</div>
 																		</div>
 																		<div class="custom-select-box-right">
 																			<div class="custom-select-box-right-pad">
-
 																				<div class="custom-select-box-arrow">
 																					<span class="first-icon-arrow-bottom-icon-1"></span>
 																				</div>
-
 																			</div>
 																		</div>
 																	</div>
@@ -46,193 +41,33 @@
 																			<!-- service-cat -->
 																			<ul class="service-cat">
 																				<li class="service-cat-item">
+																					<?php 
+																						$i=0;
+																						foreach($servicesMainCat as $index => $value){
+																					?>
 																					<h2 class="service-cat-title">
 																						<span class="service-cat-title-txt">
-																							Շինարարություն և վերանորոգում
+																							<?=$servicesMainCat[$index] ?>
 																						</span>
 																					</h2>
 																					<ul class="service-sub-cat">
+																					<?php foreach($servicesMainSubCat[$i] as $index => $value){ ?>
 																						<li class="service-sub-cat-item">
 																							<a href="#" class="service-sub-cat-item-link">
 																								<span class="service-sub-cat-item-link-txt">
 																									<u>●</u>
 																									<span>
-																										Ներքին հարդարանք
+																										<?=$servicesMainSubCat[$i][$index] ?>
 																									</span>
 																								</span>
 																							</a>
 																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Առաստաղ
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Հատակ
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Շինարարություն
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Սանտեխնիկա
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Էլեկտրականություն
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Դռներ և պատուհաններ
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Պատվերով կահույք
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Նախագծում և դիզայն
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Ներքին հարդարանք
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Առաստաղ
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Հատակ
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Շինարարություն
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Սանտեխնիկա
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Էլեկտրականություն
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Դռներ և պատուհաններ
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Պատվերով կահույք
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										Նախագծում և դիզայն
-																									</span>
-																								</span>
-																							</a>
-																						</li>
+																						<?php } ?>
 																					</ul>
+																					<?php
+																						$i++;
+																					 } 
+																					 ?>
 																				</li>
 																			</ul>
 																			<!-- /service-cat -->
@@ -263,7 +98,7 @@
 																						</span>
 																					</span>
 																					<span class="label-txt">
-																						ՄԱՐԶ
+																						<?=$tr["region"] ?>
 																					</span>
 																				</label>
 																			</div>
@@ -278,7 +113,7 @@
 																						</span>
 																					</span>
 																					<span class="label-txt">
-																						ՄԻԱՅՆ ՆԿԱՐՈՎ 
+																						<?=$tr["only-img"] ?>
 																					</span>
 																				</label>
 																			</div>
@@ -302,7 +137,7 @@
 																			<div class="custom-select-box-left-pad">
 																				<span class="custom-select-box-result">
 																					<span class="custom-select-box-result-fix">
-																						ԱՆՀԱՏ
+																						<?=$tr["type-organization-1"] ?>
 																					</span>
 																				</span>
 																			</div>
@@ -343,25 +178,21 @@
 																			<div class="custom-select-box-left-pad">
 																				<span class="custom-select-box-result">
 																					<span class="custom-select-box-result-fix">
-																						ՎԱՐԿԱՆԻՇ
+																						<?=$tr["rating"] ?>
 																					</span>
 																				</span>
 																			</div>
 																		</div>
 																		<div class="custom-select-box-right">
 																			<div class="custom-select-box-right-pad">
-
 																				<div class="custom-select-box-arrow">
 																					<span class="first-icon-arrow-bottom-icon-1"></span>
 																				</div>
-
 																			</div>
 																		</div>
 																	</div>
 
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 																	<!--~~~~~~~~~ dd-box height-1 ~~~~~~~~~-->
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 																	<div class="dd-box height-3 scrollbar-inner">
 																		<div class="dd-box-pad">
 
@@ -558,9 +389,7 @@
 
 																		</div>
 																	</div>
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 																	<!--~~~~~~~~~ /dd-box height-1 ~~~~~~~~~-->
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 																</div>
 																<!-- drop-down-custom-select-box -->
@@ -593,10 +422,7 @@
 																<!-- example-txt -->
 																<div class="example-txt">
 																	<div class="example-txt-pad">
-																		Oրինակ` 
-																		<span class="italic">
-																			գրենական պիտույքների վաճառք
-																		</span>
+																		<?=$tr["example"] ?>
 																	</div>
 																</div>
 																<!-- /example-txt -->
@@ -606,7 +432,7 @@
 																	<div class="clear-btn-cell-pad">
 																		<a href="#" class="clear-btn">
 																			<span class="clear-btn-txt">
-																				Մաքրել
+																				<?=$tr["form-clear"] ?>
 																			</span>
 																		</a>
 																	</div>
@@ -628,6 +454,4 @@
 										</div>
 									</div>
 								</section>
-								<!-- ~~~~~~~~~~~~~~~~~~ -->
 								<!-- ~~~~~~/filter-form~~~~~~ -->
-								<!-- ~~~~~~~~~~~~~~~~~~ -->

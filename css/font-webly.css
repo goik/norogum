@@ -1,0 +1,74 @@
+/*
+WeblySleek UI Light Regular
+WeblySleek UI Light Italic
+WeblySleek UI Semibold Regular
+WeblySleek UI Semibold Italic
+WeblySleek UI Semilight
+WeblySleek UI Semilight Italic
+*/
+
+@font-face{
+	font-family:"WeblySleek UI Light Regular";
+	src: 	url("../fonts/webly/weblysleekuil.eot?#iefix")																						format("embedded-opentype"),
+				url("../fonts/webly/weblysleekuil.woff") 																								format("woff"),
+				url("../fonts/webly/weblysleekuil.ttf") 																										format("truetype"),
+				url("../fonts/webly/weblysleekuil.otf") 																									format("opentype"),
+				url("../fonts/webly/weblysleekuil.svg#WeblySleek-UI-Light-Regular") 							format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+
+@font-face{
+	font-family:"WeblySleek UI Light Italic";
+	src: 	url("../fonts/webly/weblysleekuili.eot?#iefix")																					format("embedded-opentype"),
+				url("../fonts/webly/weblysleekuili.woff") 																								format("woff"),
+				url("../fonts/webly/weblysleekuili.ttf") 																									format("truetype"),
+				url("../fonts/webly/weblysleekuili.otf") 																									format("opentype"),
+				url("../fonts/webly/weblysleekuili.svg#WeblySleek-UI-Light-Italic") 								format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+
+@font-face{
+	font-family:"WeblySleek UI Semibold Regular";
+	src: 	url("../fonts/webly/weblysleekuisb.eot?#iefix")																					format("embedded-opentype"),
+				url("../fonts/webly/weblysleekuisb.woff") 																							format("woff"),
+				url("../fonts/webly/weblysleekuisb.ttf") 																								format("truetype"),
+				url("../fonts/webly/weblysleekuisb.otf") 																								format("opentype"),
+				url("../fonts/webly/weblysleekuisb.svg#WeblySleek-UI-Semibold-Regular") 			format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+
+@font-face{
+	font-family:"WeblySleek UI Semibold Italic";
+	src: 	url("../fonts/webly/weblysleekuisbi.eot?#iefix")																			format("embedded-opentype"),
+				url("../fonts/webly/weblysleekuisbi.woff") 																						format("woff"),
+				url("../fonts/webly/weblysleekuisbi.ttf") 																							format("truetype"),
+				url("../fonts/webly/weblysleekuisbi.otf") 																							format("opentype"),
+				url("../fonts/webly/weblysleekuisbi.svg#WeblySleek-UI-Semibold-Italic") 			format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+
+@font-face{
+	font-family:"WeblySleek UI Semilight";
+	src: 	url("../fonts/webly/weblysleekuisl.eot?#iefix")																				format("embedded-opentype"),
+				url("../fonts/webly/weblysleekuisl.woff") 																							format("woff"),
+				url("../fonts/webly/weblysleekuisl.ttf") 																								format("truetype"),
+				url("../fonts/webly/weblysleekuisl.otf") 																								format("opentype"),
+				url("../fonts/webly/weblysleekuisl.svg#WeblySleek-UI-Semilight") 								format("svg");
+	font-weight:normal;
+	font-style:normal
+}
+
+@font-face{
+	font-family:"WeblySleek UI Semilight Italic";
+	src: 	url("../fonts/webly/weblysleekuisli.eot?#iefix")																				format("embedded-opentype"),
+				url("../fonts/webly/weblysleekuisli.woff") 																							format("woff"),
+				url("../fonts/webly/weblysleekuisli.ttf") 																								format("truetype"),
+				url("../fonts/webly/weblysleekuisli.otf") 																							 	format("opentype"),
+				url("../fonts/webly/weblysleekuisli.svg#WeblySleek-UI-Semilight-Italic") 				format("svg");
+	font-weight:normal;
+	font-style:normal
+}

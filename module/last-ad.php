@@ -103,7 +103,7 @@
 			<a href="#" class="see-all-btn">
 				<span class="see-all-btn-txt">
 					<span class="see-all-btn-txt-c">
-						բոլորը 
+						<?=$tr["all"] ?>
 					</span>
 					<span class="arrow-next2">
 						<span class="first-icon-arrow-next-icon-2"></span>

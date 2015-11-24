@@ -20,435 +20,138 @@
 						<!-- ~~~~~~~main-content~~~~~~~-->
 						<div class="main-content">
 							<div class="main-content-pad">
-
-										<!-- main-content-title-cell -->
-										<div class="main-content-title-cell">
-											<h1 class="main-content-title">
-												<span class="main-content-title-txt">
-													Էլեկտրոնիկա
-												</span>
-												<span class="main-content-sub-title-txt">
-													<span class="main-content-sub-title-txt-arrow">
-														<span class="first-icon-arrow-next-icon-2"></span>
-													</span>
-													Հեռախոսներ և պլանշետներ
-												</span>
-											</h1>
+								<!-- main-content-title-cell -->
+								<div class="main-content-title-cell">
+									<h1 class="main-content-title">
+										<span class="main-content-title-txt">
+											<?=$tr["custom-cat"] ?>
+										</span>
+										<span class="main-content-sub-title-txt">
+											<span class="main-content-sub-title-txt-arrow">
+												<span class="first-icon-arrow-next-icon-2"></span>
+											</span>
+											<?=$tr["custom-sub-cat"] ?>
+										</span>
+									</h1>
+								</div>
+								<div class="decoration-line"><div class="decoration-line-fill blue-fill"></div></div>
+								<!-- /main-content-title-cell -->
+								<div class="inner-top-spacer"></div>
+								<!-- ~~~~~~inner-two-col~~~~~~-->
+								<div class="inner-two-col">
+									<div class="inner-two-col-left">
+										<div class="inner-two-col-left-pad">
+											<?php include_once("module/sidebar-menu.php"); ?>
+											<?php include_once("module/sidebar-adver.php"); ?>
 										</div>
-										<!-- /main-content-title-cell -->
-
-										<!-- decoration-line -->
-										<div class="decoration-line">
-											<div class="decoration-line-fill blue-fill">
-
-											</div>
-										</div>
-										<!-- /decoration-line -->
-
-										<div class="inner-top-spacer"></div>
-
-										<!-- ~~~~~~~~~~~~~~~~~~~~-->
-										<!-- ~~~~~~inner-two-col~~~~~~-->
-										<!-- ~~~~~~~~~~~~~~~~~~~~-->
-										<div class="inner-two-col">
-											<div class="inner-two-col-left">
-												<div class="inner-two-col-left-pad">
-
-													<h2 class="sidebar-title">
-														<span class="sidebar-title-pad">
-															ԾԱՌԱՅՈՒԹՅԱՆ ՏԵՍԱԿՆԵՐ
-														</span>
-													</h2>
-
-													<!-- sidebar-menu -->
-													<div class="sidebar-menu">
-														<ul class="sidebar-menu-list">
-
-															<li class="sidebar-menu-list-item">
-																<a href="#" class="sidebar-menu-list-item-link">
-																	<span class="sidebar-menu-list-item-link-txt">
-																		<span class="sidebar-menu-arrow">
-																			<span class="first-icon-arrow-next-icon-2"></span>
-																		</span>
-																		Շինարարություն և վերանորոգում
-																	</span>
-																</a>
-
-																<div class="sub-cell">
-																	<div class="sub-cell-height-detect">
-																		<!-- sidebar-menu-sub-list -->
-																		<ul class="sidebar-menu-sub-list">
-																			<li class="sidebar-menu-sub-list-item current">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Ներքին հարդարանք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Առաստաղ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Հատակ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Շինարարություն</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Սանտեխնիկա</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Էլեկտրականություն</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Դռներ և պատուհաններ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Պատվերով կահույք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Նախագծում և դիզայն</span>
-																				</a>
-																			</li>
-																		</ul>
-																		<!-- /sidebar-menu-sub-list -->
-																	</div>
-																</div>
-
-															</li>
-															<li class="sidebar-menu-list-item">
-																<a href="#" class="sidebar-menu-list-item-link">
-																	<span class="sidebar-menu-list-item-link-txt">
-																		<span class="sidebar-menu-arrow">
-																			<span class="first-icon-arrow-next-icon-2"></span>
-																		</span>
-																		Էլեկտրոնիկա
-																	</span>
-																</a>
-
-																<div class="sub-cell">
-																	<div class="sub-cell-height-detect">
-																		<!-- sidebar-menu-sub-list -->
-																		<ul class="sidebar-menu-sub-list">
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Ներքին հարդարանք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Առաստաղ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Հատակ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Շինարարություն</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Սանտեխնիկա</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Էլեկտրականություն</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Դռներ և պատուհաններ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Պատվերով կահույք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Նախագծում և դիզայն</span>
-																				</a>
-																			</li>
-																		</ul>
-																		<!-- /sidebar-menu-sub-list -->
-																	</div>
-																</div>
-
-															</li>
-															<li class="sidebar-menu-list-item">
-
-																<a href="#" class="sidebar-menu-list-item-link">
-																	<span class="sidebar-menu-list-item-link-txt">
-																		<span class="sidebar-menu-arrow">
-																			<span class="first-icon-arrow-next-icon-2"></span>
-																		</span>
-																		Տրանսպորտային միջոցներ
-																	</span>
-																</a>
-
-																<div class="sub-cell">
-																	<div class="sub-cell-height-detect">
-																		<!-- sidebar-menu-sub-list -->
-																		<ul class="sidebar-menu-sub-list">
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Ներքին հարդարանք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Ներքին հարդարանք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Առաստաղ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Հատակ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Շինարարություն</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Սանտեխնիկա</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Էլեկտրականություն</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Դռներ և պատուհաններ</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Պատվերով կահույք</span>
-																				</a>
-																			</li>
-																			<li class="sidebar-menu-sub-list-item">
-																				<a href="#" class="sidebar-menu-sub-list-item-link">
-																					<span class="sidebar-menu-sub-list-item-link-txt">Նախագծում և դիզայն</span>
-																				</a>
-																			</li>
-																		</ul>
-																		<!-- /sidebar-menu-sub-list -->
-																	</div>
-																</div>
-
-															</li>
-														</ul>
-													</div>
-													<!-- sidebar-menu -->
-
-													<div class="spacer-x-20"></div>
-
-													<div class="ad-right-sidebar-place">
-														<a href="" class="ad-right-sidebar-link">
-															<img 	src="img/ad-right-sidebar-2.png" 
-																			alt="" 
-																			title="" 
-																			width="221" 
-																			height="400" 
-																			class="hta resize-img"/>
+									</div>
+									<div class="inner-two-col-right">
+										<div class="inner-two-col-right-pad">
+											<?php foreach($adList["descr"] as $index => $value){ ?>
+											<!-- ad-article -->
+											<article class="ad-article">
+												<div class="ad-article-left">
+													<div class="ad-article-left-pad">
+														<a href="<?=$adList["link"][$index] ?>" class="ad-article-link">
+															<span class="ad-article-link-pad">
+																<img 	src="img/ipsum/<?=$adList["img"][$index] ?>" 
+																				alt="" 
+																				title="" 
+																				width="115" 
+																				height="115" 
+																				class="hta resize-img"/>
+															</span>
 														</a>
 													</div>
-
-													<span class="spacer-adv"></span>
-
-													<div class="ad-right-sidebar-place">
-														<a href="" class="ad-right-sidebar-link">
-															<img 	src="img/ad-right-sidebar.png" 
-																			alt="" 
-																			title="" 
-																			width="221" 
-																			height="400" 
-																			class="hta resize-img"/>
-														</a>
-													</div>
-
 												</div>
-											</div>
-											<div class="inner-two-col-right">
-												<div class="inner-two-col-right-pad">
-
-													<?php foreach($adList["descr"] as $index => $value){ ?>
-													<!-- ad-article -->
-													<article class="ad-article">
-														<div class="ad-article-left">
-															<div class="ad-article-left-pad">
-
-																<a href="<?=$adList["link"][$index] ?>" class="ad-article-link">
-																	<span class="ad-article-link-pad">
-																		<img 	src="img/ipsum/<?=$adList["img"][$index] ?>" 
-																						alt="" 
-																						title="" 
-																						width="115" 
-																						height="115" 
-																						class="hta resize-img"/>
-																	</span>
-																</a>
-
+												<div class="ad-article-right">
+													<div class="ad-article-right-pad">
+														<div class="ad-article-txt">
+															<?=$adList["descr"][$index] ?>
+														</div>
+														<!-- user-name-field -->
+														<div class="user-name-field">
+															<div class="user-name-field-pad">
+																<span class="user-name-field-fix">
+																	<?=$adList["author"][$index] ?>
+																</span>
 															</div>
 														</div>
-														<div class="ad-article-right">
-															<div class="ad-article-right-pad">
-																<div class="ad-article-txt">
-																	<?=$adList["descr"][$index] ?>
-																</div>
-																<!-- user-name-field -->
-																<div class="user-name-field">
-																	<div class="user-name-field-pad">
-																		<span class="user-name-field-fix">
-																			<?=$adList["author"][$index] ?>
-																		</span>
-																	</div>
-																</div>
-																<!-- /user-name-field -->
+														<!-- /user-name-field -->
 
-																<!-- ad-article-other-element -->
-																<div class="ad-article-other-element">
+														<!-- ad-article-other-element -->
+														<div class="ad-article-other-element">
 
-																	<a href="<?=$adList["link"][$index] ?>" class="read-more-link">
-																		<span class="read-more-link-txt">
-																			<?=$tr["read-more"] ?>
-																		</span>
-																	</a>
+															<a href="<?=$adList["link"][$index] ?>" class="read-more-link">
+																<span class="read-more-link-txt">
+																	<?=$tr["read-more"] ?>
+																</span>
+															</a>
 
-																	<!-- rating-star-article -->
-																	<span class="rating-star-article">
-																		<!-- star-list -->
-																		<ul class="star-list">
-																			<li class="star-list-item select-star">
-																				<a href="#" class="star-list-item-link">
-																					<span class="star-list-item-link-txt">
-																						<span class="first-icon-star-icon-1"></span>
-																					</span>
-																				</a>
-																			</li>
-																			<li class="star-list-item select-star">
-																				<a href="#" class="star-list-item-link">
-																					<span class="star-list-item-link-txt">
-																						<span class="first-icon-star-icon-1"></span>
-																					</span>
-																				</a>
-																			</li>
-																			<li class="star-list-item select-star">
-																				<a href="#" class="star-list-item-link">
-																					<span class="star-list-item-link-txt">
-																						<span class="first-icon-star-icon-1"></span>
-																					</span>
-																				</a>
-																			</li>
-																			<li class="star-list-item">
-																				<a href="#" class="star-list-item-link">
-																					<span class="star-list-item-link-txt">
-																						<span class="first-icon-star-icon-1"></span>
-																					</span>
-																				</a>
-																			</li>
-																			<li class="star-list-item">
-																				<a href="#" class="star-list-item-link">
-																					<span class="star-list-item-link-txt">
-																						<span class="first-icon-star-icon-1"></span>
-																					</span>
-																				</a>
-																			</li>
-																		</ul>
-																		<!-- /star-list -->
-																	</span>
-																	<!-- rating-star-article -->
-
-																	<!-- ad-article-date -->
-																	<span class="ad-article-date">
-																		<?=$adList["date"][$index] ?>
-																	</span>
-																	<!-- ad-article-date -->
-
-																</div>
-																<!-- /ad-article-other-element -->
-
-															</div>
-														</div>
-													</article>
-													<!-- /ad-article -->
-													<?php } ?>
-
-
-													<!-- pagination -->
-													<div class="pagination">
-														<div class="pagination-pad">
-															<ul class="pagination-list">
-																<li class="pagination-list-item">
-																	<a href="#" class="pagination-list-item-link">
-																		<span class="pagination-list-item-link-txt">
-																			&nbsp;
-																			<span class="pagination-arrow pagination-arrow-prev">
-																				<span class="first-icon-arrow-prev-icon-1"></span>
+															<!-- rating-star-article -->
+															<span class="rating-star-article">
+																<!-- star-list -->
+																<ul class="star-list">
+																	<li class="star-list-item select-star">
+																		<a href="#" class="star-list-item-link">
+																			<span class="star-list-item-link-txt">
+																				<span class="first-icon-star-icon-1"></span>
 																			</span>
-																		</span>
-																	</a>
-																</li>
-																<?php for ($i=0; $i<=3; $i++){ ?>
-																<li class="pagination-list-item"><!--add current-->
-																	<a href="#" class="pagination-list-item-link">
-																		<span class="pagination-list-item-link-txt">
-																			<?=($i+1) ?>
-																		</span>
-																	</a>
-																</li>
-																<?php } ?>
-																<li class="pagination-list-item">
-																	<a href="#" class="pagination-list-item-link">
-																		<span class="pagination-list-item-link-txt">
-																			&nbsp;
-																			<span class="pagination-arrow pagination-arrow-next">
-																				<span class="first-icon-arrow-next-icon-2"></span>
+																		</a>
+																	</li>
+																	<li class="star-list-item select-star">
+																		<a href="#" class="star-list-item-link">
+																			<span class="star-list-item-link-txt">
+																				<span class="first-icon-star-icon-1"></span>
 																			</span>
-																		</span>
-																	</a>
-																</li>
-															</ul>
+																		</a>
+																	</li>
+																	<li class="star-list-item select-star">
+																		<a href="#" class="star-list-item-link">
+																			<span class="star-list-item-link-txt">
+																				<span class="first-icon-star-icon-1"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li class="star-list-item">
+																		<a href="#" class="star-list-item-link">
+																			<span class="star-list-item-link-txt">
+																				<span class="first-icon-star-icon-1"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li class="star-list-item">
+																		<a href="#" class="star-list-item-link">
+																			<span class="star-list-item-link-txt">
+																				<span class="first-icon-star-icon-1"></span>
+																			</span>
+																		</a>
+																	</li>
+																</ul>
+																<!-- /star-list -->
+															</span>
+															<!-- rating-star-article -->
+
+															<!-- ad-article-date -->
+															<span class="ad-article-date">
+																<?=$adList["date"][$index] ?>
+															</span>
+															<!-- ad-article-date -->
+
 														</div>
+														<!-- /ad-article-other-element -->
+
 													</div>
-													<!-- /pagination -->
-
 												</div>
-											</div>
+											</article>
+											<!-- /ad-article -->
+											<?php } ?>
+											<?php include_once("module/pagination.php"); ?>
 										</div>
-										<!-- ~~~~~~~~~~~~~~~~~~~~-->
-										<!-- ~~~~~~/inner-two-col~~~~~~-->
-										<!-- ~~~~~~~~~~~~~~~~~~~~-->
-										<?php include_once("module/bottom-advertising.php"); ?>
-
+									</div>
+								</div>
+								<!-- ~~~~~~/inner-two-col~~~~~~-->
+								<?php include_once("module/bottom-advertising.php"); ?>
 							</div>
 						</div>
 						<!-- ~~~~~~~/main-content~~~~~~~-->
@@ -466,5 +169,3 @@
 	include_once("inc/line-bottom.php");
 	include_once("inc/gzip-bottom.php");
 ?>
-
-

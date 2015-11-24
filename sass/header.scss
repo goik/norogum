@@ -1,3 +1,17 @@
+
+@import "owl.carousel";
+@import "owl.theme";
+@import "owl.transitions";
+@import "select-theme-dark";
+@import "base";
+@import "font-webly";
+@import "font-icons";
+@import "media-query";
+@import "jquery.scrollbar.scss";
+@import "jquery.fancybox";
+@import "jquery.fancybox-buttons";
+@import "jquery.fancybox-thumbs";
+
 $bgColor:#f8f7ee;
 $bodyTopDecorationLayer:#00aeee;
 $bodyTopDecorationLayerHeight:285px;
@@ -50,20 +64,11 @@ $regBtnColor:#fab149;
 $regBtnBorderColor:#ef9917;
 $topHeaderLink:( "normal":#a8a8a8, "hover":$hover);
 $bottomHeaderLink:( "normal":#1c1c1c, "hover":$hover);
+$bannerLeftColor:#dcf1e8;
+$bannerRightColor:#e27848;
 //@import "jquery.mCustomScrollbar.min";
-@import "owl.carousel";
-@import "owl.theme";
-@import "owl.transitions";
-@import "select-theme-dark";
-@import "base";
-@import "scroll-style";
-@import "font-webly";
-@import "font-icons";
-@import "media-query";
-@import "jquery.scrollbar.scss";
-@import "jquery.fancybox";
-@import "jquery.fancybox-buttons";
-@import "jquery.fancybox-thumbs";
+
+
 //====== MIXINS =======//
 @mixin hHack($height) {
     min-height: $height;
@@ -284,3 +289,4 @@ $bottomHeaderLink:( "normal":#1c1c1c, "hover":$hover);
 
 
 
+ 

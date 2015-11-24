@@ -24,7 +24,7 @@ gulp.task("defaultJS", function() {
 	.pipe(concatJS("all.js"))
 	.pipe(jsmin())
 	.pipe(rename("all.min.js"))
-	.pipe(gulp.dest("app/js/"))
+	.pipe(gulp.dest("js/"))
 	.pipe(notify("DONE JS!!!"))
 });
 
@@ -32,7 +32,7 @@ gulp.task("defaultCSS", function(){
 	gulp.src("css/style.css")
 	.pipe(minifyCSS())
 	.pipe(rename("style.min.css"))
-	.pipe(gulp.dest("app/css/"))
+	.pipe(gulp.dest("css/"))
 	.pipe(notify("DONE!!!"))
 });
 
