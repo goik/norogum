@@ -20,6 +20,9 @@
 						<!-- ~~~~~~~main-content~~~~~~~-->
 						<div class="main-content">
 							<div class="main-content-pad">
+
+
+
 								<!-- main-content-title-cell -->
 								<div class="main-content-title-cell">
 									<h1 class="main-content-title">
@@ -37,6 +40,7 @@
 								<div class="decoration-line"><div class="decoration-line-fill blue-fill"></div></div>
 								<!-- /main-content-title-cell -->
 								<div class="inner-top-spacer"></div>
+
 								<!-- ~~~~~~inner-two-col~~~~~~-->
 								<div class="inner-two-col">
 									<div class="inner-two-col-left">
@@ -151,6 +155,10 @@
 									</div>
 								</div>
 								<!-- ~~~~~~/inner-two-col~~~~~~-->
+
+
+
+
 								<?php include_once("module/bottom-advertising.php"); ?>
 							</div>
 						</div>

@@ -20,6 +20,9 @@
 						<!-- ~~~~~~~main-content~~~~~~~-->
 						<div class="main-content">
 							<div class="main-content-pad">
+
+
+
 								<!-- main-content-title-cell -->
 								<div class="main-content-title-cell">
 									<h1 class="main-content-title">
@@ -37,6 +40,7 @@
 								<div class="decoration-line"><div class="decoration-line-fill blue-fill"></div></div>
 								<!-- /main-content-title-cell -->
 								<div class="inner-top-spacer"></div>
+								
 								<!-- ~~~~~~inner-two-col~~~~~~-->
 								<div class="inner-two-col">
 									<div class="inner-two-col-left">
@@ -47,16 +51,17 @@
 									</div>
 									<div class="inner-two-col-right">
 										<div class="inner-two-col-right-pad">
-
-
+												<?php 
+													$i=0;
+													foreach($searchResult['title'] as $index => $value){
+												?>
 													<!-- ad-article -->
 													<article class="ad-article w100p-article">
 														<div class="ad-article-left">
 															<div class="ad-article-left-pad">
-
-																<a href="#" class="ad-article-link">
+																<a href="<?=$searchResult["link"][$i] ?>" class="ad-article-link">
 																	<span class="ad-article-link-pad">
-																		<img 	src="img/ipsum/p8.jpg" 
+																		<img 	src="img/ipsum/<?=$searchResult['avatar'][$i] ?>" 
 																						alt="" 
 																						title="" 
 																						width="115" 
@@ -65,11 +70,10 @@
 																	</span>
 																</a>
 															</div>
-
 															<!-- rating-under-image -->
 															<span class="rating-under-image">
 																<span class="rating-txt">
-																	Ռեյթինգ
+																	<?=$tr["rating"] ?>
 																</span>
 																<!-- rating-star-article -->
 																<span class="rating-star-article">
@@ -116,63 +120,55 @@
 																<!-- rating-star-article -->
 															</span>
 															<!-- /rating-under-image -->
-
 														</div>
 														<div class="ad-article-right">
 															<div class="ad-article-right-pad n-pad12">
-
 																<div class="post-date">
 																	<div class="post-date-cell">
-																		Ավելացվել է <u>23.10.2015</u>
+																		<?=$tr["add"] ?> <u><?=$searchResult["date"][$i] ?></u>
 																	</div>
 																</div>
-
 																<!-- ad-article-txt n-size-width -->
 																<div class="ad-article-txt n-size-width">
-
 																	<h2 class="art-title">
-																		Կատարում ենք տանիքների 
-																		կառուցման և վերանորոգման աշխատանքներ
+																		<?=$searchResult["title"][$i] ?>
 																	</h2>
-
 																	<div class="user-name-field">
 																		<div class="user-name-field-pad">
 																			<span class="user-name-field-fix">
-																				Պետրոսյան Ռուբիկ
+																				<?=$searchResult["author"][$i] ?>
 																			</span>
 																		</div>
 																	</div>
-
 																	<span class="city">
-																		Վեդի
+																		<?=$searchResult["region"][$i] ?>
 																	</span>
-
 																	<div class="ad-article-txt-int">
-																		Օգնությամբ Ավելի քան 5 000 տեսակ պահեստամասերով 
-																		հագեցած սեփական պահեստի գոյությունը մեզ հնարավորություն 
-																		է ընձեռնումիրականացնել բջջային
+																		<?=$searchResult["description"][$i] ?>
 																	</div>
 																</div>
 																<!-- /ad-article-txt n-size-width -->
-
 																<!-- ad-article-other-element -->
 																<div class="ad-article-other-element n-pad-x50">
 																	<a href="#" class="read-more-link">
 																		<span class="read-more-link-txt">
-																			ավելին
+																			<?=$tr["read-more"] ?>
 																		</span>
 																	</a>
 																</div>
 																<!-- /ad-article-other-element -->
-
 																<!-- article-img-place -->
 																<div class="article-img-place">
 																	<ul class="other-image-list">
+																		<?php
+																			$image_index=0;
+																			foreach($searchResult["images"][$i] as $index => $value){
+																		?>
 																		<li class="other-image-list-item">
 																			<div class="other-image-list-item-pad">
 																				<span class="ad-article-link">
 																					<span class="ad-article-link-pad">
-																						<img 	src="img/ipsum/p11.jpg" 
+																						<img 	src="img/ipsum/<?=$searchResult["images"][$i][$index]?>" 
 																										alt="" 
 																										title="" 
 																										width="115" 
@@ -182,65 +178,27 @@
 																				</span>
 																			</div>
 																		</li>
-																		<li class="other-image-list-item">
-																			<div class="other-image-list-item-pad">
-																				<span class="ad-article-link">
-																					<span class="ad-article-link-pad">
-																						<img 	src="img/ipsum/p12.jpg" 
-																										alt="" 
-																										title="" 
-																										width="115" 
-																										height="115" 
-																										class="hta resize-img"/>
-																					</span>
-																				</span>
-																			</div>
-																		</li>
-																		<li class="other-image-list-item">
-																			<div class="other-image-list-item-pad">
-																				<span class="ad-article-link">
-																					<span class="ad-article-link-pad">
-																						<img 	src="img/ipsum/p13.jpg" 
-																										alt="" 
-																										title="" 
-																										width="115" 
-																										height="115" 
-																										class="hta resize-img"/>
-																					</span>
-																				</span>
-																			</div>
-																		</li>
-																		<li class="other-image-list-item">
-																			<div class="other-image-list-item-pad">
-																				<span class="ad-article-link">
-																					<span class="ad-article-link-pad">
-																						<img 	src="img/ipsum/p14.jpg" 
-																										alt="" 
-																										title="" 
-																										width="115" 
-																										height="115" 
-																										class="hta resize-img"/>
-																					</span>
-																				</span>
-																			</div>
-																		</li>
+																		<?php } ?>
 																	</ul>
-
-
 																</div>
 																<!-- /article-img-place -->
-
 															</div>
 														</div>
 													</article>
 													<!-- /ad-article -->
-
-
+											<?php
+													$i++;
+												}
+											?>
 											<?php include_once("module/pagination.php"); ?>
 										</div>
 									</div>
 								</div>
 								<!-- ~~~~~~/inner-two-col~~~~~~-->
+
+
+
+
 								<?php include_once("module/bottom-advertising.php"); ?>
 							</div>
 						</div>

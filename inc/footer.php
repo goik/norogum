@@ -12,11 +12,11 @@
 							<!-- footer-nav -->
 							<nav class="footer-nav">
 								<ul class="footer-menu-list">
-									<?php foreach($mainMenu as $index => $value){ ?>
+									<?php foreach($mainMenu["title"] as $index => $value){ ?>
 									<li class="footer-menu-list-item"><!--add  current-->
-										<a href="#" class="footer-menu-list-item-link">
+										<a href='<?=$mainMenu["url"][$index] ?>?lang=<?=$current_language ?>' class="footer-menu-list-item-link">
 											<span class="footer-menu-list-item-link-txt">
-												<?=$mainMenu[$index] ?>
+												<?=$mainMenu["title"][$index] ?>
 											</span>
 										</a>
 									</li>

@@ -143,11 +143,11 @@
 			<!-- main-nav -->
 			<nav class="main-nav">
 				<ul class="main-nav-menu-list">
-					<?php foreach($mainMenu as $index => $value){ ?>
+					<?php foreach($mainMenu["title"] as $index => $value){ ?>
 					<li class="main-nav-menu-list-item"><!--add current-->
-						<a href="#" class="main-nav-menu-list-item-link">
+						<a href='<?=$mainMenu["url"][$index] ?>?lang=<?=$current_language ?>' class="main-nav-menu-list-item-link">
 							<span class="main-nav-menu-list-item-link-txt">
-								<?=$mainMenu[$index] ?>
+								<?=$mainMenu["title"][$index] ?>
 							</span>
 						</a>
 					</li>

@@ -107,7 +107,7 @@
 .footer-fix-inner,
 .footer-fix-pad,
 .footer-menu-list-item-link,
-.footer-menu-list-item-link,
+.footer-menu-list-item-link:after,
 .footer-triple-cell,
 .footer-triple-cell-center,
 .footer-triple-cell-left,
@@ -135,7 +135,7 @@
 .main-nav-item-link,
 .main-nav-item-link,
 .main-nav-menu-list-item-link,
-.main-nav-menu-list-item-link,
+.main-nav-menu-list-item-link:after,
 .orange-btn,
 .pagination-list-item-link,
 .persona-pages,
@@ -5287,3 +5287,6 @@ strong {
         padding-bottom:10px;
     }
 }
+
+
+

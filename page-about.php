@@ -15,18 +15,25 @@
 				<div class="main-fix-carcass-trafaret">
 					<div class="main-fix-carcass-trafaret-opacity">
 						<?php include_once("inc/header.php"); ?>
-						<?php include_once("module/unique-slider.php"); ?>
-						<?php include_once("module/filter-form.php"); ?>
 						<!-- ~~~~~~~main-content~~~~~~~-->
 						<div class="main-content">
 							<div class="main-content-pad">
 
 
 
-								<?php include_once("module/services.php"); ?>
-								<?php include_once("module/top-ad.php"); ?>
-								<?php include_once("module/last-ad.php"); ?>
-								<?php include_once("module/bottom-advertising.php"); ?>
+
+								<div class="main-content-top-spacre"></div>
+								<!-- main-content-title-cell -->
+								<div class="main-content-title-cell">
+									<h1 class="main-content-title">
+										<span class="main-content-title-txt">
+
+										</span>
+									</h1>
+								</div>
+								<div class="decoration-line"><div class="decoration-line-fill"></div></div>
+								<!-- /main-content-title-cell -->
+
 
 
 

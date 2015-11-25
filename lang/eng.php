@@ -5,12 +5,22 @@ $tr["docLang"]="en-US";
 $tr["docTitle"]="Repairs";
 $tr["docDescr"]="Repairs";
 $tr["docKey"]="Repairs";
+
 $mainMenu=array(
-								"MAIN",
-								"ABOUT US",
-								"HELP",
-								"CONTACT"
+												"title"=>array(
+																			"MAIN",
+																			"ABOUT US",
+																			"HELP",
+																			"CONTACT"
+																	),
+												"url"=>array(
+																			"index.php",
+																			"page-about.php",
+																			"page-help.php",
+																			"page-contact.php"
+																	)
 						);
+
 $tr["copyRight"]="© 2015 Norogum LLC.<br />All rights reserved.";
 $tr["registration"]="Registration";
 $tr["enter"]="Login";
@@ -36,6 +46,16 @@ $tr["region"]="REGION";
 $tr["only-img"]="ONLY IMAGES";
 $tr["rating"]="RATING";
 $tr["form-clear"]="Reset";
+$tr["add"]="Added";
+$tr["rating"]="Rating";
+$tr["ad-title"]="ADS";
+$tr["images-for-service"]="Images for service";
+$tr["about-service"]="Description of services";
+$tr["about-service-descr"]='It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).';
+$tr["attache-files"]="Attached files";
+$tr["add-comment"]="Add comment";
+$tr["short-info-post"]="It is a long established fact that a reader will be distracted by the readable content of a page";
+$tr["author"]="Jeneil Williams";
 
 $topAds=array(
 											'descr'=>				array(
@@ -329,6 +349,77 @@ $servicesMainSubCat=array(
 																							"Contract for gratuitous use of property"
 																		)
 																);
+
+
+
+$searchResult=array(
+															'title'=>array(
+																							"It is a long established fact that a reader will be distracted by the readable content of",
+																							"Many desktop publishing packages and web page editors now use Lorem Ipsum as their ",
+																							"It is a long established fact that a reader will be distracted by the readable content of",
+																							"It is a long established fact that a reader will be distracted by the readable content of",
+																							"Many desktop publishing packages and web page editors now use Lorem Ipsum as their "
+																							),
+
+															'date'=>array(
+																								"23.10.2015",
+																								"23.10.2015",
+																								"23.10.2015",
+																								"23.10.2015",
+																								"23.10.2015"
+																							),
+
+															'author'=>array(
+																								"Համբարցումյան Հակոբ",
+																								"Համբարցումյան Հակոբ",
+																								"Համբարցումյան Հակոբ",
+																								"Համբարցումյան Հակոբ",
+																								"Համբարցումյան Հակոբ"
+																							),
+
+															'region'=>array(
+																								"Vedi",
+																								"Ararat",
+																								"Abovyan",
+																								"Vardenis",
+																								"Hrazdan"
+																							),
+															'description'=>array(
+																								"Here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised",
+																								"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It",
+																								"Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
+																								"Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+																								"Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+																							),
+															'link'=>array(
+																								"#",
+																								"#",
+																								"#",
+																								"#",
+																								"#"
+																							),
+															'rating'=>array(
+																								"3",
+																								"4",
+																								"5",
+																								"1",
+																								"2"
+																							),
+															'avatar'=>array(
+																								"p1.jpg",
+																								"p2.jpg",
+																								"p3.jpg",
+																								"p4.jpg",
+																								"p5.jpg"
+																							),
+															'images'=>array(
+																								0=> array("1.jpg","2.jpg","3.jpg","4.jpg"),
+																								1=> array("5.jpg","6.jpg","7.jpg","8.jpg"),
+																								2=> array("9.jpg","10.jpg","11.jpg","12.jpg"),
+																								3=> array("13.jpg","14.jpg","15.jpg","16.jpg"),
+																								4=> array("17.jpg","2.jpg","3.jpg","4.jpg")
+																							)
+												);
 ?>
 
 
