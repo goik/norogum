@@ -20,22 +20,21 @@
 							<div class="main-content-pad">
 
 
-
-
 								<div class="main-content-top-spacre"></div>
 								<!-- main-content-title-cell -->
 								<div class="main-content-title-cell">
 									<h1 class="main-content-title">
 										<span class="main-content-title-txt">
-
+											<?=$tr["help"] ?>
 										</span>
 									</h1>
 								</div>
 								<div class="decoration-line"><div class="decoration-line-fill"></div></div>
 								<!-- /main-content-title-cell -->
 
-
-
+								<div class="default-page-style">
+									<?=$tr["help-description"] ?>
+								</div>
 
 							</div>
 						</div>

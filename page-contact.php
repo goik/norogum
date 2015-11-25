@@ -20,14 +20,12 @@
 							<div class="main-content-pad">
 
 
-
-
 								<div class="main-content-top-spacre"></div>
 								<!-- main-content-title-cell -->
 								<div class="main-content-title-cell">
 									<h1 class="main-content-title">
 										<span class="main-content-title-txt">
-
+											<?=$tr["contact"] ?>
 										</span>
 									</h1>
 								</div>
