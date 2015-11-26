@@ -5577,10 +5577,21 @@ strong {
     liyst-style: none;
 }
 
-.title-cell{
-    display:block;
-    min-height:58px;
-    height:auto!important;
-    height:58px;
-    background:#f7f7f7;
+.title-cell {
+    display: block;
+    min-height: 58px;
+    height: auto!important;
+    height: 58px;
+    background: #f7f7f7;
 }
+
+.title-cell-txt {
+    color: #00aeee;
+    font-size:17px;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif;
+    display:block;
+    text-align:left;
+
+}
+
+

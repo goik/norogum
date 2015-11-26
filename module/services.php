@@ -14,21 +14,7 @@ main-content-title-cell -->
 
 
 
-	<!-- service-all-list -->
-	<div class="service-all-list" style="display:none">
-		<ul class="service-all-list-ul">
-			<li class="service-all-list-ul-item">
-
-				<div class="title-cell">
-
-				</div>
-
-
-			</li>
-		</ul>
-	</div>
-	<!-- /service-all-list -->
-
+	
 
 
 	<!-- services-slider-top-spacer -->
