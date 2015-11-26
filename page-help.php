@@ -32,9 +32,15 @@
 								<div class="decoration-line"><div class="decoration-line-fill"></div></div>
 								<!-- /main-content-title-cell -->
 
+								<!--======================================-->
+								<!--============default-page-style============-->
+								<!--======================================-->
 								<div class="default-page-style">
 									<?=$tr["help-description"] ?>
 								</div>
+								<!--======================================-->
+								<!--============/default-page-style============-->
+								<!--======================================-->
 
 							</div>
 						</div>

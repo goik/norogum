@@ -32,8 +32,19 @@
 								<div class="decoration-line"><div class="decoration-line-fill"></div></div>
 								<!-- /main-content-title-cell -->
 
-
-
+								<!--======================================-->
+								<!--============default-page-style============-->
+								<!--======================================-->
+								<div class="default-page-style">
+									<?=$tr["contact-description"] ?>
+									<div class="main-content-top-spacre"></div>
+									<?php
+										include_once("module/contact.php");
+									?>
+								</div>
+								<!--======================================-->
+								<!--============/default-page-style============-->
+								<!--======================================-->
 
 							</div>
 						</div>

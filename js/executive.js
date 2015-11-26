@@ -2,10 +2,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-
     function footerHeight() {
         footerHeightDetect = $(".footer-fix").css("height");
         $(".footer-bottom-spacer").css({
@@ -75,6 +71,9 @@ $(document).ready(function() {
     });
 
     $("body").click(function() {
+
+        closeSelectBox($(this));
+
         clearTimeout(dropDownTimeOut);
         $(".login-drop-down").stop().animate({
             opacity: 0
@@ -85,6 +84,11 @@ $(document).ready(function() {
         });
     });
 
+
+
+    $("body").on("click",".drop-down-custom-select-box-cell",function(){
+        return false;
+    });
 
     //tab system
     $("body").on("click", ".tab-cell-list-item", function() {
@@ -121,9 +125,9 @@ $(document).ready(function() {
         openSelectBox($(this));
     });
 
-    $("body").on("mouseleave", ".drop-down-custom-select-box-cell", function() {
-        closeSelectBox($(this));
-    });
+    // $("body").on("mouseleave", ".drop-down-custom-select-box-cell", function() {
+    //     closeSelectBox($(this));
+    // });
 
     function openSelectBox(element) {
         element.find(".dd-box").css({
@@ -145,7 +149,6 @@ $(document).ready(function() {
 
     // Scroll in Custom Select Box
     jQuery('.scrollbar-inner').scrollbar();
-
 
     $('.fancybox').fancybox();
     var z = "s";
@@ -174,8 +177,6 @@ $(document).ready(function() {
     //      responsive:true,
     //      afterAction:function(elem){}
     // });
-
-
 
 
 

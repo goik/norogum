@@ -19,7 +19,7 @@
 														<!-- /unique-slider-item-txt -->
 														<!-- adv-btn-cell -->
 														<div class="adv-btn-cell">
-															<a href="#" class="adv-btn">
+															<a href="reg1.php?lang=<?=$current_language ?>" class="adv-btn">
 																<span class="adv-btn-arrow">
 																	<span class="first-icon-arrow-next-icon-1"></span>
 																</span>

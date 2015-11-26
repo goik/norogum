@@ -27,7 +27,7 @@
 										height="29" 
 										class="hta ico-position" />
 						<div class="info-list-item-article-descr">
-							<a href="<?=$lastAd["link"][$i] ?>" class="info-list-item-article-descr-link">
+							<a href="post.php?lang=<?=$current_language ?>" class="info-list-item-article-descr-link">
 								<?=$i ?> <?=$lastAd["descr"][$i] ?>
 							</a>
 						</div>
@@ -54,7 +54,7 @@
 										height="29" 
 										class="hta ico-position" />
 						<div class="info-list-item-article-descr">
-							<a href="<?=$lastAd["link"][$i] ?>" class="info-list-item-article-descr-link">
+							<a href="post.php?lang=<?=$current_language ?>" class="info-list-item-article-descr-link">
 								<?=$i ?> <?=$lastAd["descr"][$i] ?>
 							</a>
 						</div>
@@ -80,7 +80,7 @@
 										height="29" 
 										class="hta ico-position" />
 						<div class="info-list-item-article-descr">
-							<a href="<?=$lastAd["link"][$i] ?>" class="info-list-item-article-descr-link">
+							<a href="post.php?lang=<?=$current_language ?>" class="info-list-item-article-descr-link">
 								<?=$i ?> <?=$lastAd["descr"][$i] ?>
 							</a>
 						</div>
@@ -94,26 +94,4 @@
 		</div>
 	</div>
 </section>
-
-<!--~~~tar~~~-->
-<div class="tar-btn">
-	<!-- clear-btn-cell -->
-	<div class="clear-btn-cell">
-		<div class="clear-btn-cell-pad">
-			<a href="#" class="see-all-btn">
-				<span class="see-all-btn-txt">
-					<span class="see-all-btn-txt-c">
-						<?=$tr["all"] ?>
-					</span>
-					<span class="arrow-next2">
-						<span class="first-icon-arrow-next-icon-2"></span>
-					</span>
-				</span>
-			</a>
-		</div>
-	</div>
-	<!-- clear-btn-cell -->
-</div>
-<!--~~~/tar~~~-->
-
 <!-- ~~~~~~last-ad-section~~~~~~ -->

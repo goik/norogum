@@ -73,6 +73,8 @@
     transform: translate(-50%, -50%)
 }
 
+.user-name-field-fix a,
+.ad-article-txt a,
 .account-info-data-list-item,
 .account-info-data-list-item-left,
 .account-info-data-list-item-left-pad,
@@ -261,6 +263,8 @@ html {
     font-family: "WeblySleek UI Semilight Italic", sans-serif
 }
 
+.ccfield-prepend:after,
+.ccform:after,
 .ad-article:after,
 .account-info-data .account-info-descr-txt:after,
 .account-info-data .account-info-descr:after,
@@ -5253,6 +5257,9 @@ strong {
     .other-image-list-item {
         width: 24%;
     }
+    .ad-article-right-pad {
+        padding-top: 10px
+    }
 }
 
 @media only screen and (max-width:772px) {
@@ -5270,12 +5277,21 @@ strong {
         min-height: auto;
         height: auto;
     }
-    .ad-right-sidebar-place {
-        display: none;
-    }
     .inner-two-col,
     .inner-two-col-left,
     .inner-two-col-right {
+        min-height: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .ad-right-sidebar-place {
+        display: none;
+    }
+    .top-info-section,
+    .top-info-section-left,
+    .top-info-section-right {
         min-height: auto;
         height: auto;
     }
@@ -5289,12 +5305,252 @@ strong {
 }
 
 .default-page-style {
-    padding:30px 0;
+    padding: 30px 0;
     color: #656565;
     font-size: 15px;
     font-family: "WeblySleek UI Light Regular", sans-serif;
-    text-align:left;
-    line-height:23px;
+    text-align: left;
+    line-height: 23px;
 }
 
-.default-page-style p{padding:20px 0 }
+.default-page-style p {
+    padding: 20px 0
+}
+
+.default-page-style h1 {
+    font-size: 24px;
+    color: #666;
+    padding: 10px 0;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+.default-page-style h2 {
+    font-size: 20px;
+    color: #666;
+    padding: 10px 0;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+.default-page-style h3 {
+    font-size: 18px;
+    color: #666;
+    padding: 10px 0;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+.default-page-style h4 {
+    font-size: 16px;
+    color: #666;
+    padding: 10px 0;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+.default-page-style h5 {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+.default-page-style h6 {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+.default-page-style ul,
+.default-page-style ol,
+.default-page-style li {
+    list-style-position: inside;
+}
+
+.default-page-style a {
+    color: #00aeee;
+}
+
+.default-page-style a:hover {
+    text-decoration: none;
+}
+
+.default-page-style li {
+    padding-left: 10px;
+}
+
+.default-page-style hr {
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/font-awesome/fontawesome-webfont.eot?v=4.0.3');
+    src: url('../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/font-awesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/font-awesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/font-awesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #d8850e;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.fa-mobile-phone:before,
+.fa-mobile:before {
+    content: "\f10b";
+}
+
+.fa-user:before {
+    content: "\f007";
+}
+
+.fa-comment:before {
+    content: "\f075";
+}
+
+.fa-info:before {
+    content: "\f129";
+}
+
+
+/* Form CSS*/
+
+.ccfield-prepend {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.ccform-addon {
+    color: #f8ae45;
+    float: left;
+    padding: 8px;
+    width: 8%;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.ccformfield {
+    color: #000000;
+    background: #FFFFFF;
+    border: none;
+    padding: 15.5px;
+    width: 91.9%;
+    display: block;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.ccformfield {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.ccbtn {
+    display: block;
+    border: none;
+    background: #f8ae45;
+    float: right;
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ccbtn:hover {
+    background: #d8850e;
+}
+
+.ccform {
+    padding: 40px;
+    clear: both;
+}
+
+.ccfield-prepend {
+    background: #fff;
+    margin-bottom: 10px;
+    border: solid #ccc 1px;
+}
+
+.ccbtn {
+    -o-border-radius: 6px 6px 6px 6px;
+    -khtml-border-radius: 6px 6px 6px 6px;
+    -icab-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -ms-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.no-border {
+    border: solid #000 0px!important
+}
+
+.ad-article-txt a {
+    color: #656565;
+    text-decoration: none;
+}
+
+.ad-article-txt a:hover {
+    color: #000
+}
+
+.user-name-field-fix a {
+    color: #959595;
+    text-decoration: none;
+}
+
+.user-name-field-fix a:hover {
+    color: #000;
+}
+
+.custom-select-box-result-fix {
+    text-transform: uppercase;
+}
+
+.step-txt {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+
+.registration-form .inp-label {
+    display: inline-block;
+}
+
+.reg-inp-row-pad {
+    text-align: left;
+}
+
+.btn-place .green-btn.fix-btn-size {
+    background: #8ec649;
+    text-shadow: 1px 1px #6b9b31;
+    border-bottom: solid #6b9b31 2px;
+}
+
+.required-fild-symbol {
+    display: inline-block;
+    padding-left: 5px
+}

@@ -28,7 +28,7 @@
 					</div>
 					<div class="footer-triple-cell-left">
 						<div class="footer-triple-cell-left-pad">
-							<a href="/" class="footer-logo" >
+							<a href="/?lang=<?=$current_language ?>" class="footer-logo" >
 								<span class="footer-logo-svg-cell">
 									<img 	src="img/norogum.am-logo.svg" 
 													alt="norogum.am" 

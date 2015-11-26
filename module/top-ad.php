@@ -19,7 +19,7 @@
 													<article class="ad-article">
 														<div class="ad-article-left">
 															<div class="ad-article-left-pad">
-																<a href="#" class="ad-article-link">
+																<a href="post.php?lang=<?=$current_language ?>" class="ad-article-link">
 																	<span class="ad-article-link-pad">
 																		<img 	src="img/article-img/<?=$topAds["img"][$index] ?>" 
 																						alt="" 
@@ -34,20 +34,24 @@
 														<div class="ad-article-right">
 															<div class="ad-article-right-pad">
 																<div class="ad-article-txt">
-																	<?=$topAds["descr"][$index] ?>
+																	<a href="post.php?lang=<?=$current_language ?>">
+																		<?=$topAds["descr"][$index] ?>
+																	</a>
 																</div>
 																<!-- user-name-field -->
 																<div class="user-name-field">
 																	<div class="user-name-field-pad">
 																		<span class="user-name-field-fix">
-																			<?=$topAds["author"][$index] ?>
+																			<a href="#">
+																				<?=$topAds["author"][$index] ?>
+																			</a>
 																		</span>
 																	</div>
 																</div>
 																<!-- /user-name-field -->
 																<!-- ad-article-other-element -->
 																<div class="ad-article-other-element">
-																	<a href="<?=$topAds["link"][$index] ?>" class="read-more-link">
+																	<a href="post.php?lang=<?=$current_language ?>" class="read-more-link">
 																		<span class="read-more-link-txt">
 																			<?=$tr["read-more"] ?>
 																		</span>

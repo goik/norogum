@@ -15,22 +15,13 @@
 				<div class="main-fix-carcass-trafaret">
 					<div class="main-fix-carcass-trafaret-opacity">
 						<?php include_once("inc/header.php"); ?>
-						<?php include_once("module/unique-slider.php"); ?>
-						<?php include_once("module/filter-form.php"); ?>
 						<!-- ~~~~~~~main-content~~~~~~~-->
 						<div class="main-content">
 							<div class="main-content-pad">
-
-
-
-								<?php include_once("module/services.php"); ?>
-								<?php include_once("module/top-ad.php"); ?>
-								<?php include_once("module/last-ad.php"); ?>
-								<?php include_once("module/see-all-btn.php"); ?>
-								<?php include_once("module/bottom-advertising.php"); ?>
-
-
-
+								<div class="main-content-top-spacre"></div>
+								<?php
+									include_once("module/last-ad.php");
+								?>
 							</div>
 						</div>
 						<!-- ~~~~~~~/main-content~~~~~~~-->

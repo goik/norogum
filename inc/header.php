@@ -4,7 +4,7 @@
 <header class="header-fix">
 	<div class="header-fix-left">
 		<div class="header-fix-left-pad">
-			<a href="/" class="header-logo hta" title="norogum.am">
+			<a href="/?lang=<?=$current_language ?>" class="header-logo hta" title="norogum.am">
 				<span class="header-logo-svg-cell">
 					<img 	src="img/norogum.am-logo.svg" 
 									alt="norogum.am" 
@@ -43,7 +43,7 @@
 					<ul class="login-cell-list">
 						<li class="login-cell-list-item h-z-index w135">
 							<div class="login-cell-list-item-pad">
-								<a href="#" class="registration-btn">
+								<a href="reg1.php?lang=<?=$current_language ?>" class="registration-btn">
 									<span class="registration-btn-txt">
 										<?=$tr["registration"] ?>
 									</span>
@@ -151,6 +151,7 @@
 							</span>
 						</a>
 					</li>
+
 					<?php } ?>
 				</ul>
 			</nav>
