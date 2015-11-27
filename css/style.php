@@ -14,8 +14,12 @@ include_once("jquery.scrollbar.css");
 include_once("jquery.fancybox.css");
 include_once("jquery.fancybox-buttons.css");
 include_once("jquery.fancybox-thumbs.css");
-include_once($_GET['lang'].".css");
 include_once("style.min.css");
+if (isset($_GET['lang'])){
+	include_once($_GET['lang'].".css");
+}else{
+	include_once("arm.css");
+}
 include_once("../inc/line-bottom.php");
 include_once("../inc/gzip-bottom.php");
 ?>

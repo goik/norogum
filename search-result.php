@@ -59,14 +59,22 @@
 													<article class="ad-article w100p-article">
 														<div class="ad-article-left">
 															<div class="ad-article-left-pad">
-																<a href="<?=$searchResult["link"][$i] ?>" class="ad-article-link">
+																<a href="post.php?lang=<?=$current_language ?>" class="ad-article-link">
 																	<span class="ad-article-link-pad">
-																		<img 	src="img/ipsum/<?=$searchResult['avatar'][$i] ?>" 
-																						alt="" 
-																						title="" 
-																						width="115" 
-																						height="115" 
-																						class="hta resize-img"/>
+																		<span class="relat-n3">
+																			<img 	src="img/ipsum/<?=$searchResult['avatar'][$i] ?>" 
+																							alt="" 
+																							title="" 
+																							width="115" 
+																							height="115" 
+																							class="hta resize-img no-empty"/>
+																			<img 	src="img/article-img/empty-ad-img.png" 
+																							alt="" 
+																							title="" 
+																							width="115" 
+																							height="115" 
+																							class="hta resize-img empty-img-for-size"/>
+																		</span>
 																	</span>
 																</a>
 															</div>
@@ -131,17 +139,23 @@
 																<!-- ad-article-txt n-size-width -->
 																<div class="ad-article-txt n-size-width">
 																	<h2 class="art-title">
-																		<?=$searchResult["title"][$i] ?>
+																		<a href="post.php?lang=<?=$current_language ?>">
+																			<?=$searchResult["title"][$i] ?>
+																		</a>
 																	</h2>
 																	<div class="user-name-field">
 																		<div class="user-name-field-pad">
 																			<span class="user-name-field-fix">
-																				<?=$searchResult["author"][$i] ?>
+																				<a href="#">
+																					<?=$searchResult["author"][$i] ?>
+																				</a>
 																			</span>
 																		</div>
 																	</div>
 																	<span class="city">
-																		<?=$searchResult["region"][$i] ?>
+																		<a href="#">
+																			<?=$searchResult["region"][$i] ?>
+																		</a>
 																	</span>
 																	<div class="ad-article-txt-int">
 																		<?=$searchResult["description"][$i] ?>
@@ -150,9 +164,9 @@
 																<!-- /ad-article-txt n-size-width -->
 																<!-- ad-article-other-element -->
 																<div class="ad-article-other-element n-pad-x50">
-																	<a href="#" class="read-more-link">
+																	<a href="post.php?lang=<?=$current_language ?>" class="read-more-link">
 																		<span class="read-more-link-txt">
-																			<?=$tr["read-more"] ?>
+																					<?=$tr["read-more"] ?>
 																		</span>
 																	</a>
 																</div>
@@ -168,12 +182,20 @@
 																			<div class="other-image-list-item-pad">
 																				<span class="ad-article-link">
 																					<span class="ad-article-link-pad">
-																						<img 	src="img/ipsum/<?=$searchResult["images"][$i][$index]?>" 
-																										alt="" 
-																										title="" 
-																										width="115" 
-																										height="115" 
-																										class="hta resize-img"/>
+																						<span class="relat-n3">
+																							<img 	src="img/ipsum/<?=$searchResult["images"][$i][$index]?>" 
+																											alt="" 
+																											title="" 
+																											width="115" 
+																											height="115" 
+																											class="hta resize-img no-empty"/>
+																							<img 	src="img/article-img/empty-ad-img.png" 
+																											alt="" 
+																											title="" 
+																											width="115" 
+																											height="115" 
+																											class="hta resize-img empty-img-for-size"/>
+																						</span>
 																					</span>
 																				</span>
 																			</div>

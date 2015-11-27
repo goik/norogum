@@ -9,12 +9,10 @@
 				<div class="avater-place">
 					<div class="avater-place-pad">
 						<div class="avater-img-crop">
-							<img 	src="img/avatar.jpg" 
-											height="156" 
-											width="170" 
-											alt="" 
-											title="" 
-											class="avatar-persona-page-image hta" />
+							<!-- <img 	src="img/avatar.jpg" height="156" width="170" alt="" title="" class="avatar-persona-page-image hta" /> -->
+
+							<img src="img/article-img/8.jpg" alt="" title="" class="avatar-persona-page-image hta" height="156" width="170">
+							<img src="img/empty-worker.jpg" alt="" title="" class="empty-avatar-2 hta" height="156" width="170">							
 						</div>
 					</div>
 				</div>
@@ -178,6 +176,6 @@
 			</div>
 		</div>
 		<!-- /persona-pages-center -->
-
+		
 	</div>
 	<!-- =======/persona-pages=======-->

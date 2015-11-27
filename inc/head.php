@@ -19,7 +19,7 @@
 		<meta name="keywords" content="<?=$tr["docKey"] ?>"/>
 		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
 		<!--[if IE]><script type="text/javascript" charset="utf-8" src="js/html5shiv.min.js"></script><![endif]-->
-		<link type="text/css" rel="stylesheet" href="css/style.php"/>
+		<link type="text/css" rel="stylesheet" href="css/style.php?lang=<?=$current_language ?>"/>
 		<link rel="apple-touch-icon" href="img/WebClip/norogum-apple-icon-57x57.png" sizes="57x57"/>
 		<link rel="apple-touch-icon" href="img/WebClip/norogum-apple-icon-60x60.png" sizes="60x60"/>
 		<link rel="apple-touch-icon" href="img/WebClip/norogum-apple-icon-72x72.png" sizes="72x72"/>

@@ -412,7 +412,7 @@
 																	</div>
 																</div>
 																<span class="btn-place n-position n-right">
-																	<a href="#" class="blue-btn">
+																	<a href="search-result.php" class="blue-btn">
 																		<span class="blue-btn-txt">
 																			<span class="first-icon-search-icon-1"></span>
 																		</span>

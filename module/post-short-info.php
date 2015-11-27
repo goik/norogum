@@ -16,7 +16,8 @@
 													<div class="avater-place">
 														<div class="avater-place-pad">
 															<div class="avater-img-crop">
-																<img src="img/avatar2.jpg" alt="" title="" class="avatar-persona-page-image hta" height="156" width="170">
+																<img src="img/article-img/7.jpg" alt="" title="" class="avatar-persona-page-image hta" height="156" width="170">
+																<img src="img/empty-worker.jpg" alt="" title="" class="empty-avatar-2 hta" height="156" width="170">
 															</div>
 														</div>
 													</div>

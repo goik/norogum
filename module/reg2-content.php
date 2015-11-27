@@ -1,4 +1,4 @@
-form-element-two-column -->
+<!-- form-element-two-column -->
 <div class="form-element-two-column">
 	<div class="form-element-two-column-left">
 		<div class="form-element-two-column-left-pad">
@@ -107,4 +107,4 @@ form-element-two-column -->
 
 	</div>
 </div>
-<!-- /form-element-two-column
+<!-- /form-element-two-column -->

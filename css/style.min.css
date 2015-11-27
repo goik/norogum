@@ -70,9 +70,17 @@
     -khtml-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
 }
 
+.empty-avatar {
+    background-repeat: no-repeat !important
+}
+
+.art-title a,
+.ccfield-prepend i,
+input[type="submit"],
+.ccformfield,
 .user-name-field-fix a,
 .ad-article-txt a,
 .account-info-data-list-item,
@@ -2333,7 +2341,7 @@ a {
 .avater-place {
     display: block;
     width: 190px;
-    height: 177px;
+    /*height: 177px;*/
     margin: 0 auto;
     border: 1px solid #dedcd7
 }
@@ -4320,7 +4328,7 @@ strong {
 }
 
 .ad-article-right-pad {
-    padding: 8px 20px 29px 145px
+    padding: 8px 20px 26px 145px
 }
 
 .ad-article-link {
@@ -4374,7 +4382,8 @@ strong {
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden
+    overflow: hidden;
+    padding-bottom: 3px;
 }
 
 .read-more-link {
@@ -5110,6 +5119,15 @@ strong {
     padding-top: 0
 }
 
+.art-title a {
+    text-decoration: none;
+    color: #656565;
+}
+
+.art-title a:hover {
+    color: #000;
+}
+
 .art-title {
     color: #656565;
     font-size: 14px;
@@ -5398,7 +5416,6 @@ strong {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    cursor: pointer;
 }
 
 .fa:hover {
@@ -5454,12 +5471,7 @@ strong {
     padding: 15.5px;
     width: 91.9%;
     display: block;
-    font-family: 'Lato', Arial, sans-serif;
     font-size: 14px;
-}
-
-.ccformfield {
-    font-family: 'Lato', Arial, sans-serif;
 }
 
 .ccbtn {
@@ -5587,11 +5599,169 @@ strong {
 
 .title-cell-txt {
     color: #00aeee;
-    font-size:17px;
+    font-size: 17px;
     font-family: "WeblySleek UI Semibold Regular", sans-serif;
-    display:block;
-    text-align:left;
-
+    display: block;
+    text-align: left;
 }
 
+.no-empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
 
+.empty-img-for-size {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.ad-article-link-pad {
+    overflow: hidden;
+}
+
+input {
+    font-family: "WeblySleek UI Light Regular", sans-serif
+}
+
+input[type="submit"] {
+    font-family: "WeblySleek UI Semibold Regular", sans-serif
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #ccc!important;
+}
+
+input:focus:-moz-placeholder {
+    color: #ccc!important;
+}
+
+input:focus::-moz-placeholder {
+    color: #ccc!important;
+}
+
+input:focus:-ms-input-placeholder {
+    color: #ccc!important;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: #ccc!important;
+}
+
+textarea:focus:-moz-placeholder {
+    color: #ccc!important;
+}
+
+textarea:focus::-moz-placeholder {
+    color: #ccc!important;
+}
+
+textarea:focus:-ms-input-placeholder {
+    color: #ccc!important;
+}
+
+.avater-img-crop {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.empty-avatar-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto!important;
+}
+
+.avatar-persona-page-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.avater-img-crop {
+    overflow: hidden;
+}
+
+.relate-n {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.product-empty {
+    display: block;
+    width: 100%;
+    height: auto!important;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.img-abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.services-images-list-item-link-pad {
+    overflow: hidden
+}
+
+.relat-n2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.relat-n3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.login-cell-list-item-pad .avatar-place {
+    overflow: hidden;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -icab-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.front-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+textarea {
+    font-family: "WeblySleek UI Light Regular", sans-serif
+}

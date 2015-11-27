@@ -1,4 +1,4 @@
-main-content-title-cell -->
+<!-- services-slider-cell -->
 <div class="main-content-title-cell">
 	<h1 class="main-content-title">
 		<span class="main-content-title-txt">
@@ -11,12 +11,6 @@ main-content-title-cell -->
 
 <!-- services-slider-cell -->
 <div class="services-slider-cell">
-
-
-
-	
-
-
 	<!-- services-slider-top-spacer -->
 	<div class="services-slider-top-spacer"></div>
 	<a href="#" class="services-arrow services-slider-arrow-prev"><span class="first-icon-arrow-prev-icon-1"></span></a>
@@ -47,4 +41,4 @@ main-content-title-cell -->
 	<!--~~~~~ services-slider ~~~~~-->
 	<div class="services-slider-bottom-spacer"></div>
 </div>
-<!-- /services-slider-cell
+<!-- /services-slider-cell -->

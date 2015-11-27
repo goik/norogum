@@ -56,14 +56,22 @@
 											<article class="ad-article">
 												<div class="ad-article-left">
 													<div class="ad-article-left-pad">
-														<a href="<?=$adList["link"][$index] ?>" class="ad-article-link">
+														<a href="post.php?lang=<?=$current_language ?>" class="ad-article-link">
 															<span class="ad-article-link-pad">
-																<img 	src="img/ipsum/<?=$adList["img"][$index] ?>" 
-																				alt="" 
-																				title="" 
-																				width="115" 
-																				height="115" 
-																				class="hta resize-img"/>
+																<span class="relat-n3">
+																	<img 	src="img/ipsum/<?=$adList["img"][$index] ?>" 
+																					alt="" 
+																					title="" 
+																					width="115" 
+																					height="115" 
+																					class="hta resize-img no-empty"/>
+																	<img 	src="img/article-img/empty-ad-img.png" 
+																					alt="" 
+																					title="" 
+																					width="115" 
+																					height="115" 
+																					class="hta resize-img empty-img-for-size"/>
+																</span>
 															</span>
 														</a>
 													</div>
@@ -71,14 +79,20 @@
 												<div class="ad-article-right">
 													<div class="ad-article-right-pad">
 														<div class="ad-article-txt">
-															<?=$adList["descr"][$index] ?>
+															<a href="post.php?lang=<?=$current_language ?>">
+																<?=$adList["descr"][$index] ?>
+															</a>
 														</div>
 														<!-- user-name-field -->
 														<div class="user-name-field">
 															<div class="user-name-field-pad">
+
 																<span class="user-name-field-fix">
-																	<?=$adList["author"][$index] ?>
+																	<a href="#">
+																		<?=$adList["author"][$index] ?>
+																	</a>
 																</span>
+
 															</div>
 														</div>
 														<!-- /user-name-field -->
@@ -86,7 +100,7 @@
 														<!-- ad-article-other-element -->
 														<div class="ad-article-other-element">
 
-															<a href="<?=$adList["link"][$index] ?>" class="read-more-link">
+															<a href="post.php?lang=<?=$current_language ?>" class="read-more-link">
 																<span class="read-more-link-txt">
 																	<?=$tr["read-more"] ?>
 																</span>

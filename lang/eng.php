@@ -83,6 +83,13 @@ $tr["registration-confirm-btn"]="Confirm";
 $tr["registration-thanks"]="THANK YOU FOR REGISTRATION";
 $tr["registration-go-to-person-page"]="GO TO ACCOUNT";
 $tr["personal-page-title"]="Personal Page";
+$tr["contact-name"]="Name";
+$tr["contact-email"]="E-mail";
+$tr["contact-message"]="Message";
+$tr["contact-submit"]="Submit";
+$tr["contact-form"]="Contact Form";
+$tr["no-active-txt"]="Account not active";
+$tr["active-txt"]="Account active";
 
 $topAds=array(
 											'descr'=>				array(
@@ -153,16 +160,16 @@ $lastAd=array(
 																				),
 											'img'=>				array(
 																					"ico2.png",
+																					"ico1.png",
+																					"ico3.png",
 																					"ico2.png",
+																					"ico1.png",
 																					"ico2.png",
+																					"ico3.png",
 																					"ico2.png",
+																					"ico1.png",
 																					"ico2.png",
-																					"ico2.png",
-																					"ico2.png",
-																					"ico2.png",
-																					"ico2.png",
-																					"ico2.png",
-																					"ico2.png",
+																					"ico3.png",
 																					"ico2.png"
 																				),
 											'author'=>				array(

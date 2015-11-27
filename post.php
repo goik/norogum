@@ -70,7 +70,11 @@
 														<figure class="services-images-list-item-figure">
 															<a alt="" href="img/images-services/<?=$postImages["large"][$index] ?>" class="services-images-list-item-link fancybox hta" data-fancybox-group="gallery" title="">
 																<span class="services-images-list-item-link-pad">
-																	<img src="img/images-services/<?=$postImages["small"][$index] ?>" class="hta images-services" alt="" title="" height="145" width="198"></span>
+																	<span class="relate-n">
+																		<img src="img/images-services/<?=$postImages["small"][$index] ?>" class="hta images-services img-abs" alt="" title="" height="145" width="198" />
+																		<img src="img/product-empty.png ?>" class="hta images-services product-empty" alt="" title="" height="145" width="198" />
+																	</span>
+																</span>
 															</a>
 														</figure>
 													</div>

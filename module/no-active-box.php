@@ -9,7 +9,7 @@
 	</span>
 	<div class="warning-info-pad">
 		<span class="warning-info-txt">
-			Ձեր էջը<br />ակտիվ չէ
+			<?=$tr["no-active-txt"] ?>
 		</span>
 	</div>
 </div>

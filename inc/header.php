@@ -1,6 +1,4 @@
-<!-- ~~~~~~~~~~~~~~~~~~~-->
 <!-- ~~~~~~~header~~~~~~~-->
-<!-- ~~~~~~~~~~~~~~~~~~~-->
 <header class="header-fix">
 	<div class="header-fix-left">
 		<div class="header-fix-left-pad">
@@ -57,7 +55,8 @@
 								<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 								<div class="enter-btn">
 									<span class="avatar-place">
-										<span class="avatar-img-cell"> 
+										<span class="avatar-img-cell">
+											<img src="img/article-img/9.jpg" alt="" title="" class="small-avatar front-img" width="38" />
 											<span class="empty-avatar"></span>
 										</span>
 									</span>
@@ -159,6 +158,4 @@
 		</div>
 	</div>
 </header>
-<!-- ~~~~~~~~~~~~~~~~~~~-->
 <!-- ~~~~~~~/header~~~~~~~-->
-<!-- ~~~~~~~~~~~~~~~~~~~-->

@@ -21,12 +21,20 @@
 															<div class="ad-article-left-pad">
 																<a href="post.php?lang=<?=$current_language ?>" class="ad-article-link">
 																	<span class="ad-article-link-pad">
-																		<img 	src="img/article-img/<?=$topAds["img"][$index] ?>" 
-																						alt="" 
-																						title="" 
-																						width="115" 
-																						height="115" 
-																						class="hta resize-img"/>
+																		<span class="relat-n2">
+																			<img 	src="img/article-img/<?=$topAds["img"][$index] ?>" 
+																							alt="" 
+																							title="" 
+																							width="115" 
+																							height="115" 
+																							class="hta resize-img no-empty"/>
+																			<img 	src="img/article-img/empty-ad-img.png" 
+																							alt="" 
+																							title="" 
+																							width="115" 
+																							height="115" 
+																							class="hta resize-img empty-img-for-size"/>
+																		</span>
 																	</span>
 																</a>
 															</div>

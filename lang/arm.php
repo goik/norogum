@@ -83,6 +83,13 @@ $tr["registration-confirm-btn"]="Հաստատել";
 $tr["registration-thanks"]="ՇՆՈՐՀԱԿԱԼՈՒԹՅՈՒՆ ԳՐԱՆՑՄԱՆ ՀԱՄԱՐ";
 $tr["registration-go-to-person-page"]="ԱՆՑՆԵԼ ԱՆՁՆԱԿԱՆ ԷՋ";
 $tr["personal-page-title"]="Անձնական էջ";
+$tr["contact-name"]="Անուն՝";
+$tr["contact-email"]="Էլ. հասցե՝";
+$tr["contact-message"]="Հաղորդագրություն՝";
+$tr["contact-submit"]="Ուղարկել";
+$tr["contact-form"]="Կապ Մեզ Հետ";
+$tr["no-active-txt"]="Ձեր էջը<br />ակտիվ չէ";
+$tr["active-txt"]="Ձեր էջը<br />ակտիվ է";
 
 $topAds=array(
 											'descr'=>				array(
@@ -152,17 +159,17 @@ $lastAd=array(
 																				),
 											'img'=>				array(
 																					"ico1.png",
+																					"ico2.png",
+																					"ico3.png",
 																					"ico1.png",
+																					"ico2.png",
+																					"ico3.png",
 																					"ico1.png",
+																					"ico2.png",
+																					"ico3.png",
 																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png",
-																					"ico1.png"
+																					"ico2.png",
+																					"ico3.png"
 																				),
 											'author'=>				array(
 																					"“ՌՈՒԲԻՆ” ՍՊԸ",

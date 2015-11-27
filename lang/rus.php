@@ -83,6 +83,13 @@ $tr["registration-confirm-btn"]="Подтвердить";
 $tr["registration-thanks"]="СПАПСИБО ЗА РЕГИСТРАЦИЮ";
 $tr["registration-go-to-person-page"]="ПЕРЕЙТИ К ПРОФИЛЮ";
 $tr["personal-page-title"]="Персональная Страница";
+$tr["contact-name"]="Имя";
+$tr["contact-email"]="Эл. почта";
+$tr["contact-message"]="Сообщение";
+$tr["contact-submit"]="Отправить";
+$tr["contact-form"]="Контактная форма";
+$tr["no-active-txt"]="Учетная запись не активизирована";
+$tr["active-txt"]="Учетная запись активизирована";
 
 
 $topAds=array(
