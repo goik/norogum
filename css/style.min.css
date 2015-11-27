@@ -271,6 +271,10 @@ html {
     font-family: "WeblySleek UI Semilight Italic", sans-serif
 }
 
+.services-block-list-item-pad:after,
+.services-block-title-pad:after,
+.services-block-list:after,
+.services-block-list-item:after,
 .ccfield-prepend:after,
 .ccform:after,
 .ad-article:after,
@@ -5764,4 +5768,98 @@ textarea:focus:-ms-input-placeholder {
 
 textarea {
     font-family: "WeblySleek UI Light Regular", sans-serif
+}
+
+.services-block-list,
+.services-block-list-item {
+    cleiar: both;
+    font-size: 0;
+}
+
+.services-block-list-cell-ABS {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100%;
+    z-index: 100;
+}
+
+.services-block-list-cell {
+    display: block;
+    width: 100%;
+    min-height: 318px;
+    height: auto!important;
+    height: 318px;
+    background: #fff;
+    z-index: 10;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.19);
+}
+
+.services-block-title {
+    display: block;
+    clear: both;
+    background-color: #f3f3f3;
+    min-height: 50px;
+    height: auto!important;
+    height: 50px;
+    width: 100%;
+}
+
+.services-block-title-pad {
+    clear: both;
+    display: block;
+}
+
+.services-block-title-txt {
+    display: block;
+    color: #2ac1fa;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "WeblySleek UI Semibold Regular", sans-serif;
+    padding: 18px 18px 18px 60px;
+    poosition: relative;
+    left: 0;
+    top: 0;
+}
+
+.service-list-icon-img {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+.ib {
+    text-align: left;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.services-block-list-item-pad {
+    clear: both;
+    padding: 15px;
+}
+
+.close-services-block-list-cell {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.services-block-list-cell {
+    display: none;
+    display: none;
+    -ms-filter: "alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0
+}
+
+.services-block-list-item {
+    display: none;
 }

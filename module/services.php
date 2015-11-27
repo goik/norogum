@@ -11,6 +11,7 @@
 
 <!-- services-slider-cell -->
 <div class="services-slider-cell">
+	<?php include_once("module/service-hide-block") ?>
 	<!-- services-slider-top-spacer -->
 	<div class="services-slider-top-spacer"></div>
 	<a href="#" class="services-arrow services-slider-arrow-prev"><span class="first-icon-arrow-prev-icon-1"></span></a>
@@ -41,4 +42,4 @@
 	<!--~~~~~ services-slider ~~~~~-->
 	<div class="services-slider-bottom-spacer"></div>
 </div>
-<!-- /services-slider-cell -->
+<!-- services-slider-cell -->

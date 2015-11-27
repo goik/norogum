@@ -69,6 +69,11 @@
 										<div class="login-drop-down-bottom">
 											<div class="login-drop-down-bottom-pad">
 
+												<ul class="forgot-and-login">
+													<li class="login-item"></li>
+													<li class="forgot-item"></li>
+												</ul>
+
 												<!-- login-form -->
 												<form method="post" action="" class="login-form">
 													<div class="inp-row">
