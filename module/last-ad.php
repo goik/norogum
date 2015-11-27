@@ -1,16 +1,45 @@
-<!-- main-content-title-cell -->
+main-content-title-cell -->
 <div class="main-content-title-cell">
-	<h1 class="main-content-title">
-		<span class="main-content-title-txt">
-			<?=$tr["module-last-ad-title"] ?>
-		</span>
-	</h1>
-</div>
-<!-- /main-content-title-cell -->
+	<!-- t-two-col -->
+	<div class="t-two-col">
+		<div class="t-two-col-left">
 
-<!-- decoration-line -->
+			<h1 class="main-content-title">
+				<span class="main-content-title-txt">
+					<?=$tr["module-last-ad-title"] ?>
+				</span>
+			</h1>
+
+		</div>
+		<div class="t-two-col-right">
+			<div class="t-two-col-right-pad">
+
+				<label class="last-or-random">
+					<span class="last-or-random-cell">
+						<span class="last-or-random-cell-txt">
+							ՎԵՐՋԻՆ
+						</span>
+					</span>
+					<input type="checkbox" class="last-or-random-check" />
+					<span class="last-or-random-cell">
+						<span class="b-track">
+							<span class="b-track-face"></span>
+						</span>
+					</span>
+					<span class="last-or-random-cell">
+						<span class="last-or-random-cell-txt">
+							ՊԱՏԱՀԱԿԱՆ
+						</span>
+					</span>
+				</label>
+
+			</div>
+		</div>
+	</div>
+	<!-- /t-two-col -->
+</div>
 <div class="decoration-line"><div class="decoration-line-fill"></div></div>
-<!-- /decoration-line -->
+<!-- /main-content-title-cell -->
 										
 <!-- ~~~~~~last-ad-section~~~~~~ -->
 <section class="last-ad-section">
@@ -40,7 +69,6 @@
 			</ul>
 		</div>
 	</div>
-
 	<div class="last-ad-section-middle">
 		<div class="last-ad-section-middle-pad">
 			<ul class="info-list">
@@ -94,4 +122,4 @@
 		</div>
 	</div>
 </section>
-<!-- ~~~~~~last-ad-section~~~~~~ -->
+<!-- ~~~~~~last-ad-section~~~~~~
