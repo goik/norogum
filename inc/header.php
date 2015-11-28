@@ -1,4 +1,4 @@
-<!-- ~~~~~~~header~~~~~~~-->
+ ~~~~~~~header~~~~~~~-->
 <header class="header-fix">
 	<div class="header-fix-left">
 		<div class="header-fix-left-pad">
@@ -69,58 +69,17 @@
 										<div class="login-drop-down-bottom">
 											<div class="login-drop-down-bottom-pad">
 
-												<ul class="forgot-and-login">
-													<li class="login-item"></li>
-													<li class="forgot-item"></li>
+												<!-- form-list -->
+												<ul class="form-list">
+													<li class="form-item">
+														<?php include_once("module/form-login.php") ?>
+													</li>
+													<li class="form-item">
+														<?php include_once("module/form-forgot.php") ?>
+													</li>
 												</ul>
+												<!-- form-list -->
 
-												<!-- login-form -->
-												<form method="post" action="" class="login-form">
-													<div class="inp-row">
-														<div class="inp-row-pad error-field">
-															<div class="default-inp-bg">
-																<div class="default-inp-bg-border">
-																	<input 	type="text" 
-																						class="def-inp def-inp-login" 
-																						placeholder="<?=$tr["login-form-input-email"] ?>" />
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="inp-row">
-														<div class="inp-row-pad">
-															<div class="default-inp-bg">
-																<div class="default-inp-bg-border">
-																	<input 	type="password" 
-																						class="def-inp def-inp-login" 
-																						placeholder="<?=$tr["login-form-input-password"] ?>" />
-																</div>
-															</div>
-														</div>
-													</div>
-												</form>
-												<!-- /login-form -->
-
-												<!-- login-form-two-col -->
-												<div class="login-form-two-col">
-													<div class="login-form-two-col-left">
-														<div class="login-form-two-col-left-pad">
-															<a href="#" class="forgot-pass-link">
-																<?=$tr["login-form-link-forgot-password"] ?>
-															</a>
-														</div>
-													</div>
-													<div class="login-form-two-col-right">
-														<div class="login-form-two-col-right-pad">
-															<a href="#" class="login-btn">
-																<span class="login-btn-txt">
-																	<?=$tr["login-form-btn"] ?>
-																</span>
-															</a>
-														</div>
-													</div>
-												</div>
-												<!-- /login-form-two-col -->
 											</div>
 										</div>
 									</div>
@@ -163,4 +122,4 @@
 		</div>
 	</div>
 </header>
-<!-- ~~~~~~~/header~~~~~~~-->
+<!-- ~~~~~~~/header~~~~~~~

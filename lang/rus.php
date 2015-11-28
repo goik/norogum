@@ -32,6 +32,8 @@ $tr["enter"]="Логин";
 $tr["login-form-input-email"]="Эл. почта";
 $tr["login-form-input-password"]="Пароль";
 $tr["login-form-link-forgot-password"]="Восстановить Пароль";
+$tr["forgot-btn"]="Отправить";
+$tr["login-form-link-login"]="Логин";
 $tr["login-form-btn"]="Вход";
 $tr["slider-item-txt"]="Зарегистрируйтесь сейчас и получите <br /><strong>бесплатнную</strong> личную страницу <strong>на 2 месяца</strong>";
 $tr["slider-item-btn-registration"]="Регистрация";
@@ -90,7 +92,6 @@ $tr["contact-submit"]="Отправить";
 $tr["contact-form"]="Контактная форма";
 $tr["no-active-txt"]="Учетная запись не активизирована";
 $tr["active-txt"]="Учетная запись активизирована";
-
 
 $topAds=array(
 											'descr'=>				array(

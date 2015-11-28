@@ -273,6 +273,7 @@ html {
     font-family: "WeblySleek UI Semilight Italic", sans-serif
 }
 
+.forgot-top-spacer:after,
 .t-two-col:after,
 .t-two-col-right-pad:after,
 .services-block-list-item-pad:after,
@@ -5968,5 +5969,31 @@ textarea {
 
 .t-two-col-right-pad {
     display: block;
-    padding-top:5px;
+    padding-top: 5px;
+}
+
+.form-list,
+.form-item {
+    list-style: none;
+    font-size: 0;
+}
+
+.form-item {
+    display: none;
+    -ms-filter: "alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0
+}
+
+.login-form-visible {
+    display: block;
+    margin-top: 12px;
+}
+
+.forgot-top-spacer {
+    display: block;
+    min-height: 30px;
+    height: auto!important;
+    height: 30px;
 }

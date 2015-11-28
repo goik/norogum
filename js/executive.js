@@ -43,14 +43,39 @@ $(document).ready(function() {
     var dropDownTimeOut;
 
     $("body").on("click", ".enter-btn", function() {
+        loginVisible();
         dropDown = $(this).find(".login-drop-down");
-        dropDown.css({
-            display: "block"
-        }).stop().animate({
-            opacity: 1
-        }, 300);
+        dropDown.css({display: "block"}).stop().animate({opacity: 1}, 300);
         clearTimeout(dropDownTimeOut);
     });
+
+    $("body").on("click", ".forgot-form-visible", function() {
+        forgotVisible();
+        return false;
+    });
+
+    $("body").on("click", ".login-form-visible", function() {
+        loginVisible();
+        return false;
+    });
+
+
+    $("body").on("click", ".login-drop-down-bottom", function() {
+        return false;
+    });
+
+
+    function loginVisible(){
+        $(".form-item").each(function(){$(this).css({display:"none",opacity:0});})
+        $(".form-item").eq(0).css({display:"block"}).stop().animate({opacity:1});
+    }
+
+
+    function forgotVisible(){
+        $(".form-item").each(function(){$(this).css({display:"none",opacity:0});})
+        $(".form-item").eq(1).css({display:"block"}).stop().animate({opacity:1});
+    }
+
     /*
     $("body").on("mouseleave", ".enter-btn", function() {
         dropDown = $(this).find(".login-drop-down");
@@ -263,6 +288,8 @@ $(document).ready(function() {
 
 
 
+
+//.form-item
 });
 
 
