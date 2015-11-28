@@ -87,11 +87,14 @@
 												include_once("module/reg3-content.php");
 											?>
 										</li>
+										<li class="tab-content-cell-list-item">
+											<?php
+												include_once("module/reg3-content-company.php");
+											?>
+										</li>
 									</ul>
 								</div>
 								<!-- !!!!!! /tab-content-cell !!!!!!-->
-
-
 
 							</div>
 						</div>

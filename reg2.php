@@ -19,11 +19,6 @@
 						<div class="main-content">
 							<div class="main-content-pad">
 
-
-
-
-
-
 								<div class="main-content-top-spacre"></div>
 
 								<!-- main-content-title-cell -->
@@ -36,7 +31,6 @@
 								</div>
 								<div class="decoration-line"><div class="decoration-line-fill"></div></div>
 								<!-- /main-content-title-cell -->
-
 
 								<!-- !!!!!! tab-cell !!!!!! -->
 								<div class="tab-cell">
@@ -87,13 +81,14 @@
 												include_once("module/reg2-content.php");
 											?>
 										</li>
+										<li class="tab-content-cell-list-item">
+											<?php
+												include_once("module/reg2-content-company.php");
+											?>
+										</li>
 									</ul>
 								</div>
 								<!-- !!!!!! /tab-content-cell !!!!!!-->
-
-
-
-
 
 							</div>
 						</div>

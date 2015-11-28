@@ -286,10 +286,19 @@ $(document).ready(function() {
         });
     }
 
+    $("body").on("click",".tab-cell-list-item",function(){
+        getTabIndex=$(this).index();
+        $(".tab-content-cell-list-item").each(function(){
+            $(this).css({display:"none",opacity:0});
+        });
+        $(".tab-content-cell-list-item").eq(getTabIndex).css({display:"block"}).stop().animate({opacity:1},300);
+    });
 
 
 
-//.form-item
+
+
+
 });
 
 

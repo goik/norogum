@@ -5997,3 +5997,21 @@ textarea {
     height: auto!important;
     height: 30px;
 }
+
+
+
+.tab-content-cell-list-item{
+    display: none;
+    -ms-filter: "alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0
+}
+
+.tab-content-cell-list-item:first-child{
+    display: block;
+    -ms-filter: "alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1
+}
