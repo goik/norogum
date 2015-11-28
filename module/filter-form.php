@@ -18,7 +18,22 @@
 																			<div class="custom-select-box-left-pad">
 																				<span class="custom-select-box-result">
 																					<span class="custom-select-box-result-fix">
-																						<?=$tr["custom-select-box-title"]?>
+																						<?php /*$tr["custom-select-box-title"]*/?>
+																						 <select>
+																							<?php 
+																								$i=0;
+																								foreach($servicesMainCat as $index => $value){
+																							?>
+																							  <optgroup label="<?=$servicesMainCat[$index] ?>">
+																							  <?php foreach($servicesMainSubCat[$i] as $index => $value){ ?>
+																							    <option value="<?=$servicesMainSubCat[$i][$index] ?>"><?=$servicesMainSubCat[$i][$index] ?></option>
+																							    <?php } ?>
+																							  </optgroup>
+																								<?php
+																							$i++;
+																							} 
+																							?>
+																						</select> 
 																					</span>
 																				</span>
 																			</div>
@@ -32,52 +47,98 @@
 																		</div>
 																	</div>
 
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-																	<!--~~~~~~~~~ dd-box height-1 ~~~~~~~~~-->
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-																	<div class="dd-box height-1 scrollbar-inner">
-																		<div class="dd-box-pad">
+																</div>
+																<!-- drop-down-custom-select-box -->
+																<div class="x-spacer-select"></div>
 
-																			<!-- service-cat -->
-																			<ul class="service-cat">
-																				<li class="service-cat-item">
-																					<?php 
-																						$i=0;
-																						foreach($servicesMainCat as $index => $value){
-																					?>
-																					<h2 class="service-cat-title">
-																						<span class="service-cat-title-txt">
-																							<?=$servicesMainCat[$index] ?>
+																<span class="inline-select-box-cell">
+																	<!-- drop-down-custom-select-box -->
+																	<div class="drop-down-custom-select-box-cell">
+																		<div class="custom-select-box">
+																			<div class="custom-select-box-left">
+																				<div class="custom-select-box-left-pad">
+																					<span class="custom-select-box-result">
+																						<span class="custom-select-box-result-fix">
+																							<select>
+																					        <option value="5 бальные">5 бальные</option>
+																					        <option value="4 бальные">4 бальные</option>
+																					        <option value="3 бальные">3 бальные</option>
+																					        <option value="2 бальные">2 бальные</option>
+																					        <option value="1 бальные">1 бальные</option>
+																					    </select>
 																						</span>
-																					</h2>
-																					<ul class="service-sub-cat">
-																					<?php foreach($servicesMainSubCat[$i] as $index => $value){ ?>
-																						<li class="service-sub-cat-item">
-																							<a href="#" class="service-sub-cat-item-link">
-																								<span class="service-sub-cat-item-link-txt">
-																									<u>●</u>
-																									<span>
-																										<?=$servicesMainSubCat[$i][$index] ?>
-																									</span>
-																								</span>
-																							</a>
-																						</li>
-																						<?php } ?>
-																					</ul>
-																					<?php
-																						$i++;
-																					 } 
-																					 ?>
-																				</li>
-																			</ul>
-																			<!-- /service-cat -->
-
+																					</span>
+																				</div>
+																			</div>
+																			<div class="custom-select-box-right">
+																				<div class="custom-select-box-right-pad">
+																					<div class="custom-select-box-arrow">
+																						<span class="first-icon-arrow-bottom-icon-1"></span>
+																					</div>
+																				</div>
+																			</div>
 																		</div>
 																	</div>
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-																	<!--~~~~~~~~~ /dd-box height-1 ~~~~~~~~~-->
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+																	<!-- drop-down-custom-select-box -->
+																</span>
 
+																<span class="inline-select-box-cell">
+																	<!-- drop-down-custom-select-box -->
+																	<div class="drop-down-custom-select-box-cell">
+																		<div class="custom-select-box">
+																			<div class="custom-select-box-left">
+																				<div class="custom-select-box-left-pad">
+																					<span class="custom-select-box-result">
+																						<span class="custom-select-box-result-fix">
+																							<select>
+																								<?php foreach($region_array as $index => $value) { ?>
+																					        <option value="<?=$region_array[$index]?>"><?=$region_array[$index]?></option>
+																								<?php } ?>
+																					    </select>
+																						</span>
+																					</span>
+																				</div>
+																			</div>
+																			<div class="custom-select-box-right">
+																				<div class="custom-select-box-right-pad">
+																					<div class="custom-select-box-arrow">
+																						<span class="first-icon-arrow-bottom-icon-1"></span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<!-- drop-down-custom-select-box -->
+																</span>
+
+															</div>
+														</div>
+														<div class="filter-form-platform-two-col-left-short">
+															<div class="filter-form-platform-two-col-left-short-pad">
+
+																<!-- drop-down-custom-select-box -->
+																<div class="drop-down-custom-select-box-cell">
+																	<div class="custom-select-box">
+																		<div class="custom-select-box-left">
+																			<div class="custom-select-box-left-pad">
+																				<span class="custom-select-box-result">
+																					<span class="custom-select-box-result-fix">
+																						<select>
+																				        <option value="ФИЗ.ЛИЦО">ФИЗ.ЛИЦО</option>
+																				        <option value="ЮР.ЛИЦО">ЮР.ЛИЦО</option>
+																				    </select>
+																					</span>
+																				</span>
+																			</div>
+																		</div>
+																		<div class="custom-select-box-right">
+																			<div class="custom-select-box-right-pad">
+																				<div class="custom-select-box-arrow">
+																					<span class="first-icon-arrow-bottom-icon-1"></span>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
 																</div>
 																<!-- drop-down-custom-select-box -->
 
@@ -85,24 +146,7 @@
 
 																<!-- custom-style-checkbox-cell -->
 																<div class="custom-style-checkbox">
-
-																	<!-- custom-style-checkbox-list -->
 																	<ul class="custom-style-checkbox-list">
-																		<li class="custom-style-checkbox-list-item">
-																			<div class="custom-style-checkbox-list-item-pad">
-																				<label class="custom-style-checkbox-label">
-																					<input type="checkbox" class="style-default-checkbox"/>
-																					<span class="style-check-track">
-																						<span class="style-check-track-pad">
-																							<span class="style-check-face"></span>
-																						</span>
-																					</span>
-																					<span class="label-txt">
-																						<?=$tr["region"] ?>
-																					</span>
-																				</label>
-																			</div>
-																		</li>
 																		<li class="custom-style-checkbox-list-item">
 																			<div class="custom-style-checkbox-list-item-pad">
 																				<label class="custom-style-checkbox-label">
@@ -119,280 +163,8 @@
 																			</div>
 																		</li>
 																	</ul>
-																	<!-- /custom-style-checkbox-list -->
-
 																</div>
 																<!-- /custom-style-checkbox-cell -->
-
-															</div>
-														</div>
-														<div class="filter-form-platform-two-col-left-short">
-															<div class="filter-form-platform-two-col-left-short-pad">
-
-																<!-- drop-down-custom-select-box -->
-																<div class="drop-down-custom-select-box-cell">
-
-																	<div class="custom-select-box">
-																		<div class="custom-select-box-left">
-																			<div class="custom-select-box-left-pad">
-																				<span class="custom-select-box-result">
-																					<span class="custom-select-box-result-fix">
-																						<?=$tr["type-organization-1"] ?>
-																					</span>
-																				</span>
-																			</div>
-																		</div>
-																		<div class="custom-select-box-right">
-																			<div class="custom-select-box-right-pad">
-
-																				<div class="custom-select-box-arrow">
-																					<span class="first-icon-arrow-bottom-icon-1"></span>
-																				</div>
-
-																			</div>
-																		</div>
-																	</div>
-
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-																	<!--~~~~~~~~~ dd-box height-1 ~~~~~~~~~-->
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-																	<div class="dd-box height-2 scrollbar-inner">
-																		<div class="dd-box-pad">
-
-																		</div>
-																	</div>
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-																	<!--~~~~~~~~~ /dd-box height-1 ~~~~~~~~~-->
-																	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-																</div>
-																<!-- drop-down-custom-select-box -->
-
-																<div class="x-spacer-select"></div>
-
-																<!-- drop-down-custom-select-box -->
-																<div class="drop-down-custom-select-box-cell">
-
-																	<div class="custom-select-box">
-																		<div class="custom-select-box-left">
-																			<div class="custom-select-box-left-pad">
-																				<span class="custom-select-box-result">
-																					<span class="custom-select-box-result-fix">
-																						<?=$tr["rating"] ?>
-																					</span>
-																				</span>
-																			</div>
-																		</div>
-																		<div class="custom-select-box-right">
-																			<div class="custom-select-box-right-pad">
-																				<div class="custom-select-box-arrow">
-																					<span class="first-icon-arrow-bottom-icon-1"></span>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-																	<!--~~~~~~~~~ dd-box height-1 ~~~~~~~~~-->
-																	<div class="dd-box height-3 scrollbar-inner">
-																		<div class="dd-box-pad">
-
-																			<ul class="rating-star-list">
-																				<li class="rating-star-list-item">
-																					<a class="rating-star-list-item-link">
-																						<!-- rating-star-article -->
-																						<span class="rating-star-article">
-																							<!-- star-list -->
-																							<ul class="star-list">
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																							</ul>
-																							<!-- /star-list -->
-																						</span>
-																						<!-- rating-star-article -->
-																					</a>
-																				</li>
-																				<li class="rating-star-list-item">
-																					<a class="rating-star-list-item-link">
-																						<!-- rating-star-article -->
-																						<span class="rating-star-article">
-																							<!-- star-list -->
-																							<ul class="star-list">
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																							</ul>
-																							<!-- /star-list -->
-																						</span>
-																						<!-- rating-star-article -->
-																					</a>
-																				</li>
-																				<li class="rating-star-list-item">
-																					<a class="rating-star-list-item-link">
-																						<!-- rating-star-article -->
-																						<span class="rating-star-article">
-																							<!-- star-list -->
-																							<ul class="star-list">
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																							</ul>
-																							<!-- /star-list -->
-																						</span>
-																						<!-- rating-star-article -->
-																					</a>
-																				</li>
-																				<li class="rating-star-list-item">
-																					<a class="rating-star-list-item-link">
-																						<!-- rating-star-article -->
-																						<span class="rating-star-article">
-																							<!-- star-list -->
-																							<ul class="star-list">
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item select-star">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																								<li class="star-list-item">
-																									<a href="#" class="star-list-item-link">
-																										<span class="star-list-item-link-txt">
-																											<span class="first-icon-star-icon-1"></span>
-																										</span>
-																									</a>
-																								</li>
-																							</ul>
-																							<!-- /star-list -->
-																						</span>
-																						<!-- rating-star-article -->
-																					</a>
-																				</li>
-																			</ul>
-
-																		</div>
-																	</div>
-																	<!--~~~~~~~~~ /dd-box height-1 ~~~~~~~~~-->
-
-																</div>
-																<!-- drop-down-custom-select-box -->
 
 															</div>
 														</div>

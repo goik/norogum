@@ -93,6 +93,19 @@ $tr["contact-form"]="Contact Form";
 $tr["no-active-txt"]="Account not active";
 $tr["active-txt"]="Account active";
 
+$region_array=array(
+													"Aragatsotn region",
+													"Ararat region",
+													"Armavir region",
+													"Vayots Dzor",
+													"Gegharkunik region",
+													"Kotayk region",
+													"Lori region",
+													"Syunik region",
+													"Tavush region",
+													"Shirak region"
+);
+
 $topAds=array(
 											'descr'=>				array(
 																					"It is a long established fact that a reader will be distracted by the readable content of",
