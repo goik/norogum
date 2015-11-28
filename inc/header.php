@@ -2,7 +2,7 @@
 <header class="header-fix">
 	<div class="header-fix-left">
 		<div class="header-fix-left-pad">
-			<a href="/?lang=<?=$current_language ?>" class="header-logo hta" title="norogum.am">
+			<a href="index.php?lang=<?=$current_language ?>" class="header-logo hta" title="norogum.am">
 				<span class="header-logo-svg-cell">
 					<img 	src="img/norogum.am-logo.svg" 
 									alt="norogum.am" 
